@@ -6,12 +6,15 @@ functional programming will make you better at structuring React applications.
 Samples
 --------
 
-#### Intro
-* functions are variables
-* higher order function 
-* imperative vs. declarative
-* imperative DOM
-* declarative DOM 
+#### Introduction
+* what it means to be functional ([1](http://jsbin.com/pimixu/1/edit?js,console),
+[2](http://jsbin.com/pimixu/2/edit?js,console),
+[3](http://jsbin.com/pimixu/3/edit?js,console),
+[4](http://jsbin.com/pimixu/4/edit?js,console),
+[5](http://jsbin.com/pimixu/5/edit?js,console),
+[6](http://jsbin.com/pimixu/6/edit?js,console),
+[7](http://jsbin.com/pimixu/7/edit?js,console))
+* imperative vs. declarative ([1](http://jsbin.com/cuqapu/1/edit?js,console),[2](http://jsbin.com/cuqapu/2/edit?js,console))
 * [Populate The United States](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/populate-united-states.html)
 
 #### Immutability
