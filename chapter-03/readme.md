@@ -16,7 +16,7 @@ Samples
 [7](http://jsbin.com/pimixu/7/edit?js,console))
 * imperative vs. declarative ([1](http://jsbin.com/cuqapu/1/edit?js,console),
 [2](http://jsbin.com/cuqapu/2/edit?js,console))
-* Populate The United States ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/populate-united-states.html)
+* Populate The United States ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/populate-united-states.html),
 [code](https://github.com/MoonHighway/learning-react/blob/master/chapter-03/populate-united-states.js))
 
 #### Immutability
@@ -28,7 +28,7 @@ Samples
 [6](http://jsbin.com/kemimi/6/edit?js,console))
 
 #### Pure Functions
-* self educate([1](http://jsbin.com/kosogo/1/edit?js,console), 
+* self educate ([1](http://jsbin.com/kosogo/1/edit?js,console), 
 [2](http://jsbin.com/kosogo/2/edit?js,console),
 [3](http://jsbin.com/kosogo/3/edit?js,console))
 * DOM ([4](http://jsbin.com/kosogo/4/edit?js,output), 
