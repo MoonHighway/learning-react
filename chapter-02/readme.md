@@ -34,26 +34,26 @@ Samples
 * transpiling in jsbin ([1](http://jsbin.com/puraror/1/edit?js,console),
 [2](http://jsbin.com/puraror/2/edit?js,console))
 * transpiling locally ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-02/babel-inline-transpiler.html), 
-[source](http://github.com/MoonHighway/learning-react/master/chapter-03/populate-united-states.html))
+[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-02/babel-inline-transpiler.html))
 
 #### Objects and Arrays
-* destructuring assignment([1](http://jsbin.com/jukokaf/1/edit?js,console),
+* destructuring assignment ([1](http://jsbin.com/jukokaf/1/edit?js,console),
 [2](http://jsbin.com/jukokaf/2/edit?js,console),
 [3](http://jsbin.com/jukokaf/3/edit?js,console),
 [4](http://jsbin.com/jukokaf/4/edit?js,console),
 [5](http://jsbin.com/jukokaf/5/edit?js,console))
-* object literal enhancement([6](http://jsbin.com/jukokaf/6/edit?js,console),
+* object literal enhancement ([6](http://jsbin.com/jukokaf/6/edit?js,console),
 [7](http://jsbin.com/jukokaf/7/edit?js,console),
 [8](http://jsbin.com/jukokaf/8/edit?js,console),
 [9](http://jsbin.com/jukokaf/9/edit?js,console))
-* the spread operator([10](http://jsbin.com/jukokaf/10/edit?js,console),
+* the spread operator ([10](http://jsbin.com/jukokaf/10/edit?js,console),
 [11](http://jsbin.com/jukokaf/11/edit?js,console),
 [12](http://jsbin.com/jukokaf/12/edit?js,console),
 [13](http://jsbin.com/jukokaf/13/edit?js,console),
 [14](http://jsbin.com/jukokaf/14/edit?js,console),
 [15](http://jsbin.com/jukokaf/15/edit?js,console))
 * craps as promises ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-02/craps.html), 
-[code](http://github.com/MoonHighway/learning-react/master/chapter-02/craps.js),
+[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-02/craps.js))
 * getFakeMembers ([1](http://jsbin.com/ceteja/1/edit?js))
 
 #### ES6 Class Syntax
