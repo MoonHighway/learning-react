@@ -11,7 +11,7 @@ The code samples for *Learning React* by Alex Banks and Eve Porcello, published 
 
 * __Chapter 1__ : Welcome To React
 * __Chapter 2__ : Emerging JavaScript
-* __Chapter 3__ : Functional Programming with JavaScript
+* __Chapter 3__ : [Functional Programming with JavaScript](https://github.com/MoonHighway/learning-react/tree/master/chapter-03)
 * __Chapter 4__ : Pure React
 * __Chapter 5__ : React with JSX
 * __Chapter 6__ : Props, State, and the Component Tree
