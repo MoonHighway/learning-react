@@ -7,37 +7,37 @@ Samples
 --------
 
 #### Intro
-* Functions are Variables
-* Higher Order Function 
-* Imperative vs. Declarative
-* Imperative DOM
-* Declarative DOM 
-* Populate The United States
+* functions are variables
+* higher order function 
+* imperative vs. declarative
+* imperative DOM
+* declarative DOM 
+* [Populate The United States](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/populate-united-states.html)
 
 #### Immutability
-* Rating Colors
-* Adding Colors
+* rating colors
+* adding colors
 
 #### Pure Functions
-* Self Educate
+* self educate
 * DOM
 
 #### Transforming Data
-* filtering Arrays
-* mapping Arrays
-* Object to Array
-* Array to Number
-* Array to Object
+* filtering arrays
+* mapping arrays
+* object to array
+* array to number
+* array to object
 
 #### Higher Order Functions
 * invokeIf
 * userLogs
 
 #### Recursion
-* Counting Down
-* Deep Pick
+* counting down
+* deep pick
 
 #### Composition
 * compose
-* imparative clock
-* declarative clock
+* [imperative clock](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/imperative-clock.html)
+* [declarative clock](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/declarative-clock.html)
