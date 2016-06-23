@@ -35,21 +35,31 @@ Samples
 [5](http://jsbin.com/kosogo/5/edit?js,output))
 
 #### Transforming Data
-* filtering arrays
-* mapping arrays
-* object to array
-* array to number
-* array to object
+* filtering arrays ([1](http://jsbin.com/qehige/1/edit?js,console),
+[2](http://jsbin.com/qehige/2/edit?js,console),
+[3](http://jsbin.com/qehige/3/edit?js,console))
+* mapping arrays ([4](http://jsbin.com/qehige/4/edit?js,console),
+[5](http://jsbin.com/qehige/5/edit?js,console),
+[6](http://jsbin.com/qehige/6/edit?js,console),
+[7](http://jsbin.com/qehige/7/edit?js,console))
+* object to array ([8](http://jsbin.com/qehige/8/edit?js,console))
+* array to number ([9](http://jsbin.com/qehige/9/edit?js,console),
+[10](http://jsbin.com/qehige/10/edit?js,console))
+* array to object ([11](http://jsbin.com/qehige/11/edit?js,console),
+[12](http://jsbin.com/qehige/12/edit?js,console))
 
 #### Higher Order Functions
-* invokeIf
-* userLogs
+* invokeIf ([1](http://jsbin.com/tolewi/1/edit?js,console))
+* userLogs ([2](http://jsbin.com/tolewi/2/edit?js,console))
 
 #### Recursion
-* counting down
-* deep pick
+* counting down ([1](http://jsbin.com/romezi/1/edit?js,console),
+[2](http://jsbin.com/romezi/2/edit?js,console))
+* deep pick ([3](http://jsbin.com/romezi/3/edit?js,console))
 
 #### Composition
-* compose
+* compose ([1](http://jsbin.com/zivevu/1/edit?js,console),
+[2](http://jsbin.com/zivevu/2/edit?js,console),
+[3](http://jsbin.com/zivevu/3/edit?js,console))
 * [imperative clock](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/imperative-clock.html)
 * [declarative clock](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/declarative-clock.html)
