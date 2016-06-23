@@ -61,5 +61,7 @@ Samples
 * compose ([1](http://jsbin.com/zivevu/1/edit?js,console),
 [2](http://jsbin.com/zivevu/2/edit?js,console),
 [3](http://jsbin.com/zivevu/3/edit?js,console))
-* [imperative clock](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/imperative-clock.html)
-* [declarative clock](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/declarative-clock.html)
+* imperative clock ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/imperative-clock.html),
+[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-03/imperative-clock.js))
+* declarative clock ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/declarative-clock.html),
+[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-03/declarative-clock.js))
