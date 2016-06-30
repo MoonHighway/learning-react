@@ -17,11 +17,11 @@ Samples
 
 #### Recipes App with JSX and Webpack
 
-* Full App ([code]())
-* Instructions Component ([code]())
-* Ingredient Component ([code]())
-* IngredientsList Component ([code]())
-* Recipe Component ([code]())
-* Menu Component ([code]())
-* Entry index.js ([code]())
-* Webpack Configuration ([code]())
+* Full App ([code](https://github.com/MoonHighway/learning-react/tree/master/chapter-05/recipe-app))
+* Instructions Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/components/Instructions.js))
+* Ingredient Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/components/Ingredient.js))
+* IngredientsList Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/components/IngredientsList.js))
+* Recipe Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/components/Recipe.js))
+* Menu Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/components/Menu.js))
+* Entry index.js ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/index.js))
+* Webpack Configuration ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/webpack.config.js))
