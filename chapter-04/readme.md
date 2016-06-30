@@ -31,4 +31,11 @@ Samples
 #### DOM Rendering
 
 * team moods ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-04/DOM-rendering-moods.html),
-[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/DOM-rendering-moods.html))
+[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/DOM-rendering-moods.js))
+
+#### Factories
+
+* DOM Factories ([1](http://jsbin.com/mebahe/1/edit?js,output),
+[2](http://jsbin.com/mebahe/2/edit?js,output),
+[3](http://jsbin.com/mebahe/3/edit?js,output))
+* Component Factories ([4](http://jsbin.com/mebahe/4/edit?js,output))
