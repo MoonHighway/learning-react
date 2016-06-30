@@ -14,9 +14,6 @@ Samples
 
 * HTML for a Recipe ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-04/baked-salmon.html), 
 [code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/baked-salmon.html))
-
-TODO!!! FIX THESE, you messed them up
-
 * React Elements ([1](http://jsbin.com/fumiyu/1/edit?js,output),
 [2](http://jsbin.com/fumiyu/2/edit?js,output),
 [3](http://jsbin.com/fumiyu/3/edit?js,output))
