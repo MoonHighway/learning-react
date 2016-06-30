@@ -22,3 +22,13 @@ Samples
 
 #### React Components
 
+* React.createClass ([1](http://jsbin.com/cezotew/1/edit?js,output),
+[2](http://jsbin.com/cezotew/2/edit?js,output),
+[3](http://jsbin.com/cezotew/3/edit?js,output))
+* React.Component ([4](http://jsbin.com/cezotew/4/edit?js,output))
+* Stateless Functional Component ([5](http://jsbin.com/cezotew/5/edit?js,output))
+
+#### DOM Rendering
+
+* team moods ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-04/DOM-rendering-moods.html),
+[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/DOM-rendering-moods.html))
