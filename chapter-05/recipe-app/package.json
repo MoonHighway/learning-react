@@ -1,0 +1,40 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "Learning React Chapter 4 sample for modular recipes with webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --progress",
+    "prestart": "npm run build",
+    "start": "open dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MoonHighway/learning-react.git"
+  },
+  "keywords": [
+    "Learning",
+    "React",
+    "webpack",
+    "intro",
+    "jsx"
+  ],
+  "author": "Alex Banks <alex@moonhighway.com> (http://www.moonhighway.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MoonHighway/learning-react/issues"
+  },
+  "homepage": "https://github.com/MoonHighway/learning-react#readme",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.1"
+  }
+}

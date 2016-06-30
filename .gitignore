@@ -1,5 +1,7 @@
 .idea/
 
+chapter-05/recipe-app/dist/assets
+
 # Logs
 logs
 *.log
