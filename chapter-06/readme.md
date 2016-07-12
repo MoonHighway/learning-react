@@ -1,4 +1,4 @@
-Chapter 5 : Props state and the component tree
+Chapter 6 : Props state and the component tree
 ==================
 Data handling within component trees is one of the key advantages of working with React. There are techniques that you 
 can use when working with data in React components that will make your life much easier in the long run.
