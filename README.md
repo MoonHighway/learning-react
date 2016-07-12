@@ -9,12 +9,12 @@ The code samples for *Learning React* by Alex Banks and Eve Porcello, published 
 
 ### Table of Contents
 
-* __Chapter 1__ : Welcome To React
+* __Chapter 1__ : [Welcome To React](https://github.com/MoonHighway/learning-react/tree/master/chapter-01)
 * __Chapter 2__ : [Emerging JavaScript](https://github.com/MoonHighway/learning-react/tree/master/chapter-02)
 * __Chapter 3__ : [Functional Programming with JavaScript](https://github.com/MoonHighway/learning-react/tree/master/chapter-03)
 * __Chapter 4__ : [Pure React](https://github.com/MoonHighway/learning-react/tree/master/chapter-04)
 * __Chapter 5__ : [React with JSX](https://github.com/MoonHighway/learning-react/tree/master/chapter-05)
-* __Chapter 6__ : Props, State, and the Component Tree
+* __Chapter 6__ : [Props, State, and the Component Tree](https://github.com/MoonHighway/learning-react/tree/master/chapter-06)
 * __Chapter 7__ : Enhancing Components
 * __Chapter 8__ : Redux
 * __Chapter 9__ : React Redux
