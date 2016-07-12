@@ -7,7 +7,7 @@ that are easier to work with, especially in a team environment.
 #### Installation
 Run this npm command to install dependencies.
 ```
-$ npm Installation
+$ npm install
 ```
 
 #### Build
