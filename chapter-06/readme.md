@@ -42,3 +42,6 @@ Samples
 [4](http://jsbin.com/zebilo/4/edit?js,output))
 
 #### State within the Component Tree
+
+* The color organizer ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-06/color-organizer/dist),
+[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-06/color-organizer))

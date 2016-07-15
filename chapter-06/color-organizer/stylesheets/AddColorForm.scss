@@ -1,0 +1,48 @@
+@import "globals";
+
+form.add-color {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+
+  div {
+    text-align: center;
+
+    input {
+      border-radius: .75em;
+    }
+
+    &:first-child {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      input {
+        margin: .2em;
+        padding: .5em;
+        width: calc(100% - 1.4em);
+        font-family: Verdana, sans-serif;
+        font-size: 1em;
+        font-weight: bold
+      }
+    }
+
+    &:last-child {
+      text-align: right;
+      input {
+        width: 3em;
+        height: 3em;
+        margin: .5em;
+      }
+      button {
+        font-size: 1.5em;
+        border-radius: .5em;
+        padding: .1em;
+        position: relative;
+        top: -2px;
+      }
+    }
+  }
+
+}

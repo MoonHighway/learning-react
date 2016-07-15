@@ -1,0 +1,30 @@
+@import "globals";
+
+html, body, div#react-container {
+  height: 100%;
+}
+
+h1 {
+  @include clear;
+}
+
+body {
+
+  @include clear;
+  @include fade-bg($light, $light-grey);
+
+  div#react-container {
+    position: relative;
+    
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+}
+
+input {
+  outline: none;
+}
