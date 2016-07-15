@@ -43,5 +43,5 @@ Samples
 
 #### State within the Component Tree
 
-* The color organizer ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-06/color-organizer/dist),
+* The color organizer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-06/color-organizer/dist/index.html),
 [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-06/color-organizer))

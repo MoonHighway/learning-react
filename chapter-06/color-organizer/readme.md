@@ -30,7 +30,7 @@ the color organizer can be represented with a single array.
 
 Demo
 -------------
-[color organizer](http://rawgit.com/MoonHighway/learning-react/master/chapter-06/color-organizer/dist)
+[color organizer](https://rawgit.com/MoonHighway/learning-react/master/chapter-06/color-organizer/dist/index.html)
 
 Installation
 -------------
