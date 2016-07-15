@@ -35,4 +35,10 @@ Samples
 
 #### Component State
 
+* The Star Component ([1](http://jsbin.com/puduho/1/edit?js,output))
+* Using State with createClass ([1](http://jsbin.com/zebilo/1/edit?js,output))
+* Using State in ES6 Components ([2](http://jsbin.com/zebilo/2/edit?js,output))
+* Setting State from Properties ([3](http://jsbin.com/zebilo/3/edit?js,output),
+[4](http://jsbin.com/zebilo/4/edit?js,output))
+
 #### State within the Component Tree
