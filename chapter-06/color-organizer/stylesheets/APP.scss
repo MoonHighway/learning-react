@@ -1,7 +1,7 @@
 @import "globals";
 
 html, body, div#react-container {
-  height: 100%;
+  min-height: 100%;
 }
 
 h1 {
@@ -13,14 +13,10 @@ body {
   @include clear;
   @include fade-bg($light, $light-grey);
 
-  div#react-container {
-    position: relative;
-    
-    div {
-      display: flex;
-      flex-direction: column;
-    }
-
+  div.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
 }
@@ -28,3 +24,4 @@ body {
 input {
   outline: none;
 }
+
