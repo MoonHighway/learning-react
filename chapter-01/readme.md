@@ -1,4 +1,4 @@
-Chapter 1 : Props state and the component tree
+Chapter 1 : Introduction
 ==================
 The widespread use of React on large websites shows that it is stable enough to use at scale. React is ready, 
 but nothing is set in stone. The unique opportunity we all have is that since it's so new, we can be part of building it. 
