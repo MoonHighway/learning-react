@@ -6,10 +6,10 @@ import '!style!css!sass!postcss-loader!../stylesheets/Color.scss'
 const Color = ({ title, color, rating=0, onRemove=f=>f, onRate=f=>f}) =>
     <section className="color">
         <h1>{title}</h1>
-        <div className="trash">
-            <button onClick={onRemove}>X</button>
+        <button onClick={onRemove}>X</button>
+        <div className="color"
+             style={{ backgroundColor: color }}>
         </div>
-        <div className="color" style={{ backgroundColor: color }}></div>
         <div>
             <StarRating starsSelected={rating} onRate={onRate}/>
         </div>

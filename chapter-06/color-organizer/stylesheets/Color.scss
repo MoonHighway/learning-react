@@ -35,25 +35,15 @@ section.color {
     flex-basis: calc(100% - 1em);
   }
 
-  div.trash {
+  button {
     position: absolute;
     top: .5em;
     right: .5em;
     flex-basis: calc(12% - 1em);
     text-align: right;
-
-    button {
-      @include fade-bg($light, $light-grey);
-      padding: .75em;
-      border-radius: .5px;
-
-      svg {
-        font-size: 1.5em;
-        color: red;
-      }
-
-    }
-
+    @include fade-bg($light, $light-grey);
+    padding: .75em;
+    border-radius: .5px;
   }
 
   > div:last-child {
