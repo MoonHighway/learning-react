@@ -11,21 +11,16 @@ Setting Up Your Environment
 
 #### Installing Node js and NPM
 
-1. Check to see if you have Node JS installed
-
+Check to see if you have Node JS installed
 ```
 $ node -v
 ```
 
-2. [Install or update Node JS](https://nodejs.org/en/)
-3. Check your npm version
+[Install or update Node JS](https://nodejs.org/en/)
 
-```
-$ npm -v
-```
+--------------------------------
 
-4. Update NPM
-
+Update NPM
 *Mac*
 ```
 $ sudo npm update -g npm 
@@ -39,6 +34,8 @@ $ npm update -g npm
 
 * [Install Node Version Manager - mac only (optional)](https://github.com/creationix/nvm)
 * [Install NVM-Windows - pc only (optional)](https://github.com/coreybutler/nvm-windows)
+
+--------------------------------
 
 #### Installing the React Tools
 
