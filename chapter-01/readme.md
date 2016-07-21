@@ -26,12 +26,12 @@ $ npm -v
 
 4. Update NPM
 
-__Mac__
+*Mac*
 ```
 $ sudo npm update -g npm 
 ```
 
-__PC__
+*PC*
 Make sure to run the command prompt with administrator privilages
 ```
 $ npm update -g npm
