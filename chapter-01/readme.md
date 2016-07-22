@@ -64,14 +64,22 @@ output to see how each sample has changed.
 Here is a Hello World sample that JSBin has assigned the identifier __gosabo__. There are 3 available versions of this 
 sample in JSBin under the same identifier.
 
-* A preview of a sample: [http://output.jsbin.com/gosabo](http://output.jsbin.com/gosabo)
-* The sample in the editor: [http://output.jsbin.com/gosabo/edit](http://output.jsbin.com/gosabo/edit)
-* The sample in the editor with JavaScript and output tabs open: [http://jsbin.com/gosabo/edit?js,output](http://jsbin.com/gosabo/edit?js,output)
-* A pure preview of the sample: [http://output.jsbin.com/gosabo/quite](http://output.jsbin.com/gosabo)
-* Version 1 of the sample as output: [http://output.jsbin.com/gosabo/1](http://output.jsbin.com/gosabo/1)
-* Version 1 of te sample in the editor: [http://output.jsbin.com/gosabo/1/edit](http://output.jsbin.com/gosabo/1/edit)
-* Version 3 of the sample as output: [http://output.jsbin.com/gosabo/3](http://output.jsbin.com/gosabo/3)
-* Version 3 of te sample in the editor with html and javascript tabs open: [http://output.jsbin.com/gosabo/3/edit](http://output.jsbin.com/gosabo/3/edit?html,js)
+##### A preview of the latest version in a sample: 
+[http://output.jsbin.com/gosabo](http://output.jsbin.com/gosabo)
+##### The sample in the editor: 
+[http://output.jsbin.com/gosabo/edit](http://output.jsbin.com/gosabo/edit)
+##### The sample in the editor with JavaScript and output tabs open: 
+[http://jsbin.com/gosabo/edit?js,output](http://jsbin.com/gosabo/edit?js,output)
+##### A pure preview of the sample: 
+[http://output.jsbin.com/gosabo/quite](http://output.jsbin.com/gosabo)
+##### Version 1 of the sample as output: 
+[http://output.jsbin.com/gosabo/1](http://output.jsbin.com/gosabo/1)
+##### Version 1 of te sample in the editor: 
+[http://output.jsbin.com/gosabo/1/edit](http://output.jsbin.com/gosabo/1/edit)
+##### Version 2 of the sample as output: 
+[http://output.jsbin.com/gosabo/2](http://output.jsbin.com/gosabo/2)
+##### Version 3 of the sample in the editor with html and javascript tabs open: 
+[http://output.jsbin.com/gosabo/3/edit](http://output.jsbin.com/gosabo/3/edit?html,js)
 
 CDN's for javascript libraries
 --------------------------------
