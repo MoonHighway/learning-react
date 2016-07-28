@@ -1,12 +1,12 @@
 {
-  "name": "color-organizer",
+  "name": "mountin-lifecycle-clock",
   "version": "1.0.0",
   "description": "A sample React application",
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --progress",
     "prestart": "npm run build",
-    "start": "open http://localhost:3000 & ./node_modules/.bin/httpster -p 3000 -d ./dist"
+    "start": "open dist/index.html"
   },
   "keywords": [
     "React",
@@ -32,7 +32,6 @@
     "webpack": "^1.12.12"
   },
   "dependencies": {
-    "httpster": "^1.0.3",
     "react": "^0.14.6",
     "react-dom": "^0.14.6"
   }

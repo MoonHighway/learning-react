@@ -1,7 +1,16 @@
-Recipe App
-==========
-Modularity will allow you to break down your source code into parts, or modules, 
-that are easier to work with, especially in a team environment.  
+Color Organizer React
+=====================
+Lifecycle...
+
+
+__TODO__: Include Color Component Code Here
+```javascript
+
+```
+
+Demo
+-------------
+[Demo]()
 
 
 #### Installation

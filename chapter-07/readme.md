@@ -9,9 +9,35 @@ Samples
 
 #### Mounting Lifecycle
 
-* Loading Data when a component mounts
-* Ticking Clock Sample
+* Loading Data when a component mounts ([1](http://jsbin.com/jegimi/1/edit?js,console),
+[2](http://jsbin.com/jegimi/2/edit?js,output))
+* Clock ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/mounting-lifecycle-clock/dist/index.html),
+[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/mounting-lifecycle-clock))
 
 #### Updating Lifecycle
 
-* 
+* Updating Lifecycle (color-organizer) ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/color-organizer/dist/index.html),
+[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/color-organizer))
+* Component will Receive Props ([1](http://jsbin.com/nuwaje/1/edit?js,output),
+[2](http://jsbin.com/nuwaje/2/edit?js,output),
+[note](http://jsbin.com/gacuba/1/edit?js,output))
+
+### JavaScript Library Integration
+
+* Fetching Data ([1](http://jsbin.com/yefuya/1/edit?js,output),
+[2](http://jsbin.com/yefuya/2/edit?js,output))
+* D3 Timeline v1 ([1](http://jsbin.com/hakono/1/edit?js,output),
+[2](http://jsbin.com/hakono/2/edit?js,output))
+
+#### Higher Order Components
+
+* people list ([1](http://jsbin.com/vexidu/1/edit?js,output))
+* DataComponent HOC ([2](http://jsbin.com/vexidu/2/edit?js,output))
+* country dropdown with DataComponent ([3](http://jsbin.com/vexidu/3/edit?js,output))
+* Expandable HOC ([1](http://jsbin.com/medari/1/edit?js,output))
+* PopUp with Expandable ([2](http://jsbin.com/medari/2/edit?js,output))
+
+#### Managing State Outside of React
+
+* Clock without React State ([1](http://jsbin.com/zepusi/1/edit?js,output))
+* Flux ([1](http://jsbin.com/fizocij/1/edit?js,output))

@@ -32,15 +32,21 @@ Demo
 -------------
 [color organizer](https://rawgit.com/MoonHighway/learning-react/master/chapter-06/color-organizer/dist/index.html)
 
-Installation
--------------
 
-1. Install the Dependencies
+#### Installation
+Run this npm command to install dependencies.
 ```
-    $ npm install   
+$ npm install
 ```
 
-2. Build and Start the browser app    
+#### Build
+Run this npm command to build the JavaScript Bundle
 ```
-    $ npm start 
+$ npm run build
+```
+
+#### Run
+Run this npm command to build the JavaScript Bundle and open the browser to the app using the file api.
+```
+$ npm start
 ```

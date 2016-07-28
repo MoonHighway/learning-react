@@ -89,6 +89,7 @@ can be included in JSBin with this syntax: `<script src="https://[CDN LINK]"></s
 * [React Source](https://fb.me/react-with-addons-15.1.0.js)
 * [React DOM Source](https://fb.me/react-dom-15.1.0.js)
 * [Babel Inline Transpiller](https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js)
+* [fetch](https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js)
 * [Redux Source](https://cdnjs.cloudflare.com/ajax/libs/redux/3.5.2/redux.min.js)
 * [React Router Source](https://cdnjs.cloudflare.com/ajax/libs/react-router/2.6.0/ReactRouter.min.js)
 * [Mocha](https://cdnjs.cloudflare.com/ajax/libs/mocha/3.0.0-1/mocha.min.js)

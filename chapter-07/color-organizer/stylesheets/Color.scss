@@ -1,0 +1,69 @@
+@import "globals";
+
+section.color {
+  @include shadow;
+  border: 2px solid $light-grey;
+  border-bottom-color: darken($light-grey, 40%);
+  border-right-color: darken($light-grey, 40%);
+  margin: 1em;
+  padding: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  @media screen and (min-width: $break-sm) {
+    flex-basis: calc(50% - 2em - 4px);
+  }
+
+  @media screen and (min-width: $break-md) {
+    flex-basis: calc(33.33333% - 2em - 4px);
+  }
+
+  @media screen and (min-width: $break-lg) {
+    flex-basis: calc(25% - 2em - 4px);
+  }
+
+  @media screen and (min-width: $break-xl) {
+    flex-basis: calc(16.66666% - 2em - 4px);
+  }
+
+  h1 {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    padding: .5em;
+    flex-basis: calc(100% - 1em);
+  }
+
+  button {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    flex-basis: calc(12% - 1em);
+    text-align: right;
+    @include fade-bg($light, $light-grey);
+    padding: .75em;
+    border-radius: .5px;
+  }
+
+  > div:last-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: .5em;
+  }
+
+  div.color {
+    height: 100px;
+    flex-basis: 100%;
+  }
+
+  div.time-ago {
+    position: absolute;
+    bottom: .5em;
+    right: .5em;
+    font-family: monospace;
+    color: darken($light-grey, 40%);
+  }
+
+}

@@ -24,3 +24,5 @@ Color.propTypes = {
 }
 
 export default Color
+
+
