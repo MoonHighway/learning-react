@@ -35,5 +35,5 @@ Samples
 #### Putting it all together
 Here is the complete sample store that we have reviewed
 
-[Demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/color-organizer-redux/dist/index.html)
+[Demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/color-organizer-redux/dist/index.html) | 
 [Source](https://github.com/MoonHighway/learning-react/blob/master/chapter-08/color-organizer-redux)
