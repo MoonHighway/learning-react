@@ -1,0 +1,35 @@
+{
+  "name": "color-organizer-redux",
+  "version": "1.0.0",
+  "description": "A sample Redux store with reducers and action creators",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --progress",
+    "prestart": "npm run build",
+    "start": "open http://localhost:3000 & ./node_modules/.bin/httpster -p 3000 -d ./dist"
+  },
+  "keywords": [
+    "redux",
+    "store",
+    "reducres",
+    "actions",
+    "action",
+    "creators",
+    "tutorial"
+  ],
+  "author": "Alex Banks <alex@moonhighway.com> (http://www.moonhighway.com)",
+  "license": "MIT",
+  "dependencies": {
+    "httpster": "^1.0.3",
+    "node-uuid": "^1.4.7",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "webpack": "^1.12.12"
+  }
+}
