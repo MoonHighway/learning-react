@@ -1,61 +1,23 @@
-Color Organizer Lifecycle
+React Redux integration
 =====================
-This is a modified version of the color organizer from the last chapter. The Color component has ben enhanced with
-some updating lifecycle methods.
-
-```javascript
-
-    class Color extends Component {
-    
-        componentWillMount() {
-            this.style = { backgroundColor: "#CCC" }
-        }
-    
-        shouldComponentUpdate(nextProps) {
-            const { rating } = this.props
-            return rating !== nextProps.rating
-        }
-    
-        componentWillUpdate(nextProps) {
-            const { title, rating } = this.props
-            this.style = null
-            this.refs.title.style.backgroundColor = "red"
-            this.refs.title.style.color = "white"
-            alert(`${title}: rating ${rating} -> ${nextProps.rating}`)
-        }
-    
-        componentDidUpdate(prevProps) {
-            const { title, rating } = this.props
-            const status = (rating > prevProps.rating) ? 'better' : 'worse'
-            console.log(`${title} is getting ${status}`)
-            this.refs.title.style.backgroundColor = ""
-            this.refs.title.style.color = "black"
-        }
-    
-        render() {
-            const { title, color, rating, onRemove, onRate} = this.props
-            return (
-                <section className="color" style={this.style}>
-                    <h1 ref="title">{title}</h1>
-                    <button onClick={onRemove}>X</button>
-                    <div className="color"
-                         style={{ backgroundColor: color }}>
-                    </div>
-                    <div>
-                        <StarRating starsSelected={rating} onRate={onRate}/>
-                    </div>
-                </section>
-            )
-        }
-    
-    }
-
-```
+React Redux is a library that contains some tools to help ease the complexity involved with implicitly passing 
+the store via context.  This library is also brought to you by Dan Abramov, the creator of Redux. Redux does not 
+require that you use this library.  However, using React Redux reduces your code complexity and may help you build 
+apps a bit faster.
 
 Demo
 -------------
-[Demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/color-organizer/dist/index.html)
+[Demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer/dist/index.html)
 
+Important Files
+-------------
+
+* index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/index.js))
+* App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/components/App.js))
+* containers ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/components/containers.js))
+
+Clone and Install
+-------------
 
 #### Installation
 Run this npm command to install dependencies.
