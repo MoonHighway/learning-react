@@ -1,6 +1,6 @@
 import { PropTypes } from 'react'
 import Color from './Color'
-import '!style!css!sass!postcss-loader!../stylesheets/ColorList.scss'
+import '!style!css!sass!postcss-loader!../../stylesheets/ColorList.scss'
 
 const ColorList = ({ colors=[], onRate=f=>f, onRemove=f=>f }) =>
     <div className="color-list">

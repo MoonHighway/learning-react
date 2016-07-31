@@ -1,6 +1,6 @@
 {
   "name": "color-organizer",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "description": "A sample React application",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "css-loader": "^0.23.1",
+    "json-loader": "^0.5.4",
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.8.2",
     "sass-loader": "^3.2.0",
@@ -34,6 +35,9 @@
   "dependencies": {
     "httpster": "^1.0.3",
     "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react-dom": "^0.14.6",
+    "react-icons": "^2.2.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
   }
 }

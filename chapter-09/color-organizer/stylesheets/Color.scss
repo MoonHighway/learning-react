@@ -2,6 +2,7 @@
 
 section.color {
   @include shadow;
+  height: 235px;
   border: 2px solid $light-grey;
   border-bottom-color: darken($light-grey, 40%);
   border-right-color: darken($light-grey, 40%);
