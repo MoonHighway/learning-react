@@ -4,8 +4,6 @@ import { Provider } from 'react-redux'
 import App from './components/App'
 import storeFactory from './store'
 
-import { addColor, rateColor, removeColor } from './actions'
-
 const store = storeFactory()
 
 window.React = React
