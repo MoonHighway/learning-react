@@ -1,0 +1,23 @@
+$light: rgba(255, 255, 255, 1);
+$light-grey: rgba(229, 229, 229, 1);
+$red: #900;
+$font-heading: Verdana, sans-serif;
+
+$break-sm: 700px;
+$break-md: 1100px;
+$break-lg: 1600px;
+$break-xl: 2000px;
+
+@mixin shadow {
+  box-shadow: 3px 3px 8px 1px darken($light-grey, 20%);
+}
+
+@mixin fade-bg($from, $to) {
+  background: $from;
+  background: linear-gradient(to bottom, $from 0%, $to 100%);
+}
+
+@mixin clear {
+  margin: 0;
+  padding: 0;
+}

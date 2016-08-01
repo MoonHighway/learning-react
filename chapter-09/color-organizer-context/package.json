@@ -1,0 +1,42 @@
+{
+  "name": "color-organizer",
+  "version": "4.0.0",
+  "description": "A sample React application",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --progress",
+    "prestart": "npm run build",
+    "start": "open http://localhost:3000 & ./node_modules/.bin/httpster -p 3000 -d ./dist"
+  },
+  "keywords": [
+    "React",
+    "state",
+    "setState",
+    "explicitly",
+    "passing",
+    "props"
+  ],
+  "author": "Alex Banks <alex@moonhighway.com> (http://www.moonhighway.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.12"
+  },
+  "dependencies": {
+    "httpster": "^1.0.3",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-icons": "^2.2.1",
+    "redux": "^3.5.2"
+  }
+}

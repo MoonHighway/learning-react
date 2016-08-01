@@ -15,15 +15,16 @@ const ColorList = ({ store }) => {
                     <Color key={color.id}
                         {...color}
                            onRate={(rating) =>
-                           store.dispatch(
-                               rateColor(color.id, rating)
-                           )
+                               store.dispatch(
+                                   rateColor(color.id, rating)
+                               )
                        }
                            onRemove={() =>
-                           store.dispatch(
-                               removeColor(color.id)
-                           )
-                       } />
+                               store.dispatch(
+                                   removeColor(color.id)
+                               )
+                       }
+                    />
                 )
             }
         </div>

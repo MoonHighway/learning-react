@@ -1,0 +1,25 @@
+@import "globals";
+
+nav {
+
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+
+  h1 {
+    display: none;
+  }
+
+  a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    padding: .5em;
+
+    &.selected {
+      color: $red;
+    }
+  }
+}

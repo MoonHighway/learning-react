@@ -1,0 +1,10 @@
+@import "globals";
+
+div.color-list {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  overflow: scroll;
+}

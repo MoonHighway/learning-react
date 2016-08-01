@@ -31,8 +31,7 @@ export const Menu = connect(
 export const Colors = connect(
     state =>
         ({
-            colors: [...state.colors].sort(sortFunction(state.sort)),
-            loading: state.loading
+            colors: [...state.colors].sort(sortFunction(state.sort))
         }),
     dispatch =>
         ({

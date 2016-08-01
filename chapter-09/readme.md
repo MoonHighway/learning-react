@@ -19,11 +19,22 @@ Samples
 
 #### Passing the Store via context
 
-* sample
+* index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/index.js))
+* App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/components/App.js))
+* SortMenu ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/components/SortMenu.js))
+* AddColorForm ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/components/AddColorForm.js))
+* Color ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/components/Color.js))
+* Complete Sample ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer-context/dist/index.html),
+[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context))
 
 #### Presentation vs. Containers
 
-* sample
+* SortMenu ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/components/ui/SortMenu.js))
+* AddColorForm ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/components/ui/AddColorForm.js))
+* ColorList ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/components/ui/ColorList.js))
+* containers ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/components/ui/containers.js))
+* Complete Sample ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer-containers/dist/index.html),
+[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers))
 
 #### React Redux
 
