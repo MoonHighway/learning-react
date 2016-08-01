@@ -1,20 +1,19 @@
-React Redux integration
+Passing Store to Container Components
 =====================
-React Redux is a library that contains some tools to help ease the complexity involved with implicitly passing 
-the store via context.  This library is also brought to you by Dan Abramov, the creator of Redux. Redux does not 
-require that you use this library.  However, using React Redux reduces your code complexity and may help you build 
-apps a bit faster.
+*Presentational Components* are components that only render UI elements. *Container components* are components that 
+connect Presentational Components to the data.
 
 Demo
 -------------
-[Demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer/dist/index.html)
+[Demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer-containers/dist/index.html)
 
 Important Files
 -------------
 
-* index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/index.js))
-* App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/components/App.js))
-* containers ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/components/containers.js))
+* SortMenu ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/components/ui/SortMenu.js))
+* AddColorForm ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/components/ui/AddColorForm.js))
+* ColorList ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/components/ui/ColorList.js))
+* containers ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/components/containers.js))
 
 Clone and Install
 -------------

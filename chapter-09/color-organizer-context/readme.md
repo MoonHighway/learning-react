@@ -1,20 +1,21 @@
-React Redux integration
+Passing the Store via Context
 =====================
-React Redux is a library that contains some tools to help ease the complexity involved with implicitly passing 
-the store via context.  This library is also brought to you by Dan Abramov, the creator of Redux. Redux does not 
-require that you use this library.  However, using React Redux reduces your code complexity and may help you build 
-apps a bit faster.
+We can set up a root component that holds the store in a React feature called context. Context allows us 
+to pass variables to components without having to explicitly pass them as properties. Any child component can 
+access these context variables.
 
 Demo
 -------------
-[Demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer/dist/index.html)
+[Demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer-context/dist/index.html)
 
 Important Files
 -------------
 
-* index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/index.js))
-* App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/components/App.js))
-* containers ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/components/containers.js))
+* index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/index.js))
+* App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/components/App.js))
+* SortMenu ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/components/SortMenu.js))
+* AddColorForm ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/components/AddColorForm.js))
+* Color ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/components/Color.js))
 
 Clone and Install
 -------------
