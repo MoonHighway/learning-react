@@ -18,9 +18,9 @@ The code samples for *Learning React* by Alex Banks and Eve Porcello, published 
 * __Chapter 7__ : [Enhancing Components](https://github.com/MoonHighway/learning-react/tree/master/chapter-07)
 * __Chapter 8__ : [Redux](https://github.com/MoonHighway/learning-react/tree/master/chapter-08)
 * __Chapter 9__ : [React Redux](https://github.com/MoonHighway/learning-react/tree/master/chapter-09)
-* __Chapter 10__ : Testing
-* __Chapter 11__ : React Router
-* __Chapter 12__ : React and the Server
+* __Chapter 10__ : [Testing](https://github.com/MoonHighway/learning-react/tree/master/chapter-10)
+* __Chapter 11__ : [React Router](https://github.com/MoonHighway/learning-react/tree/master/chapter-11)
+* __Chapter 12__ : [React and the Server](https://github.com/MoonHighway/learning-react/tree/master/chapter-12)
 
 
 
