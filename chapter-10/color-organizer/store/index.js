@@ -2,6 +2,8 @@ import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { colors, sort } from './reducers'
 import stateData from './initialState'
 
+const console = console
+
 const logger = store => next => action => {
     let result
     console.groupCollapsed("dispatching", action.type)
@@ -24,7 +26,7 @@ const storeFactory = (initialState=stateData) =>
         combineReducers({colors, sort}),
         (localStorage['redux-store']) ?
             JSON.parse(localStorage['redux-store']) :
-            stateData
+            initialState
     )
 
 export default storeFactory
