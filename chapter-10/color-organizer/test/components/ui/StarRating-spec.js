@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 import { mount } from 'enzyme'
-import StarRating from '../../../components/ui/StarRating'
+import StarRating from '../../../src/components/ui/StarRating'
 import { spy } from 'sinon'
 
 describe("<StarRating /> UI Component", () => {

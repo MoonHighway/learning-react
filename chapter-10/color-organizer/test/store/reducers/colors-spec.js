@@ -1,5 +1,5 @@
-import C from '../../../constants'
-import { colors } from '../../../store/reducers'
+import C from '../../../src/constants'
+import { colors } from '../../../src/store/reducers'
 import deepFreeze from 'deep-freeze'
 import { expect } from 'chai'
 

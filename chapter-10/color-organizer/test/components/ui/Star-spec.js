@@ -1,6 +1,6 @@
-import { expect } from 'chai';
+import { expect } from 'chai'
 import { shallow } from 'enzyme'
-import Star from '../../../components/ui/Star'
+import Star from '../../../src/components/ui/Star'
 import { spy } from 'sinon'
 
 describe("<Star /> UI Component", () => {

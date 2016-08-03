@@ -1,7 +1,7 @@
-import C from '../../constants'
+import C from '../../src/constants'
 import { spy, assert } from 'sinon'
 import { expect } from 'chai'
-import storeFactory from '../../store'
+import storeFactory from '../../src/store'
 
 describe("Store Factory", () => {
 
