@@ -2,7 +2,7 @@ import { PropTypes, Component } from 'react'
 import StarRating from './StarRating'
 import TimeAgo from './TimeAgo'
 import FaTrash from 'react-icons/lib/fa/trash-o'
-import '!style!css!sass!postcss-loader!../../stylesheets/Color.scss'
+import '../../stylesheets/Color.scss'
 
 class Color extends Component {
 

@@ -1,5 +1,5 @@
 import { PropTypes } from 'react'
-import '!style!css!sass!postcss-loader!../../stylesheets/Menu.scss'
+import '../../stylesheets/Menu.scss'
 
 const options = {
     date: "SORTED_BY_DATE",

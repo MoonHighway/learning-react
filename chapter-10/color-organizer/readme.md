@@ -38,6 +38,12 @@ Run this command to quickly run the tests without babel-node and without code co
 $ npm run shallow-test
 ```
 
+#### Run Individual Spec
+Send the grep flag to the shallow test to run specs that match the grep value.
+```
+$ npm run shallow-test -- --grep "<Star />"
+```
+
 #### Run Tests with Code Coverage
 Run this npm command to build the JavaScript Bundle and open the browser to the app using the file api.
 ```

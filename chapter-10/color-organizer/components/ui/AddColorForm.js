@@ -1,5 +1,5 @@
 import { PropTypes, Component } from 'react'
-import '!style!css!sass!postcss-loader!../../stylesheets/AddColorForm.scss'
+import '../../stylesheets/AddColorForm.scss'
 
 const AddColorForm = ({onNewColor=f=>f}) => {
 
