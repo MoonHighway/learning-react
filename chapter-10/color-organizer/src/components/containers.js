@@ -2,15 +2,19 @@ import { connect } from 'react-redux'
 import AddColorForm from './ui/AddColorForm'
 import SortMenu from './ui/SortMenu'
 import ColorList from './ui/ColorList'
-import { addColor, sortColors, rateColor, removeColor } from '../actions'
+import actionCreators from '../actions'
 import { sortFunction } from '../lib/array-helpers'
+
 
 export const NewColor = connect(
     null,
     dispatch =>
         ({
             onNewColor(title, color) {
-                dispatch(addColor(title,color))
+                var results = actionCreators.addColor(title,color)
+
+
+                dispatch(actionCreators.addColor(title,color))
             }
         })
 )(AddColorForm)
@@ -23,7 +27,7 @@ export const Menu = connect(
     dispatch =>
         ({
             onSelect(sortBy) {
-                dispatch(sortColors(sortBy))
+                dispatch(actionCreators.sortColors(sortBy))
             }
         })
 )(SortMenu)
@@ -36,10 +40,10 @@ export const Colors = connect(
     dispatch =>
         ({
             onRemove(id) {
-                dispatch(removeColor(id))
+                dispatch(actionCreators.removeColor(id))
             },
             onRate(id, rating) {
-                dispatch(rateColor(id, rating))
+                dispatch(actionCreators.rateColor(id, rating))
             }
         })
 )(ColorList)

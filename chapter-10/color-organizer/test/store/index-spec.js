@@ -54,7 +54,8 @@ describe("Store Factory", () => {
         let store
 
         beforeEach(() => {
-            store = storeFactory()
+            global.localStorage['redux-store'] = false
+            store = storeFactory({})
             store.dispatch({
                 type: C.ADD_COLOR,
                 id: 0,
@@ -68,6 +69,11 @@ describe("Store Factory", () => {
         it("saves state to localStorage", () =>
             expect(JSON.parse(global.localStorage['redux-store']).colors.length).to.equal(1))
 
+    })
+
+    it("creates a store when default state is not supplied", () => {
+        const store = storeFactory()
+        expect(store.getState().colors).to.be.instanceof(Array)
     })
 
 })

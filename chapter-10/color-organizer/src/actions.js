@@ -1,7 +1,7 @@
 import C from './constants'
 import { v4 } from 'node-uuid'
 
-export const addColor = (title, color) =>
+export var addColor = (title, color) =>
     ({
         type: C.ADD_COLOR,
         id: v4(),
@@ -10,21 +10,21 @@ export const addColor = (title, color) =>
         timestamp: new Date().toString()
     })
 
-export const removeColor = id =>
+export var removeColor = id =>
     ({
         type: C.REMOVE_COLOR,
         id
     })
 
-export const rateColor = (id, rating) =>
+export var rateColor = (id, rating) =>
     ({
         type: C.RATE_COLOR,
         id,
         rating
     })
 
-export const sortColors = sortBy =>
+export var sortColors = (sortBy="SORTED_BY_DATE") =>
     ({
-        type: "SORT_COLORS",
+        type: C.SORT_COLORS,
         sortBy
     })

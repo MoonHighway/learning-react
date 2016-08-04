@@ -9,9 +9,9 @@
     "prestart": "npm run build",
     "start": "./node_modules/.bin/httpster -d ./dist/ -p 3000",
     "shallow-test": "mocha --compilers js:babel-core/register --recursive --require ./test/setup.js  --require ./node_modules/ignore-styles",
-    "posttest": "npm run lint",
     "coverage": "open ./coverage/lcov-report/index.html",
-    "test": "./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha -- --require ./test/setup.js --require ./node_modules/ignore-styles --recursive"
+    "test": "./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha -- --require ./test/setup.js --require ./node_modules/ignore-styles --recursive",
+    "posttest": "npm run lint"
   },
   "keywords": [
     "React",
