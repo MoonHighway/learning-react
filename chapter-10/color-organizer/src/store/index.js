@@ -2,7 +2,7 @@ import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { colors, sort } from './reducers'
 import stateData from './initialState'
 
-const console = console
+var console = window.console
 
 const logger = store => next => action => {
     let result

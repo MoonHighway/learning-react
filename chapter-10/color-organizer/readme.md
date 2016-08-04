@@ -1,8 +1,13 @@
-Unit Testing Redux and React
+Unit Testing the Color Organizer
 =====================
+In this section, we will demonstrate techniques that can be used to unit test the typical parts that make up React 
+Redux applications. This chapter will not only cover testing, but it will also cover tools that can be used to help 
+evaluate and improve your code as well as your tests.
 
 Important Files
 -------------
+
+
 
 
 Clone and Install
@@ -30,6 +35,12 @@ $ npm start
 Run this command to lint the javascript source.
 ```
 $ npm run lint
+```
+
+### Run Webpack Dev Serer
+Run this command to start the app using the webpack dev server
+```
+$ npm run dev
 ```
 
 #### Run Shallow Tests

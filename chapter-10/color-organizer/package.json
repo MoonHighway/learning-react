@@ -9,9 +9,10 @@
     "prestart": "npm run build",
     "start": "./node_modules/.bin/httpster -d ./dist/ -p 3000",
     "shallow-test": "mocha --compilers js:babel-core/register --recursive --require ./test/setup.js  --require ./node_modules/ignore-styles",
-    "coverage": "open ./coverage/lcov-report/index.html",
     "test": "./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha -- --require ./test/setup.js --require ./node_modules/ignore-styles --recursive",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "coverage": "open ./coverage/lcov-report/index.html",
+    "dev": "open http://localhost:3000 & ./node_modules/.bin/webpack-dev-server"
   },
   "keywords": [
     "React",
@@ -52,7 +53,8 @@
     "sass-loader": "^3.2.0",
     "sinon": "^1.17.5",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.12"
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "httpster": "^1.0.3",

@@ -2,7 +2,7 @@ const sortByDate = field =>
     (a, b) => new Date(b[field]) - new Date(a[field])
 
 const sortByString = field =>
-    (a, b) => (a[field] < b[field]) ? -1 : 1
+    (a, b) => (a[field].toLowerCase() < b[field].toLowerCase()) ? -1 : 1
 
 const sortByNumber = field =>
     (a, b) => b[field] - a[field]
