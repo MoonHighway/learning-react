@@ -6,53 +6,42 @@ import { spy, stub, assert } from 'sinon'
 
 describe("<Menu /> Container", () => {
 
-    let wrapper
+    describe("Mapping dispatch to props", () => {
 
-    const mockStore = {
-        dispatch: spy(),
-        subscribe: spy(),
-        getState: stub().returns({})
-    }
+        let wrapper, dispatchedAction
 
-    const mockActionCreators = {
-        addColor: stub().returns({
-            "id": "f9005b4e-975e-433d-a646-79df172e1dbb",
-            "title": "test color",
-            "color": "#0000FF",
-            "rating": 0,
-            "timestamp": "Fri Mar 13 2015 12:00:00 GMT-0800 (PST)"
-        }),
-        sortColors: spy(),
-        rateColor: spy(),
-        removeColor: spy()
-    }
+        const mockStore = {
+            dispatch: spy(),
+            subscribe: spy(),
+            getState: stub().returns({})
+        }
 
-    afterEach(() => _addColor.reset())
+        before(() => {
+            wrapper = mount(
+                <Provider store={mockStore}>
+                    <NewColor />
+                </Provider>
+            )
+            wrapper.find('input[type="text"]').get(0).value = 'test color'
+            wrapper.find('input[type="color"]').get(0).value = '#0000FF'
+            wrapper.find('form').simulate('submit')
+            dispatchedAction = mockStore.dispatch.args[0][0]
+        })
 
+        it("dispatches a ADD_COLOR action", () =>
+            expect(dispatchedAction.type).to.equal("ADD_COLOR"))
 
-    before(() => {
+        it("has the correct color", () =>
+            expect(dispatchedAction.color).to.equal("#0000FF"))
 
-        var c = NewColor
-        var r = NewColor.__Rewire__
+        it("has the correct title", () =>
+            expect(dispatchedAction.title).to.equal("test color"))
 
+        it("has a timestamp", () =>
+            expect(new Date(dispatchedAction.timestamp).getDay()).to.equal(new Date().getDay()))
 
-
-        NewColor.__Rewire__("actionCreators", mockActionCreators)
-        wrapper = mount(
-            <Provider store={mockStore}>
-                <NewColor />
-            </Provider>
-        )
-    })
-
-
-    it("maps onNewColor to dispatch", () => {
-
-        wrapper.find('input[type="text"]').simulate('change', {target: {value: 'test-title'}})
-        wrapper.find('input[type="color"]').simulate('change', {target: {value: '#0000FF'}})
-        wrapper.find('form').simulate('submit')
-
-        assert.called(_addColor)
+        it("has a unique id", () =>
+            expect(dispatchedAction.id.length).to.equal(36))
 
     })
 

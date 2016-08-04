@@ -6,39 +6,45 @@ import { findDOMNode } from 'react-dom'
 
 describe("<AddColorForm /> UI Component", () => {
 
+    let wrapper
+
     describe("Rendering the UI", () => {
 
+        before(() => wrapper = mount(<AddColorForm />))
+
         it("renders an input for the color title", () =>
-            expect(mount(<AddColorForm />)
-                .ref('_title'))
+            expect(wrapper.ref('_title'))
                 .to.have.length(1))
 
         it("renders a color input for the color hex", () =>
-            expect(mount(<AddColorForm />)
-                .ref('_color')
+            expect(wrapper.ref('_color')
                 .props()
                 .type)
                 .to.equal('color'))
 
         it("renders an add button", () =>
-            expect(mount(<AddColorForm />)
-                .find('button')
+            expect(wrapper.find('button')
                 .text())
                 .to.equal("ADD"))
+
+        it("adding a color does not cause an error", () => {
+            wrapper.ref('_title').get(0).value = 'test-color'
+            wrapper.ref('_color').get(0).value = '#000099'
+            wrapper.find('form').simulate('submit')
+        })
 
     })
 
     describe("Adding New Colors", () => {
 
-        let wrapper,
-            _addColor = spy()
+        let _addColor = spy()
 
         before(() => {
             wrapper = mount(<AddColorForm onNewColor={_addColor}/>)
             wrapper.ref('_title').get(0).value = 'test-color'
             wrapper.ref('_color').get(0).value = '#000099'
             wrapper.find('form').simulate('submit')
-        });
+        })
 
         it("adds colors correctly", () =>
             expect(_addColor
