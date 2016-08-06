@@ -1,7 +1,7 @@
 var webpack = require("webpack");
 
 module.exports = {
-    entry: "./index.js",
+    entry: "./src/index.js",
     output: {
         path: "dist/assets",
         filename: "bundle.js",
@@ -22,26 +22,26 @@ module.exports = {
                 test: /\.json$/,
                 exclude: /(node_modules)/,
                 loader: 'json-loader'
+            },
+            {
+                test: /\.css$/,
+                loader: 'style-loader!css-loader!autoprefixer-loader'
+
             }
         ]
     },
     plugins: [
 
-        // sets production environment
-        // uncomment to remove warning about development environment
-
-        /*
         new webpack.DefinePlugin({
             "process.env": {
                 NODE_ENV: JSON.stringify("production")
             }
         }),
-        */
 
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,
             warnings: false,
-            mangle: true
+            mangle: false
         })
     ]
 }
