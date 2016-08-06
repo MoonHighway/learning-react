@@ -1,7 +1,6 @@
 import { PropTypes } from 'react'
 import StarRating from './StarRating'
-
-import '!style!css!sass!postcss-loader!../stylesheets/Color.scss'
+import '../../stylesheets/Color.scss'
 
 const Color = ({ title, color, rating=0, onRemove=f=>f, onRate=f=>f}) =>
     <section className="color">
