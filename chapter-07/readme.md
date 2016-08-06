@@ -22,6 +22,14 @@ Samples
 [2](http://jsbin.com/nuwaje/2/edit?js,output),
 [note](http://jsbin.com/gacuba/1/edit?js,output))
 
+#### Children
+
+* Display Component ([1](http://jsbin.com/goraje/1/edit?js),
+[2](http://jsbin.com/goraje/2/edit?js))
+* WhenTruthy, WhenFalsy ([3](http://jsbin.com/goraje/3/edit?js),
+[4](http://jsbin.com/goraje/4/edit?js),
+[5](http://jsbin.com/goraje/5/edit?js))
+
 ### JavaScript Library Integration
 
 * Fetching Data ([1](http://jsbin.com/yefuya/1/edit?js,output),
