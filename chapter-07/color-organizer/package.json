@@ -19,21 +19,21 @@
   "author": "Alex Banks <alex@moonhighway.com> (http://www.moonhighway.com)",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^6.3.3",
-    "babel-loader": "^6.2.1",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "babel-preset-stage-0": "^6.3.13",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.13.1",
+    "json-loader": "^0.5.4",
+    "autoprefixer-loader": "^3.2.0",
     "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
     "node-sass": "^3.4.2",
-    "postcss-loader": "^0.8.2",
-    "sass-loader": "^3.2.0",
-    "style-loader": "^0.13.0",
-    "webpack": "^1.12.12"
+    "sass-loader": "^3.2.0"
   },
   "dependencies": {
     "httpster": "^1.0.3",
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   }
 }

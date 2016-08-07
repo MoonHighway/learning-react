@@ -2,7 +2,7 @@ import { Component } from 'react'
 import { v4 } from 'node-uuid'
 import AddColorForm from './AddColorForm'
 import ColorList from './ColorList'
-import '!style!css!sass!postcss-loader!../stylesheets/APP.scss'
+import '../../stylesheets/APP.scss'
 
 export default class App extends Component {
 

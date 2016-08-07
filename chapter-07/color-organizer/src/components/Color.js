@@ -1,7 +1,6 @@
 import { PropTypes, Component } from 'react'
 import StarRating from './StarRating'
-
-import '!style!css!sass!postcss-loader!../stylesheets/Color.scss'
+import '../../stylesheets/Color.scss'
 
 class Color extends Component {
 
