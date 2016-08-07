@@ -5,9 +5,9 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: "dist/assets",
-        filename: "bundle.min.js",
-        publicPath: "/assets/",
-        sourceMapFilename: 'bundle.min.map'
+        filename: "bundle.js",
+        publicPath: "assets",
+        sourceMapFilename: 'bundle.map'
     },
     devtool: '#source-map',
     devServer: {
@@ -42,22 +42,16 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin("bundle.min.css"),
-
-        // Uncomment to Minify Code and remove warning about environment
-        //
-        //new webpack.DefinePlugin({
-        //    "process.env": {
-        //        NODE_ENV: JSON.stringify("production")
-        //    }
-        //}),
-
-        //new webpack.optimize.UglifyJsPlugin({
-        //    sourceMap: true,
-        //    warnings: false,
-        //    mangle: false
-        //}),
-
+        new webpack.DefinePlugin({
+            "process.env": {
+                NODE_ENV: JSON.stringify("production")
+            }
+        }),
+        new webpack.optimize.UglifyJsPlugin({
+            sourceMap: true,
+            warnings: false,
+            mangle: false
+        }),
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.optimize\.css$/g,
             cssProcessor: require('cssnano'),
