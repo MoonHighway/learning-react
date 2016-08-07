@@ -1,5 +1,5 @@
-var webpack = require("webpack");
-var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+var webpack = require("webpack")
+var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 module.exports = {
     entry: "./src/index.js",
@@ -65,4 +65,4 @@ module.exports = {
             canPrint: true
         })
     ]
-};
+}

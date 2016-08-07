@@ -1,11 +1,10 @@
-var webpack = require("webpack");
+var webpack = require("webpack")
 
 module.exports = {
-    entry: "./index.js",
+    entry: "./src/index.js",
     output: {
         path: "dist/assets",
         filename: "bundle.js",
-        publicPath: "/assets/",
         sourceMapFilename: 'bundle.map'
     },
     devtool: '#source-map',
@@ -14,7 +13,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
-                loader: ['babel'],
+                loader: 'babel',
                 query: {
                     presets: ['es2015', 'stage-0', 'react']
                 }
@@ -27,10 +26,15 @@ module.exports = {
         ]
     },
     plugins: [
+        new webpack.DefinePlugin({
+            "process.env": {
+                NODE_ENV: JSON.stringify("production")
+            }
+        }),
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,
             warnings: false,
             mangle: false
         })
     ]
-};
+}
