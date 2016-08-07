@@ -4,8 +4,8 @@ The mounting lifecycle is a great place to start and stop background processes l
 
 Demo
 -------------
-[clock](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/mounting-lifecycle-clock/dist/index.html)
-[Clock Component](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/mounting-lifecycle-clock/clock.js)
+* [demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/mounting-lifecycle-clock/dist/index.html)
+* [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/mounting-lifecycle-clock/src/clock.js)
 
 Installation
 -------------
