@@ -10,11 +10,11 @@ Demo
 Important Files
 -------------
 
-* index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/index.js))
-* App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/components/App.js))
-* SortMenu ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/components/SortMenu.js))
-* AddColorForm ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/components/AddColorForm.js))
-* ColorList ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/components/ColorList.js))
+* index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/index.js))
+* App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/components/App.js))
+* SortMenu ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/components/SortMenu.js))
+* AddColorForm ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/components/AddColorForm.js))
+* ColorList ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/components/ColorList.js))
 
 Clone and Install
 -------------

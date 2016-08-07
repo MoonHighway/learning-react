@@ -12,9 +12,9 @@ Demo
 Important Files
 -------------
 
-* index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/index.js))
-* App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/components/App.js))
-* containers ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/components/containers.js))
+* index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/src/index.js))
+* App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/src/components/App.js))
+* containers ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/src/components/containers.js))
 
 Clone and Install
 -------------
