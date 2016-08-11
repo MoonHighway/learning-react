@@ -82,10 +82,10 @@ describe("Action Creators", () => {
 
         before(() => {
             store = storeFactory({colors})
-            store.dispatch(rateColor('8658c1d0-9eda-4a90-95e1-8001e8eb6036', 5));
-        });
+            store.dispatch(rateColor('8658c1d0-9eda-4a90-95e1-8001e8eb6036', 5))
+        })
 
-        it("should rate the color", () => expect(store.getState().colors[0].rating).to.equal(5));
+        it("should rate the color", () => expect(store.getState().colors[0].rating).to.equal(5))
 
     })
 

@@ -6,29 +6,30 @@ import { spy } from 'sinon'
 describe("<Star /> UI Component", () => {
 
     it("renders default star", () =>
-        expect(shallow(<Star />)
-            .find('div.star')).to.have.length(1))
+        expect(shallow(<Star />).find('div.star'))
+            .to.have.length(1))
 
     it("renders selected stars", () =>
-        expect(shallow(<Star selected={true} />)
-            .find('div.selected.star')).to.have.length(1))
+        expect(shallow(<Star selected={true} />).find('div.selected.star'))
+            .to.have.length(1))
 
     it("click does not cause error", () =>
-        shallow(<Star selected={true} />)
-            .find('div').simulate('click'))
+        shallow(<Star selected={true} />).find('div')
+            .simulate('click'))
 
     describe("clicking a star", () => {
 
         let _click = spy()
         afterEach(() => _click.reset())
 
-        before(() =>
-            shallow(<Star onClick={_click} />)
+        before(() => shallow(<Star onClick={_click} />)
                 .find('.star')
-                .simulate('click'))
+                .simulate('click')
+        )
 
         it("invokes onClick", () =>
-            expect(_click.calledOnce).to.equal(true))
+            expect(_click.calledOnce)
+                .to.equal(true))
 
     })
 
