@@ -9,7 +9,7 @@ Samples
 
 #### eslint
 
-* ESLint configuration file ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/.eslintconfig.yml))
+* ESLint configuration file ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/.eslintrc.yml))
 
 #### Testing Redux
 

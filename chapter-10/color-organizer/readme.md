@@ -9,7 +9,7 @@ Book Tests
 All of the components are tested in this project and are here for you to reveiw. However, the book only covers
 a few of the tests found in this project. There are the files covered by the book: 
 
-* ESLint configuration file ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/.eslintconfig.yml))
+* ESLint configuration file ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/.eslintrc.yml))
 * color reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/store/reducers.js) 
 | [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/store/reducers/color-spec.js))
 * colors reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/store/reducers.js)
