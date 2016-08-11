@@ -9,28 +9,28 @@ Samples
 
 #### eslint
 
-* ESLint configuration file ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/.eslintconfig.yml))
+* ESLint configuration file ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/.eslintconfig.yml))
 
 #### Testing Redux
 
-* color reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/store/reducers.js) 
-| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/store/reducers/color-spec.js))
-* colors reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/store/reducers.js)
-| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/store/reducers/colors-spec.js))
-* sort reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/store/reducers.js)
-| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/store/reducers/sort-spec.js))
-* store with action creators ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/actions.js)
-| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/actions-spec.js))
+* color reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/store/reducers.js) 
+| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/store/reducers/color-spec.js))
+* colors reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/store/reducers.js)
+| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/store/reducers/colors-spec.js))
+* sort reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/store/reducers.js)
+| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/store/reducers/sort-spec.js))
+* store with action creators ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/actions.js)
+| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/actions-spec.js))
 
 #### enzyme
 
-* Star Component ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/components/ui/Star.js) 
- [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/components/ui/Star-spec.js))
-* StarRating Component ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/components/ui/StarRating.js) 
-[SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/components/ui/StarRating-spec.js))
-* Testing HOC's ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/components/HOC/Expandable.js) 
-[SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/components/HOC/Expandable-spec.js))
+* Star Component ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/components/ui/Star.js) 
+ [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/components/ui/Star-spec.js))
+* StarRating Component ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/components/ui/StarRating.js) 
+[SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/components/ui/StarRating-spec.js))
+* Testing HOC's ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/components/HOC/Expandable.js) 
+[SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/components/HOC/Expandable-spec.js))
 
 #### Color Organizer With Tests
 
-* sample ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/))
+* sample ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/))

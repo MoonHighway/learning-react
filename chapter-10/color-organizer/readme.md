@@ -9,21 +9,21 @@ Book Tests
 All of the components are tested in this project and are here for you to reveiw. However, the book only covers
 a few of the tests found in this project. There are the files covered by the book: 
 
-* ESLint configuration file ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/.eslintconfig.yml))
-* color reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/store/reducers.js) 
-| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/store/reducers/color-spec.js))
-* colors reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/store/reducers.js)
-| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/store/reducers/colors-spec.js))
-* sort reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/store/reducers.js)
-| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/store/reducers/sort-spec.js))
-* store with action creators ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/actions.js)
-| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/actions-spec.js))
-* Star Component ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/components/ui/Star.js) 
- [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/components/ui/Star-spec.js))
-* StarRating Component ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/components/ui/StarRating.js) 
-[SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/components/ui/StarRating-spec.js))
-* Testing HOC's ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/src/components/HOC/Expandable.js) 
-[SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/test/components/HOC/Expandable-spec.js))
+* ESLint configuration file ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/.eslintconfig.yml))
+* color reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/store/reducers.js) 
+| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/store/reducers/color-spec.js))
+* colors reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/store/reducers.js)
+| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/store/reducers/colors-spec.js))
+* sort reducer ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/store/reducers.js)
+| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/store/reducers/sort-spec.js))
+* store with action creators ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/actions.js)
+| [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/actions-spec.js))
+* Star Component ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/components/ui/Star.js) 
+ [SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/components/ui/Star-spec.js))
+* StarRating Component ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/components/ui/StarRating.js) 
+[SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/components/ui/StarRating-spec.js))
+* Testing HOC's ([SUT](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/src/components/HOC/Expandable.js) 
+[SPEC](https://github.com/MoonHighway/learning-react/blob/master/chapter-10/color-organizer/test/components/HOC/Expandable-spec.js))
 
 
 Clone and Install
