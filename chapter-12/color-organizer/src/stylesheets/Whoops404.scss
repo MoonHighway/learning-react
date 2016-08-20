@@ -1,0 +1,13 @@
+@import "globals";
+
+div.whoops-404 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b40011;
+  color: white;
+  font-weight: bold;
+  font-size: .7em;
+}

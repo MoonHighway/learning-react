@@ -1,0 +1,18 @@
+@import "globals";
+
+div.color-details {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    font-size: 2em;
+    margin: .5em;
+  }
+}

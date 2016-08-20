@@ -17,8 +17,7 @@ render(
         <Router history={hashHistory}>
             <Route path="/" component={App}>
                 <IndexRoute component={Colors} />
-                <Route path="/sort/title" component={Colors} />
-                <Route path="/sort/rating" component={Colors} />
+                <Route path="/sort/:sort" component={Colors} />
             </Route>
             <Route path="/:id" component={Color}/>
             <Route path="*" component={Whoops404}/>

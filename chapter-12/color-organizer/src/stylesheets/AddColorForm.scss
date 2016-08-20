@@ -1,0 +1,30 @@
+@import "globals";
+
+form.add-color {
+  width: 100%;
+  display: flex;
+  min-height: 60px;
+
+  >:first-child {
+    flex-grow: 1;
+  }
+
+  input, button {
+    margin: .5em;
+    padding: .25em;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+
+  input[type="color"] {
+    padding: 0;
+    height: +2em;
+  }
+
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+  }
+
+}
