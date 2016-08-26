@@ -1,0 +1,168 @@
+html, body {
+    font-family: "Architects Daughter", sans-serif;
+}
+
+.app {
+    position: relative;
+    display: flex;
+}
+
+#homepage {
+    display: flex;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home-page-menu {
+    display: flex;
+    flex-direction: row;
+    background-color: slategray;
+    color: white;
+    min-width: 100%;
+}
+
+.home-page-menu>section {
+    padding-left: 2em;
+    padding-right: 2em;
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+.home-page-menu > h1 {
+    flex-grow: 1;
+}
+
+.home-page-menu >h1:first-of-type {
+    padding-left: 2em;
+}
+
+
+#homebox {
+    min-height: 500px;
+    display: flex;
+    border: 1px darkslategray dashed;
+    min-width: 100%;
+    background: linear-gradient(to bottom, slategray 0%,rgba(0,0,0,0) 100%);
+}
+
+aside {
+    min-height: 90%;
+    background-color: #00d4b4;
+    border: 2px solid black;
+}
+
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: slategray;
+    color: white;
+    width: 20%;
+    height: 40%;
+    line-height: 4em;
+    min-width: 20%;
+}
+
+.main-menu a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-menu a:not(:first-child) {
+    border-top: 3px dashed white;
+}
+
+.breadcrumbs-list {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+ul>li {
+    padding-right: 2em;
+}
+
+nav ~ div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    padding-left: 1em;
+    min-width: 60%;
+}
+
+.about-menu {
+    list-style-type: none;
+    display: inline-flex;
+    background-color: slategray;
+    line-height: 2em;
+}
+
+.about-menu>li>a {
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    min-width: 60%;
+}
+
+.gender-filters {
+    line-height: 2em;
+}
+
+
+.gender-filters>span {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: uppercase;
+
+}
+
+.selected {
+    color: white;
+    background-color: slategray;
+}
+
+select {
+    margin-top: 2em;
+}
+
+
+.member-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.member-info > div {
+    flex-basis: calc(33.33% - 3em);
+    flex-grow: 1;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.member-info > h1:first-of-type {
+    font-weight: 100;
+    flex-basis: 100%;
+    font-size: 1.5em;
+}
+
+.member-info > div> img {
+    margin-right: 1em;
+}
+
+.member-info>div>h1 {
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.active {
+    background-color: slategray;
+    color: white;
+}

@@ -1,0 +1,108 @@
+#homepage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-page-menu {
+  display: flex;
+  flex-direction: row;
+  background-color: slategray;
+  color: white;
+  min-width: 100%;
+
+  >section {
+    padding-left: 2em;
+    padding-right: 2em;
+    flex-grow: 1;
+    text-align: center;
+
+  }
+
+  >h1 {
+    flex-grow: 1;
+  }
+
+  >h1:first-of-type {
+    padding-left: 2em;
+  }
+
+}
+
+#homebox {
+  min-height: 500px;
+  display: flex;
+  border: 1px darkslategray dashed;
+  min-width: 100%;
+  background: linear-gradient(to bottom, slategray 0%,rgba(0,0,0,0) 100%);
+}
+
+aside {
+  min-height: 90%;
+  background-color: #00d4b4;
+  border: 2px solid black;
+}
+
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: slategray;
+  color: white;
+  width: 20%;
+  height: 40%;
+  line-height: 4em;
+  min-width: 20%;
+
+  a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+    &:not(:first-child) {
+      border-top: 3px dashed white;
+    }
+
+  }
+}
+
+.breadcrumbs-list {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+ul>li {
+  padding-right: 2em;
+}
+
+nav ~ div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  padding-left: 1em;
+  min-width: 60%;
+}
+
+.about-menu {
+  list-style-type: none;
+  display: inline-flex;
+  background-color: slategray;
+  line-height: 2em;
+
+  >li {
+
+    >a {
+      padding-left: 2em;
+      padding-right: 2em;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      min-width: 60%;
+    }
+
+  }
+}

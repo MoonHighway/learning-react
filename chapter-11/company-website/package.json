@@ -1,0 +1,32 @@
+{
+  "name": "react-router-demo",
+  "version": "0.0.1",
+  "description": "A React Router tutorial.",
+  "main": "index.js",
+  "scripts": {
+    "start": "open http://localhost:3000 & ./node_modules/.bin/webpack-dev-server"
+  },
+  "author": "Eve Porcello <eve@moonhighway.com> (http://www.moonhighway.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-cli": "^6.6.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.24.0",
+    "node-sass": "^3.8.0",
+    "optimize-css-assets-webpack-plugin": "^1.3.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-dom": "^15.3.1",
+    "react-icons": "^1.0.3",
+    "react-router": "^2.4.1"
+  }
+}
