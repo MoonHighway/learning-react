@@ -9,7 +9,6 @@ const selectedStyle = {
 const addSelectedClass = (pathname, path) =>
     (pathname === path) ? 'selected' : ''
 
-
 export const AboutMenu = ({location}) =>
     <nav className="about-menu">
         <li>
@@ -68,11 +67,9 @@ export const Breadcrumbs = ({ routes }) =>
         )}
     </ul>
 
-
 export const MainMenu = () =>
     <nav className="main-menu">
         <Link to="/"><HomeIcon/></Link>
         <Link to="about" activeStyle={selectedStyle}>About</Link>
         <Link to="events" activeStyle={selectedStyle}>Events</Link>
-        <Link to="members" activeStyle={selectedStyle}>Members</Link>
     </nav>

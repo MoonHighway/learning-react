@@ -1,23 +1,24 @@
-import { hashHistory } from 'react-router'
+import { hashHistory, withRouter, Link } from 'react-router'
 import { AboutMenu, Breadcrumbs } from './menus'
+import routes from '../../routes'
+import { Children } from 'react'
 
 import '../../stylesheets/pages.scss'
 
-export const Home = () =>
-    <div id="home">
-        <div id="homebox"></div>
-        <section className="home-page-menu">
-            <h1 id="banner">Welcome</h1>
-            <section onClick={() => hashHistory.push("/about")}>
-                <h2>About Us</h2>
-            </section>
-            <section onClick={() => hashHistory.push("/events")}>
-                <h2>Events</h2>
-            </section>
-            <section onClick={() => hashHistory.push("/members")}>
-                <h2>Members</h2>
-            </section>
-        </section>
+const MainMenu = ({currentPath}) =>
+    <div className="main-menu">
+        {Children.map(routes.props.children, route =>
+            <p>{console.log(route)}</p>
+        )}
+    </div>
+
+export const Home = ({location}) =>
+    <div className="home">
+        <h1>[Company Website]</h1>
+        <div>
+            <Link to="about">[About]</Link>
+            <Link to="events">[Events]</Link>
+        </div>
     </div>
 
 
@@ -123,15 +124,18 @@ export const History = () =>
         </p>
     </section>
 
-export const Events = ({routes}) =>
+export const Events = ({children}) =>
     <section className="events">
+        <h1>Event Calendar</h1>
+        {children}
+    </section>
 
+export const UpcomingEvents = () =>
+    <section className="upcoming-events">
         <h1>Upcoming Events</h1>
-        <ol>
-            <li> Lorem ipsum dolor</li>
-            <li>Sed cursus ante dapibus diam</li>
-            <li>Praesent mauris.</li>
-            <li>Class aptent taciti sociosqu</li>
-            <li>sodales ligula in libero.</li>
-        </ol>
+    </section>
+
+export const EventDetails = () =>
+    <section className="event-details">
+        <h1>Event Details</h1>
     </section>

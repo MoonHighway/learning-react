@@ -1,9 +1,26 @@
-#homepage {
-  width: 100%;
+div.home {
+  height: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  > div {
+    background-color: lightgrey;
+    padding: 1em;
+    border: dashed .5em darkgrey;
+    width: calc(100% - 3em);
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      font-size: 3em;
+    }
+  }
 }
 
 .home-page-menu {
@@ -13,7 +30,7 @@
   color: white;
   min-width: 100%;
 
-  >section {
+  > section {
     padding-left: 2em;
     padding-right: 2em;
     flex-grow: 1;
@@ -21,11 +38,11 @@
 
   }
 
-  >h1 {
+  > h1 {
     flex-grow: 1;
   }
 
-  >h1:first-of-type {
+  > h1:first-of-type {
     padding-left: 2em;
   }
 
@@ -36,7 +53,7 @@
   display: flex;
   border: 1px darkslategray dashed;
   min-width: 100%;
-  background: linear-gradient(to bottom, slategray 0%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom, slategray 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 aside {
@@ -44,7 +61,6 @@ aside {
   background-color: #00d4b4;
   border: 2px solid black;
 }
-
 
 .main-menu {
   display: flex;
@@ -75,7 +91,7 @@ aside {
   display: inline-flex;
 }
 
-ul>li {
+ul > li {
   padding-right: 2em;
 }
 
@@ -93,9 +109,9 @@ nav ~ div {
   background-color: slategray;
   line-height: 2em;
 
-  >li {
+  > li {
 
-    >a {
+    > a {
       padding-left: 2em;
       padding-right: 2em;
       text-decoration: none;
