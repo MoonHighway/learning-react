@@ -1,44 +1,56 @@
 import HomeIcon from 'react-icons/lib/fa/home'
 import { Link, hashHistory } from 'react-router'
+import '../../stylesheets/menus.scss'
 
 const selectedStyle = {
     backgroundColor: "white",
     color: "slategray"
 }
 
-const addSelectedClass = (pathname, path) =>
-    (pathname === path) ? 'selected' : ''
+const addSelectedStyle = (pathname, path) =>
+    (pathname === path) ? selectedStyle : {}
+
+
+export const MainMenu = () =>
+    <nav className="main-menu">
+        <Link to="/"><HomeIcon/></Link>
+        <Link to="about" activeStyle={selectedStyle}>[About]</Link>
+        <Link to="events" activeStyle={selectedStyle}>[Events]</Link>
+        <Link to="products" activeStyle={selectedStyle}>[Products]</Link>
+        <Link to="contact" activeStyle={selectedStyle}>[Contact Us]</Link>
+    </nav>
+
 
 export const AboutMenu = ({location}) =>
-    <nav className="about-menu">
+    <div className="about-menu">
         <li>
             <Link to="/about"
-                  className={addSelectedClass(location.pathname, '/about')}>
-                Company
+                  activeStyle={addSelectedStyle(location.pathname, '/about')}>
+                [Company]
             </Link>
         </li>
         <li>
             <Link to="/about/history"
                   activeStyle={selectedStyle}>
-                History
+                [History]
             </Link>
         </li>
         <li>
             <Link to="/about/services"
                   activeStyle={selectedStyle}>
-                Services
+                [Services]
             </Link>
         </li>
         <li>
             <Link to="/about/location"
                   activeStyle={selectedStyle}>
-                Location
+                [Location]
             </Link>
         </li>
-    </nav>
+    </div>
 
 
-export const HomeLink = ({ path }) =>
+export const HomeLink = ({path}) =>
     <li>
         <Link to={path}>
             <HomeIcon/>
@@ -53,23 +65,17 @@ export const SelectableRoute = ({path}) =>
 
 
 export const SelectedRoute = ({path}) =>
-    <li>{path}</li>
+    (path) ? <li>{path}</li> : <span />
 
 
-export const Breadcrumbs = ({ routes }) =>
+export const Breadcrumbs = ({ routes=[] }) =>
     <ul className="breadcrumbs">
         {routes.map((route, i) =>
             (route.path === '/') ?
-                <HomeLink route={route} /> :
-                (route.path && i === routes.length - 1) ?
-                    <SelectedRoute route={route} /> :
-                    <SelectableRoute route={route} />
+                <HomeLink path={route.path}/> :
+                (route.path && i < (routes.length-1)) ?
+                    <SelectableRoute path={route.path}/> :
+                    <SelectedRoute path={route.path}/>
         )}
     </ul>
 
-export const MainMenu = () =>
-    <nav className="main-menu">
-        <Link to="/"><HomeIcon/></Link>
-        <Link to="about" activeStyle={selectedStyle}>About</Link>
-        <Link to="events" activeStyle={selectedStyle}>Events</Link>
-    </nav>

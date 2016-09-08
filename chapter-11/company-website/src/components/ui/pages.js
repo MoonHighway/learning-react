@@ -5,19 +5,14 @@ import { Children } from 'react'
 
 import '../../stylesheets/pages.scss'
 
-const MainMenu = ({currentPath}) =>
-    <div className="main-menu">
-        {Children.map(routes.props.children, route =>
-            <p>{console.log(route)}</p>
-        )}
-    </div>
-
 export const Home = ({location}) =>
     <div className="home">
         <h1>[Company Website]</h1>
         <div>
             <Link to="about">[About]</Link>
             <Link to="events">[Events]</Link>
+            <Link to="products">[Products]</Link>
+            <Link to="contact">[Contact Us]</Link>
         </div>
     </div>
 
@@ -30,9 +25,8 @@ export const Whoops404 = ({ location }) =>
 
 export const About = ({routes, children, location}) =>
     <section className="about">
-
-        <h1>About</h1>
-
+        <AboutMenu location={location} />
+        <Breadcrumbs routes={routes} />
         {children}
     </section>
 
@@ -124,18 +118,19 @@ export const History = () =>
         </p>
     </section>
 
+
 export const Events = ({children}) =>
     <section className="events">
-        <h1>Event Calendar</h1>
+        <h1>[Event Calendar]</h1>
         {children}
     </section>
 
-export const UpcomingEvents = () =>
-    <section className="upcoming-events">
-        <h1>Upcoming Events</h1>
+export const Products = () =>
+    <section className="products">
+        <h1>[Product Catalog]</h1>
     </section>
 
-export const EventDetails = () =>
-    <section className="event-details">
-        <h1>Event Details</h1>
+export const Contact = () =>
+    <section className="contact">
+        <h1>[Contact Us]</h1>
     </section>
