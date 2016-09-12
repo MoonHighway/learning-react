@@ -5,7 +5,7 @@ import { Children } from 'react'
 
 import '../../stylesheets/pages.scss'
 
-export const Home = ({location}) =>
+export const Home = () =>
     <div className="home">
         <h1>[Company Website]</h1>
         <div>
