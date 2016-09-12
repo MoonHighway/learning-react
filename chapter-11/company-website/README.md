@@ -1,3 +1,3 @@
-React Router Demo
+Company Website
 =====================
-A React Router project for routing members.
+A company website template for a small company using the react router

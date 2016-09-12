@@ -1,26 +1,19 @@
 import React from 'react'
 
 import {
-    Router,
-    Route,
-    Redirect,
-    hashHistory,
-    IndexRoute
+    Router, Route,
+    Redirect, IndexRoute,
+    hashHistory
 } from 'react-router'
 
-import Page from './components/Page'
 import {
-    Home,
-    About,
-    Company,
-    History,
-    Services,
-    Location,
-    Whoops404,
-    Events,
-    Products,
+    Home, About, Company,
+    History, Services, Location,
+    Whoops404, Events, Products,
     Contact
 } from './components/ui/pages'
+
+import Page from './components/Page'
 
 export default (
     <Router history={hashHistory}>

@@ -5,7 +5,7 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: "dist/assets",
-        filename: "bundle.min.js",
+        filename: "bundle.js",
         publicPath: "/assets/",
         sourceMapFilename: 'bundle.map'
     },
