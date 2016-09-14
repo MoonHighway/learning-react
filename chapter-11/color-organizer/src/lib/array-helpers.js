@@ -50,8 +50,8 @@ export const getItemById = compose(
     filterArrayById
 )
 
-export const findColorByLocation = (colors, { pathname }) =>
-    [colors, pathname.replace('/', '')]
+export const findColorByLocation = (colors, id) =>
+    [colors, id]
 
 export const getColorByLocation = compose(
     getItemById,

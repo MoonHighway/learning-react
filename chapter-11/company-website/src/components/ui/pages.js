@@ -25,7 +25,7 @@ export const Whoops404 = ({ location }) =>
 
 export const About = ({routes, children, location}) =>
     <section className="about">
-        <AboutMenu location={location} />
+        <AboutMenu pathname={location.pathname} />
         <Breadcrumbs routes={routes} />
         {children}
     </section>

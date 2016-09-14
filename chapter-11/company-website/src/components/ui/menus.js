@@ -21,11 +21,11 @@ export const MainMenu = () =>
     </nav>
 
 
-export const AboutMenu = ({location}) =>
+export const AboutMenu = ({pathname}) =>
     <div className="about-menu">
         <li>
             <Link to="/about"
-                  activeStyle={addSelectedStyle(location.pathname, '/about')}>
+                  activeStyle={addSelectedStyle(pathname, '/about')}>
                 [Company]
             </Link>
         </li>

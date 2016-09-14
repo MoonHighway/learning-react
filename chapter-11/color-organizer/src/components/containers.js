@@ -34,8 +34,8 @@ export const Colors = connect(
 )(ColorList)
 
 export const Color = connect(
-    ({ colors }, { location }) =>
+    ({ colors }, { params }) =>
         ({
-            ...getColorByLocation(colors, location)
+            ...getColorByLocation(colors, params.id)
         })
 )(ColorDetails)
