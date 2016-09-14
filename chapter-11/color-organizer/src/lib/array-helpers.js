@@ -42,18 +42,10 @@ export const sortColors = (colors, sortBy) => compose(
 
 export const getFirstArrayItem = array => array[0]
 
-export const filterArrayById = ([array, id]) =>
+export const filterArrayById = (array, id) =>
     array.filter(item => item.id === id)
 
-export const getItemById = compose(
+export const findById = compose(
     getFirstArrayItem,
     filterArrayById
-)
-
-export const findColorByLocation = (colors, id) =>
-    [colors, id]
-
-export const getColorByLocation = compose(
-    getItemById,
-    findColorByLocation
 )

@@ -11,4 +11,8 @@ const Menu = ({ sort }) =>
         <Link to="/sort/rating" activeStyle={selectedStyle}>rating</Link>
     </nav>
 
+Menu.propTypes = {
+    sort: PropTypes.string
+}
+
 export default Menu
