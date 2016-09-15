@@ -25,7 +25,7 @@ Run this npm command to build the JavaScript Bundle and open the browser to the 
 $ npm start
 ```
 
-### Run Webpack Dev Serer
+### Run Webpack Dev Server
 Run this command to start the app using the webpack dev server
 ```
 $ npm run dev
