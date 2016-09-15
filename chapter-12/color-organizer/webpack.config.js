@@ -7,10 +7,15 @@ module.exports = {
     output: {
         path: "dist/assets",
         filename: "bundle.js",
-        publicPath: "/",
+        publicPath: "assets",
         sourceMapFilename: 'bundle.map'
     },
     devtool: '#source-map',
+    devServer: {
+        inline: true,
+        contentBase: './dist',
+        port: 3000
+    },
     module: {
         loaders: [
             {
@@ -43,11 +48,13 @@ module.exports = {
                 NODE_ENV: JSON.stringify("production")
             }
         }),
+        /*
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,
             warnings: false,
             mangle: false
         }),
+        */
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.optimize\.css$/g,
             cssProcessor: require('cssnano'),

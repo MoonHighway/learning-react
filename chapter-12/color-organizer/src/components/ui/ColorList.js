@@ -2,7 +2,8 @@ import { PropTypes } from 'react'
 import Color from './Color'
 import '../../stylesheets/ColorList.scss'
 
-const ColorList = ({ colors=[], location, onRate=f=>f, onRemove=f=>f }) =>
+
+const ColorList = ({ colors=[], onRate=f=>f, onRemove=f=>f }) =>
     <div className="color-list">
         {(colors.length === 0) ?
             <p>No Colors Listed. (Add a Color)</p> :
