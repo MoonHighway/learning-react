@@ -6,26 +6,12 @@ simply React Router. The router helps manage browser history in single page apps
 Samples
 --------
 
-#### Incorporating the Router
+#### Starter Website with Router
 
-* 
+* Company Website ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/company-website/dist/)
+[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/company-website/))
 
-#### Nesting Routes
+#### Color Organizer with Router
 
-*
-
-#### Creating Breadcrumbs
-
-*
-
-#### Router Paramaters
-
-*
-
-#### Color Organizer Router Upgrade
-
-*
-
-
-* sample ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/),
-[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/))
+* Color Organizer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/color-organizer/dist/)
+[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/color-organizer/))
