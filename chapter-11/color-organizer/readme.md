@@ -1,13 +1,8 @@
-Color Wall with React Router
+Color Organizer with React Router
 =====================
+The Color organizer with the `react-router` and functionality for selecting individual colors.
 
-
-
-#### Color Organizer with Router
-
-* Color Organizer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/color-organizer/dist/)
-[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/color-organizer/))
-
+* Color Organizer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/color-organizer/dist/))
 
 Clone and Install
 -------------

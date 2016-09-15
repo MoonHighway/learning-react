@@ -2,9 +2,7 @@ Starter Website
 =====================
 A company website template for a small company using the `react-router`
 
-* Home Page ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/company-website/dist/)
-[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/company-website/))
-
+* Home Page ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/company-website/dist/))
 
 Clone and Install
 -------------

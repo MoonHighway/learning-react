@@ -8,10 +8,10 @@ Samples
 
 #### Starter Website with Router
 
-* Company Website ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/company-website/dist/)
+* Company Website ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/company-website/dist/),
 [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/company-website/))
 
 #### Color Organizer with Router
 
-* Color Organizer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/color-organizer/dist/)
+* Color Organizer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/color-organizer/dist/),
 [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/color-organizer/))
