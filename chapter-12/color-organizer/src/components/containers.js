@@ -4,7 +4,7 @@ import ColorList from './ui/ColorList'
 import ColorDetails from './ui/ColorDetails'
 import AddColorForm from './ui/AddColorForm'
 import { addColor, rateColor, removeColor } from '../actions'
-import { getColorByLocation } from '../lib/array-helpers'
+import { findById } from '../lib/array-helpers'
 import { sortColors } from '../lib/array-helpers'
 
 export const NewColor = connect(
@@ -34,8 +34,8 @@ export const Colors = connect(
 )(ColorList)
 
 export const Color = connect(
-    ({ colors }, { location }) =>
+    ({ colors }, { params }) =>
         ({
-            ...getColorByLocation(colors, location)
+            ...findById(colors, params.id)
         })
 )(ColorDetails)

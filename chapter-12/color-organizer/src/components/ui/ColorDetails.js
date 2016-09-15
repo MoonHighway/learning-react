@@ -1,14 +1,14 @@
 import { PropTypes } from 'react'
-import { hashHistory } from 'react-router'
+import { withRouter } from 'react-router'
 import Whoops404 from './Whoops404'
 import '../../stylesheets/ColorDetails.scss'
 
-const ColorDetails = ({ location, title, color }) =>
+const ColorDetails = ({ title, color, router }) =>
     (!title) ?
         <Whoops404 location={location}/> :
         <div className="color-details"
              style={{backgroundColor: color}}
-             onClick={() => hashHistory.goBack()}>
+             onClick={() => router.goBack()}>
             <h1>{title}</h1>
             <h1>{color}</h1>
         </div>
@@ -18,4 +18,4 @@ ColorDetails.propTypes = {
     color: PropTypes.string.isRequired
 }
 
-export default ColorDetails
+export default withRouter(ColorDetails)
