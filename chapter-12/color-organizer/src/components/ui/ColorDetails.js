@@ -16,7 +16,7 @@ const ColorDetails = ({ title="[untitled]", location, color, router }) =>
 
 ColorDetails.propTypes = {
     title: PropTypes.string,
-    color: PropTypes.string.isRequired
+    color: PropTypes.string
 }
 
 export default withRouter(ColorDetails)

@@ -17,6 +17,10 @@ export const saveState = state =>
 
 const start = store => {
 
+    router.get("/", (req, res) => res.redirect("/colors"))
+
+    router.get("/colors", (req, res) => res.status(200).json(store.getState().colors))
+
     router.post("/colors", (req, res) => {
         const action = {
             type: C.ADD_COLOR,
