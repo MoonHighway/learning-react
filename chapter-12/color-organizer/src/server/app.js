@@ -6,13 +6,33 @@ import { Provider } from 'react-redux'
 import { compose } from 'redux'
 import { renderToString } from 'react-dom/server'
 import { match, RouterContext } from 'react-router'
-import api from './api'
+import api from './color-api'
 import App from '../components/App'
 import storeFactory from '../store'
+import initialState from '../../data/initialState.json'
 import routes from '../routes'
 
 const defaultStyles = fs.readFileSync(path.join(__dirname, '../../dist/assets/bundle.css'))
-const serverStore = storeFactory(true)
+const fileAssets = express.static(path.join(__dirname, '../../dist/assets'))
+
+const serverStore = storeFactory(true, initialState)
+
+serverStore.subscribe(() => fs.writeFile(
+    path.join(__dirname, '../../data/initialState.json'),
+    JSON.stringify(serverStore.getState()),
+    error => (error) ? console.log("Error saving state!", error) : null
+    )
+)
+
+const logger = (req, res, next) => {
+    console.log(`${req.method} request for '${req.url}'`)
+    next()
+}
+
+const addStoreToRequestPipeline = (req, res, next) => {
+    req.store = serverStore
+    next()
+}
 
 const makeClientStoreFrom = store => renderProps =>
     ({
@@ -20,10 +40,10 @@ const makeClientStoreFrom = store => renderProps =>
         renderProps
     })
 
-
-const renderContextToString = ({renderProps, store}) =>
+const renderComponentsToHTML = ({renderProps, store}) =>
     ({
         state: store.getState(),
+        css: defaultStyles,
         html: renderToString(
             <Provider store={store}>
                 <RouterContext {...renderProps} />
@@ -31,7 +51,7 @@ const renderContextToString = ({renderProps, store}) =>
         )
     })
 
-const makeHTMLResponse = ({html, state, css = defaultStyles}) => `
+const buildHTMLPage = ({html, state, css}) => `
 <!DOCTYPE html>
 <html>
     <head>
@@ -51,8 +71,8 @@ const makeHTMLResponse = ({html, state, css = defaultStyles}) => `
 `
 
 const htmlResponse = compose(
-    makeHTMLResponse,
-    renderContextToString,
+    buildHTMLPage,
+    renderComponentsToHTML,
     makeClientStoreFrom(serverStore)
 )
 
@@ -68,22 +88,21 @@ const redirectResponse = (res, location) =>
 const notFoundResponse = res =>
     res.status(404).send('Not found')
 
+const matchRoutes = (req, res) =>
+    match({routes, location: req.url}, (error, redirectLocation, renderProps) =>
+        (error) ?
+            errorResponse(res, error) :
+            (redirectLocation) ?
+                redirectResponse(res, redirectLocation.search) :
+                (renderProps) ?
+                    successfulResponse(res, renderProps) :
+                    notFoundResponse()
+    )
+
 export default express()
     .use(bodyParser.json())
-    .use((req, res, next) => {
-        console.log(`${req.method} request for '${req.url}'`)
-        next()
-    })
-    .use(express.static(path.join(__dirname, '../../dist/assets')))
-    .use('/api', api(serverStore))
-    .use((req, res) =>
-        match({routes, location: req.url}, (error, redirectLocation, renderProps) =>
-            (error) ?
-                errorResponse(res, error) :
-                (redirectLocation) ?
-                    redirectResponse(res, redirectLocation.search) :
-                    (renderProps) ?
-                        successfulResponse(res, renderProps) :
-                        notFoundResponse()
-        )
-    )
+    .use(logger)
+    .use(fileAssets)
+    .use(addStoreToRequestPipeline)
+    .use('/api', api)
+    .use(matchRoutes)
