@@ -16,7 +16,7 @@ This code works in browser and in with node js
     
 ### Isomorphic Script
 This code works in a browser and with node js. You can see the 
-[demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-12/isomorphic-universal-samples/load-and-print.html) 
+[demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-12/isomorphic-universal-samples/load-and-print.html) 
 of this script working in teh browser. You can run the script with node js in the command line: 
 `node isomorphic-load-and-pring.js`.
     
