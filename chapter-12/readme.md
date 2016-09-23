@@ -7,30 +7,20 @@ code on the client and the server.
 Samples
 --------
 
-#### Communicating with a Rest Server
+#### Isomorphic/Universal Samples
 
-* sample
+* load and print in the browser ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/isomorphic-universal-samples/browser-load-and-print.js))
+* load and print on the server ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/isomorphic-universal-samples/node-load-and-print.js))
+* load and print isomorphically ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/isomorphic-universal-samples/isomorphic-load-and-print.js))
 
-#### Rendering Content on the Server
+#### Server Rendering
 
-* sample
+* Recipe Sample ([source](https://github.com/MoonHighway/learning-react/tree/master/chapter-12/server-render-recipes))
+* Express App Configuration ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/server-render-recipes/index-server.js))
 
-#### Universal Redux Stores
+#### Universal Color Organizer
 
-* sample
-
-#### Universal Routing
-
-* sample
-
-#### Universal Actions
-
-* sample
-
-#### No JavaScript in the Browser
-
-* sample
-
-
-* sample ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-12/),
-[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/))
+* Color Organizer ([source](https://github.com/MoonHighway/learning-react/tree/master/chapter-12/color-organizer))
+* Express App Configuration ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/color-organizer/src/server/app.js))
+* Express Routes ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/color-organizer/src/server/color-api.js))
+* Redux Thunks ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/color-organizer/src/actions.js))

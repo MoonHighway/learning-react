@@ -1,8 +1,13 @@
-Color Organizer with React Router
+Universal Color Organizer
 =====================
-The Color organizer with the `react-router` and functionality for selecting individual colors.
+The final version of the color organizer app that runs on both the client and the server and reuses code between both environments.
 
-* Color Organizer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/color-organizer/dist/))
+Important Files
+--------------
+
+* Express App Configuration ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/color-organizer/src/server/app.js))
+* Express Routes ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/color-organizer/src/server/color-api.js))
+* Redux Thunks ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-12/color-organizer/src/actions.js))
 
 Clone and Install
 -------------
