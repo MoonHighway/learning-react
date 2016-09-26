@@ -1,6 +1,6 @@
 Chapter 10 : Testing
 ==================
-n order to keep up with our competitors, we must move quickly and ensure quality. One vital tool in our arsenal that 
+In order to keep up with our competitors, we must move quickly and ensure quality. One vital tool in our arsenal that 
 allows us to move quickly while ensuring quality is unit testing. Unit testing allows us to verify that every piece, 
 or unit, of our application functions as intended.
 
