@@ -18,7 +18,7 @@ class Mood extends React.Component {
         const { children } = this.props
         const { moodItem } = this.refs
         moodItem.style.backgroundColor = '#6099A0'
-        alert(`React chaning a "${children}" to a "${nextProps.children}"`)
+        alert(`React changing a "${children}" to a "${nextProps.children}"`)
     }
     componentDidUpdate() {
         this.refs.moodItem.style.backgroundColor = ''
