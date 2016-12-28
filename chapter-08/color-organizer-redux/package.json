@@ -21,15 +21,16 @@
   "license": "MIT",
   "dependencies": {
     "httpster": "^1.0.3",
-    "node-uuid": "^1.4.7",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
-    "json-loader": "^0.5.4",
+    "babel-core": "^6.21.0",
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
+    "json-loader": "^0.5.4",
     "webpack": "^1.12.12"
   }
 }
