@@ -16,13 +16,13 @@ describe("<NewColor /> Container ", () => {
     }
 
     it("dispatch invokes addColor action", () => {
-      wrapper = mount(
-          <Provider store={_store}>
-              <NewColor />
-          </Provider>
-      )
-      wrapper.find("AddColorFormMock").props().onNewColor("test color", "#FF0000")
-      expect(addColor.mock.calls[0]).toEqual(["test color", "#FF0000"])
+        wrapper = mount(
+            <Provider store={_store}>
+                <NewColor />
+            </Provider>
+        )
+        wrapper.find("AddColorFormMock").props().onNewColor("test color", "#FF0000")
+        expect(addColor.mock.calls[0]).toEqual(["test color", "#FF0000"])
     })
 
 })

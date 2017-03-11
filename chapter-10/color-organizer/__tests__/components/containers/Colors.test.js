@@ -41,46 +41,46 @@ describe("<Colors /> Container ", () => {
     ))
 
     it("renders two colors", () => {
-      expect(wrapper
-        .find('ColorListMock')
-        .props()
-        .colors
-        .length
-      ).toBe(2)
+        expect(wrapper
+            .find('ColorListMock')
+            .props()
+            .colors
+            .length
+        ).toBe(2)
     })
 
     it("sorts the colors by state", () => {
-      expect(wrapper
-        .find('ColorListMock')
-        .props()
-        .colors[0]
-        .title
-      ).toBe("Tomato")
+        expect(wrapper
+            .find('ColorListMock')
+            .props()
+            .colors[0]
+            .title
+        ).toBe("Tomato")
     })
 
     afterEach(() => jest.resetAllMocks())
 
     it("dispatches a REMOVE_COLOR action", () => {
         wrapper.find('ColorListMock')
-          .props()
-          .onRemove('f9005b4e-975e-433d-a646-79df172e1dbb')
+            .props()
+            .onRemove('f9005b4e-975e-433d-a646-79df172e1dbb')
 
         expect(_store.dispatch.mock.calls[0][0])
             .toEqual({
-              id: 'f9005b4e-975e-433d-a646-79df172e1dbb',
-              type: 'REMOVE_COLOR'
+                id: 'f9005b4e-975e-433d-a646-79df172e1dbb',
+                type: 'REMOVE_COLOR'
             })
     })
 
     it("dispatches a RATE_COLOR action", () => {
-      wrapper.find('ColorListMock')
-        .props()
-        .onRate('8658c1d0-9eda-4a90-95e1-8001e8eb6036', 5)
+        wrapper.find('ColorListMock')
+            .props()
+            .onRate('8658c1d0-9eda-4a90-95e1-8001e8eb6036', 5)
         expect(_store.dispatch.mock.calls[0][0])
             .toEqual({
-              id: "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
-              type: "RATE_COLOR",
-              rating: 5
+                id: "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
+                type: "RATE_COLOR",
+                rating: 5
             })
     })
 

@@ -25,16 +25,16 @@ describe("<Menu /> Container ", () => {
     ))
 
     it("maps sort from state to props", () => {
-      expect(wrapper.find('SortMenuMock').props().sort).toBe('SORTED_BY_RATING')
+        expect(wrapper.find('SortMenuMock').props().sort).toBe('SORTED_BY_RATING')
     })
 
     it("maps onSelect to dispatch", () => {
         wrapper.find('SortMenuMock').props().onSelect("SORTED_BY_TITLE")
         expect(_store.dispatch.mock.calls[0][0])
-          .toEqual({
-              "sortBy": "SORTED_BY_TITLE",
-              "type": "SORT_COLORS"
-          })
+            .toEqual({
+                "sortBy": "SORTED_BY_TITLE",
+                "type": "SORT_COLORS"
+            })
     })
 
 })
