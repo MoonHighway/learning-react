@@ -2,6 +2,7 @@ env:
   browser: true
   commonjs: true
   es6: true
+  jest: true
 extends: 'eslint:recommended'
 parserOptions:
   ecmaFeatures:
@@ -21,11 +22,5 @@ rules:
   no-unused-vars: 0
   no-console: 0
 globals:
-    describe: true
-    it: true
-    before: true
-    after: true
-    beforeEach: true
-    afterEach: true
     process: true
     __dirname: true

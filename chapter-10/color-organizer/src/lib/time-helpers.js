@@ -50,5 +50,5 @@ const howLongAgo = (remainingTimeframe, timeframe, timestamp, now) =>
         printFullDate(toDate(timestamp)) :
         checkNext(remainingTimeframe, timeframe, timestamp, now)
 
-export const ago = (timestamp, now=new Date().toString()) =>
+export const ago = (timestamp, now=new Date().toString()) => 
     howLongAgo(Object.keys(timeframe), timeframe, timestamp, now)

@@ -8,8 +8,8 @@
     "build": "./node_modules/.bin/webpack --progress",
     "prestart": "npm run build",
     "start": "./node_modules/.bin/httpster -d ./dist/ -p 3000",
-    "shallow-test": "mocha --compilers js:babel-core/register --recursive --require ./test/setup.js  --require ./node_modules/ignore-styles",
-    "test": "./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha -- --require ./test/setup.js --require ./node_modules/ignore-styles --recursive",
+    "watch:test": "./node_modules/.bin/jest --watch",
+    "test": "./node_modules/.bin/jest",
     "posttest": "npm run lint",
     "coverage": "open ./coverage/lcov-report/index.html",
     "dev": "open http://localhost:3000 & ./node_modules/.bin/webpack-dev-server"
@@ -27,42 +27,59 @@
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
     "babel-cli": "^6.11.4",
+    "babel-jest": "^18.0.0",
     "babel-loader": "^6.2.1",
     "babel-plugin-rewire": "^1.0.0-rc-5",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
-    "chai": "^3.5.0",
     "css-loader": "^0.23.1",
     "deep-freeze": "0.0.1",
-    "enzyme": "^2.4.1",
+    "enzyme": "^2.7.1",
+    "enzyme-to-json": "^1.5.0",
     "eslint": "^3.2.2",
     "eslint-plugin-react": "^6.0.0",
     "file-loader": "^0.9.0",
-    "ignore-styles": "^4.0.0",
-    "isparta": "^4.0.0",
-    "istanbul": "0.4.4",
-    "jsdom": "^9.4.1",
+    "jest": "^18.0.0",
+    "jest-cli": "^18.0.0",
+    "jest-css-modules": "^1.1.0",
+    "jest-enzyme": "^2.1.0-rc1",
     "json-loader": "^0.5.4",
-    "mocha": "^3.0.0",
     "node-sass": "^3.4.2",
     "optimize-css-assets-webpack-plugin": "^1.3.0",
     "postcss-loader": "^0.8.2",
-    "react-addons-test-utils": "^15.3.0",
-    "react-stateless-wrapper": "^1.0.7",
+    "react-addons-test-utils": "^15.4.1",
     "sass-loader": "^3.2.0",
-    "sinon": "^1.17.5",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.12",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "httpster": "^1.0.3",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
     "react-icons": "^2.2.1",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "uuid": "^3.0.1"
+  },
+  "jest": {
+    "setupFiles": ["./__tests__/global.js"],
+    "modulePathIgnorePatterns": ["global.js"],
+    "verbose": true,
+    "collectCoverage": true,
+    "notify": true,
+    "collectCoverageFrom": ["src/**"],
+    "coverageThreshold": {
+      "global": {
+        "branches": 0,
+        "functions": 0,
+        "lines": 0,
+        "statements": 0
+      }
+    },
+    "moduleNameMapper": {
+      "\\.(scss)$": "<rootDir>/node_modules/jest-css-modules"
+    }
   }
 }

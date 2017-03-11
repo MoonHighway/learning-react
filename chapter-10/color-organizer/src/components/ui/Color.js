@@ -42,5 +42,3 @@ Color.defaultProps = {
 }
 
 export default Color
-
-

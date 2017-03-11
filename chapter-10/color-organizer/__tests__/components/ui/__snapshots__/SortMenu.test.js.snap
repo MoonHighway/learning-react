@@ -1,0 +1,26 @@
+exports[`<Color /> UI Component Renders Correctly 1`] = `
+<nav
+  className="menu">
+  <h1>
+    Sort Colors
+  </h1>
+  <a
+    className={null}
+    href="#"
+    onClick={[Function]}>
+    date
+  </a>
+  <a
+    className="selected"
+    href="#"
+    onClick={[Function]}>
+    title
+  </a>
+  <a
+    className={null}
+    href="#"
+    onClick={[Function]}>
+    rating
+  </a>
+</nav>
+`;

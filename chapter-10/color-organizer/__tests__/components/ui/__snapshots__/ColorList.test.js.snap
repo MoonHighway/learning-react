@@ -1,0 +1,29 @@
+exports[`<ColorList /> UI Componnet Rendering UI Renders Correctly 1`] = `
+<div
+  className="color-list">
+  <Component
+    color="#44ef37"
+    id={1}
+    onRate={[Function]}
+    onRemove={[Function]}
+    rating={4}
+    timestamp="Mon Apr 11 2016 12:54:19 GMT-0700 (PDT)"
+    title="lawn" />
+  <Component
+    color="#0061ff"
+    id={2}
+    onRate={[Function]}
+    onRemove={[Function]}
+    rating={2}
+    timestamp="Mon Apr 11 2016 12:54:31 GMT-0700 (PDT)"
+    title="ocean blue" />
+  <Component
+    color="#ff4b47"
+    id={3}
+    onRate={[Function]}
+    onRemove={[Function]}
+    rating={0}
+    timestamp="Mon Apr 11 2016 12:54:43 GMT-0700 (PDT)"
+    title="tomato" />
+</div>
+`;

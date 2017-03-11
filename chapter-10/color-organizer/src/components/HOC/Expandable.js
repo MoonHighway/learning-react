@@ -4,7 +4,8 @@ const Expandable = ComposedComponent => class extends Component {
 
     constructor(props) {
         super(props)
-        let collapsed = props.collapsed || true
+        let collapsed = (typeof props.collapsed === 'boolean') ?
+            props.collapsed : true
         this.state = {collapsed}
         this.expandCollapse = this.expandCollapse.bind(this)
     }

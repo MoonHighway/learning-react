@@ -1,0 +1,25 @@
+exports[`<Color /> UI Component Renders correct properties 1`] = `
+<section
+  className="color">
+  <h1>
+    Test Color
+  </h1>
+  <button
+    onClick={[Function]}>
+    <Component />
+  </button>
+  <div
+    className="color"
+    style={
+      Object {
+        "backgroundColor": "#F0F0F0",
+      }
+    } />
+  <TimeAgo />
+  <div>
+    <StarRating
+      onRate={[Function]}
+      starsSelected={3} />
+  </div>
+</section>
+`;

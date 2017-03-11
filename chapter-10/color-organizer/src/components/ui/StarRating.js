@@ -17,4 +17,6 @@ StarRating.propTypes = {
     onRate: PropTypes.func
 }
 
+StarRating.displayName = "StarRating"
+
 export default StarRating
