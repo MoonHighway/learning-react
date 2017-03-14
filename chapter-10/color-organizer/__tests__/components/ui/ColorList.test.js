@@ -4,7 +4,7 @@ import { compose } from 'redux'
 import ColorList from '../../../src/components/ui/ColorList'
 
 jest.mock('../../../src/components/ui/Color', () =>
-  ({color, rating, onRate=f=>f, onRemove=f=>f}) =>
+  ({rating, onRate=f=>f, onRemove=f=>f}) =>
     <div className="mockColor">
       <button id="rate" onClick={() => onRate(rating)} />
       <button id="remove" onClick={onRemove} />

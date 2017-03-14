@@ -40,7 +40,7 @@ describe("<Colors /> Container ", () => {
       </Provider>
     ))
 
-    it("renders two colors", () => {
+    it("renders three colors", () => {
         expect(wrapper
             .find('ColorListMock')
             .props()

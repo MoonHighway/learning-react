@@ -5,11 +5,11 @@ describe("<Star /> UI Component", () => {
 
     it("renders default star", () =>
         expect(shallow(<Star />).find('div.star').length)
-            .toEqual(1))
+            .toBe(1))
 
     it("renders selected stars", () =>
         expect(shallow(<Star selected={true} />).find('div.selected.star').length)
-            .toEqual(1))
+            .toBe(1))
 
     it("click does not cause error", () => {
         shallow(<Star selected={true} />).find('div').simulate('click')
@@ -27,7 +27,7 @@ describe("<Star /> UI Component", () => {
 
         it("invokes onClick", () =>
             expect(_click.mock.calls.length)
-                .toEqual(1))
+                .toBe(1))
 
     })
 

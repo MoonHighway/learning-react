@@ -6,15 +6,6 @@ describe("Action Creators", () => {
 
     let store
 
-    beforeAll(() => {
-        window.localStorage = {}
-        console.groupCollapsed = jest.fn()
-        console.log = jest.fn()
-        console.groupEnd = jest.fn()
-    })
-
-    afterEach(() => jest.resetAllMocks())
-
     describe("addColor", () => {
 
         const colors = [
@@ -99,8 +90,6 @@ describe("Action Creators", () => {
             store = storeFactory({colors})
             store.dispatch(removeColor('8658c1d0-9eda-4a90-95e1-8001e8eb6036'))
         })
-
-        afterAll(() => global.localStorage['redux-store'] = false)
 
         it("should remove the color", () =>
             expect(store.getState().colors.length).toEqual(0))
