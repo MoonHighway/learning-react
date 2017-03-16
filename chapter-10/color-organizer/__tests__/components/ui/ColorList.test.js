@@ -6,36 +6,12 @@ import ColorList from '../../../src/components/ui/ColorList'
 jest.mock('../../../src/components/ui/Color', () =>
   ({rating, onRate=f=>f, onRemove=f=>f}) =>
     <div className="mockColor">
-      <button id="rate" onClick={() => onRate(rating)} />
-      <button id="remove" onClick={onRemove} />
+      <button className="rate" onClick={() => onRate(rating)} />
+      <button className="remove" onClick={onRemove} />
     </div>
 )
 
-describe("<ColorList /> UI Componnet", () => {
-
-    const _testColors = [
-        {
-            id: 1,
-            title: "lawn",
-            color: "#44ef37",
-            timestamp: "Mon Apr 11 2016 12:54:19 GMT-0700 (PDT)",
-            rating: 4
-        },
-        {
-            id: 2,
-            title: "ocean blue",
-            color: "#0061ff",
-            timestamp: "Mon Apr 11 2016 12:54:31 GMT-0700 (PDT)",
-            rating: 2
-        },
-        {
-            id: 3,
-            title: "tomato",
-            color: "#ff4b47",
-            timestamp: "Mon Apr 11 2016 12:54:43 GMT-0700 (PDT)",
-            rating: 0
-        }
-    ]
+describe("<ColorList /> UI Component", () => {
 
     afterAll(() => jest.resetAllMocks())
 
@@ -54,14 +30,14 @@ describe("<ColorList /> UI Componnet", () => {
 
         it("Clicking default rate button do not cause Error", () => {
             mount(<ColorList colors={_testColors} />)
-                .find('button#rate')
+                .find('button.rate')
                 .first()
                 .simulate('click')
         })
 
         it("Clicking default remove button do not cause Error", () => {
             mount(<ColorList colors={_testColors} />)
-                .find('button#remove')
+                .find('button.remove')
                 .first()
                 .simulate('click')
         })
@@ -74,7 +50,7 @@ describe("<ColorList /> UI Componnet", () => {
 
         beforeAll(() =>
             mount(<ColorList colors={_testColors} onRate={_rate} />)
-                .find('button#rate')
+                .find('button.rate')
                 .first()
                 .simulate('click')
         )
@@ -84,7 +60,7 @@ describe("<ColorList /> UI Componnet", () => {
         )
 
         it("rates the correct color", () =>
-            expect(_rate).toBeCalledWith(1,4)
+            expect(_rate).toBeCalledWith("8658c1d0-9eda-4a90-95e1-8001e8eb6036",4)
         )
 
     })
@@ -95,7 +71,7 @@ describe("<ColorList /> UI Componnet", () => {
 
         beforeAll(() =>
             mount(<ColorList colors={_testColors} onRemove={_remove} />)
-                .find('button#remove')
+                .find('button.remove')
                 .last()
                 .simulate('click')
         )
@@ -105,7 +81,7 @@ describe("<ColorList /> UI Componnet", () => {
         )
 
         it("removes the correct color", () =>
-            expect(_remove).toBeCalledWith(3)
+            expect(_remove).toBeCalledWith("58d9caee-6ea6-4d7b-9984-65b145031979")
         )
 
     })

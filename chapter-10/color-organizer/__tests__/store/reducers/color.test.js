@@ -15,7 +15,8 @@ describe("color Reducer", () => {
         }
         deepFreeze(state)
         deepFreeze(action)
-        expect(color(state, action))
+        const result = color(state, action)
+        expect(result)
             .toEqual({
                 id: 0,
                 title: 'Test Teal',
@@ -40,7 +41,8 @@ describe("color Reducer", () => {
         }
         deepFreeze(state)
         deepFreeze(action)
-        expect(color(state, action))
+        const result = color(state, action)
+        expect(result)
             .toEqual({
                 id: 0,
                 title: 'Test Teal',

@@ -15,20 +15,12 @@ describe("<Star /> UI Component", () => {
         shallow(<Star selected={true} />).find('div').simulate('click')
     })
 
-    describe("clicking a star", () => {
-
-        let _click = jest.fn()
-        afterEach(() => jest.resetAllMocks())
-
-        beforeAll(() => shallow(<Star onClick={_click} />)
-                .find('.star')
-                .simulate('click')
-        )
-
-        it("invokes onClick", () =>
-            expect(_click.mock.calls.length)
-                .toBe(1))
-
+    it("invokes onClick", () => {
+      const _click = jest.fn()
+      shallow(<Star onClick={_click} />)
+              .find('div.star')
+              .simulate('click')
+      expect(_click).toBeCalled()
     })
 
 })

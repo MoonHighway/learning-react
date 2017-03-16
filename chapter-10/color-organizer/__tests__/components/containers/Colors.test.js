@@ -14,22 +14,7 @@ describe("<Colors /> Container ", () => {
         getState: jest.fn(() =>
             ({
                 sort: "SORTED_BY_DATE",
-                colors: [
-                    {
-                        "id": "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
-                        "title": "Ocean Blue",
-                        "color": "#0070ff",
-                        "rating": 3,
-                        "timestamp": "Mon Mar 07 2016 16:12:09 GMT-0800 (PST)"
-                    },
-                    {
-                        "id": "f9005b4e-975e-433d-a646-79df172e1dbb",
-                        "title": "Tomato",
-                        "color": "#d10012",
-                        "rating": 2,
-                        "timestamp": "Fri Mar 11 2016 12:00:00 GMT-0800 (PST)"
-                    }
-                ]
+                colors: _testColors
             })
         )
     }
@@ -40,13 +25,15 @@ describe("<Colors /> Container ", () => {
       </Provider>
     ))
 
+    afterEach(() => jest.resetAllMocks())
+
     it("renders three colors", () => {
         expect(wrapper
             .find('ColorListMock')
             .props()
             .colors
             .length
-        ).toBe(2)
+        ).toBe(3)
     })
 
     it("sorts the colors by state", () => {
@@ -55,10 +42,8 @@ describe("<Colors /> Container ", () => {
             .props()
             .colors[0]
             .title
-        ).toBe("Tomato")
+        ).toBe("tomato")
     })
-
-    afterEach(() => jest.resetAllMocks())
 
     it("dispatches a REMOVE_COLOR action", () => {
         wrapper.find('ColorListMock')

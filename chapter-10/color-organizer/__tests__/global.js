@@ -1,4 +1,5 @@
 import React from 'react'
+import deepFreeze from 'deep-freeze'
 
 global.React = React
 
@@ -7,12 +8,12 @@ console.groupCollapsed = jest.fn()
 console.log = jest.fn()
 console.groupEnd = jest.fn()
 
-global._testColors = [
+global._testColors = deepFreeze([
     {
         id: "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
         title: "lawn",
         color: "#44ef37",
-        timestamp: "Mon Apr 11 2016 12:54:19 GMT-0700 (PDT)",
+        timestamp: "Sun Apr 10 2016 12:54:19 GMT-0700 (PDT)",
         rating: 4
     },
     {
@@ -26,7 +27,7 @@ global._testColors = [
         id: "58d9caee-6ea6-4d7b-9984-65b145031979",
         title: "tomato",
         color: "#ff4b47",
-        timestamp: "Mon Apr 11 2016 12:54:43 GMT-0700 (PDT)",
+        timestamp: "Fri Apr 15 2016 12:54:43 GMT-0700 (PDT)",
         rating: 0
     }
-]
+])

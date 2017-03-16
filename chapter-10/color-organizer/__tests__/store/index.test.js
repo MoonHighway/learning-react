@@ -18,17 +18,12 @@ describe("Store Factory", () => {
 
         beforeEach(() => {
             store = storeFactory({
-                colors: [
-                    {
-                        id: 0,
-                        title: "Rad Red",
-                        color: "#FF0000",
-                        rating: 3,
-                        timestamp: "Sat Mar 12 2016 16:12:09 GMT-0800 (PST)"
-                    }
-                ]
+                colors: [_testColors[0]]
             })
-            store.dispatch({type: C.REMOVE_COLOR, id: 0})
+            store.dispatch({
+              type: C.REMOVE_COLOR,
+              id: '8658c1d0-9eda-4a90-95e1-8001e8eb6036'
+            })
         })
 
         it("starts a console group", () =>

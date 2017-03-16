@@ -15,7 +15,8 @@ exports[`<Color /> UI Component Renders correct properties 1`] = `
         "backgroundColor": "#F0F0F0",
       }
     } />
-  <TimeAgo />
+  <TimeAgo
+    timestamp="Mon Apr 11 2016 12:54:19 GMT-0700 (PDT)" />
   <div>
     <StarRating
       onRate={[Function]}
