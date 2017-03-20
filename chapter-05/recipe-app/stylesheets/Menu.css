@@ -10,6 +10,7 @@ p, td, span, div {
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
+    display: flex;
 }
 
 #react-container {
@@ -31,4 +32,3 @@ div.recipes>section {
     background-color: white;
     margin-bottom: 1em;
 }
-
