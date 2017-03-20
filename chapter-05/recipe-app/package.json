@@ -26,18 +26,18 @@
   },
   "homepage": "https://github.com/MoonHighway/learning-react#readme",
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
   },
   "devDependencies": {
-    "autoprefixer-loader": "^3.2.0",
-    "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
-    "babel-preset-latest": "^6.24.0",
-    "babel-preset-react": "^6.23.0",
-    "babel-preset-stage-0": "^6.22.0",
-    "css-loader": "^0.27.3",
-    "style-loader": "^0.14.1",
-    "webpack": "^2.2.1"
+    "autoprefixer-loader": "3.2.0",
+    "babel-core": "6.24.0",
+    "babel-loader": "6.4.1",
+    "babel-preset-latest": "6.24.0",
+    "babel-preset-react": "6.23.0",
+    "babel-preset-stage-0": "6.22.0",
+    "css-loader": "0.27.3",
+    "style-loader": "0.14.1",
+    "webpack": "2.2.1"
   }
 }
