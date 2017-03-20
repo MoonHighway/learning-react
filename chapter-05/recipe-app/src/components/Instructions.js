@@ -6,4 +6,6 @@ const Instructions = ({ title, steps }) =>
         )}
     </section>
 
+Instructions.displayName = 'Instructions'
+
 export default Instructions
