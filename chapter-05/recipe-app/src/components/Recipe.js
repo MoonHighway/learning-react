@@ -9,4 +9,6 @@ const Recipe = ({ name, ingredients, steps}) =>
                       steps={steps} />
     </section>
 
+Recipe.displayName = 'Recipe'
+
 export default Recipe

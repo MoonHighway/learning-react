@@ -13,4 +13,6 @@ const Menu = ({ recipes }) =>
         </div>
     </article>
 
+Menu.displayName = 'Menu'
+
 export default Menu

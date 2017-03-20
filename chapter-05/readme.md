@@ -1,7 +1,7 @@
 Chapter 5 : React with JSX
 ==================
-The alternative to typing out verbose React.createElement calls is JSX, a JavaScript extension that allows 
-us to define React elements using syntax that looks similar to HTML. 
+The alternative to typing out verbose React.createElement calls is JSX, a JavaScript extension that allows
+us to define React elements using syntax that looks similar to HTML.
 
 Samples
 --------
@@ -17,7 +17,8 @@ Samples
 
 #### Recipes App with JSX and Webpack
 
-* Full App ([code](https://github.com/MoonHighway/learning-react/tree/master/chapter-05/recipe-app))
+* Full App ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-05/recipe-app/dist/) 
+[code](https://github.com/MoonHighway/learning-react/tree/master/chapter-05/recipe-app))
 * Instructions Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/src/components/Instructions.js))
 * Ingredient Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/src/components/Ingredient.js))
 * IngredientsList Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/src/components/IngredientsList.js))
