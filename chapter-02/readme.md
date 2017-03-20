@@ -33,7 +33,7 @@ Samples
 #### Transpiling ES6
 * transpiling in jsbin ([1](http://jsbin.com/puraror/1/edit?js,console),
 [2](http://jsbin.com/puraror/2/edit?js,console))
-* transpiling locally ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-02/babel-inline-transpiler.html), 
+* transpiling locally ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-02/babel-inline-transpiler.html),
 [code](https://github.com/MoonHighway/learning-react/blob/master/chapter-02/babel-inline-transpiler.html))
 
 #### Objects and Arrays
@@ -52,9 +52,8 @@ Samples
 [13](http://jsbin.com/jukokaf/13/edit?js,console),
 [14](http://jsbin.com/jukokaf/14/edit?js,console),
 [15](http://jsbin.com/jukokaf/15/edit?js,console))
-* craps as promises ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-02/craps.html), 
-[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-02/craps.js))
-* getFakeMembers ([1](http://jsbin.com/ceteja/1/edit?js))
+* getFakeMembers ([1](http://jsbin.com/ceteja/1/edit?js,console))
+* fetch members ([1](http://jsbin.com/haguhe/1/edit?js,console))
 
 #### ES6 Class Syntax
 * classes ([1](http://jsbin.com/hoqileh/1/edit?js,console),
