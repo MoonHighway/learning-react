@@ -1,6 +1,6 @@
 Chapter 4 : Pure React
 ==================
-If you take the time to understand what is going on behind the scenes you will be more efficient, especially when 
+If you take the time to understand what is going on behind the scenes you will be more efficient, especially when
 it comes time to debug.
 
 Samples
@@ -12,7 +12,7 @@ Samples
 
 #### React Elements
 
-* HTML for a Recipe ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-04/baked-salmon.html), 
+* HTML for a Recipe ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-04/baked-salmon.html),
 [code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/baked-salmon.html))
 * React Elements ([1](http://jsbin.com/fumiyu/1/edit?js,output),
 [2](http://jsbin.com/fumiyu/2/edit?js,output),
@@ -30,7 +30,7 @@ Samples
 
 #### DOM Rendering
 
-* team moods ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-04/DOM-rendering-moods.html),
+* team moods ([demo (firefox only)](http://rawgit.com/MoonHighway/learning-react/master/chapter-04/DOM-rendering-moods.html),
 [code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/DOM-rendering-moods.js))
 
 #### Factories
