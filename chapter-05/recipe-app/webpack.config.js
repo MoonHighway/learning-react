@@ -1,4 +1,6 @@
-var webpack = require("webpack");
+var webpack = require("webpack")
+
+process.noDeprecation = true
 
 module.exports = {
     entry: "./src/index.js",

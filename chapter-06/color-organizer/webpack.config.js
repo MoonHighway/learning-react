@@ -1,4 +1,6 @@
-var webpack = require("webpack");
+var webpack = require("webpack")
+
+process.noDeprecation = true
 
 module.exports = {
     entry: "./src/index.js",
@@ -9,23 +11,23 @@ module.exports = {
     },
     devtool: '#source-map',
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
-                loader: ['babel'],
+                loader: 'babel-loader',
                 query: {
-                    presets: ['es2015', 'stage-0', 'react']
+                    presets: ['latest', 'stage-0', 'react']
                 }
             },
             {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader!autoprefixer-loader'
+                loader: ['style-loader','css-loader','autoprefixer-loader']
 
             },
             {
                 test: /\.scss/,
-                loader: 'style-loader!css-loader!autoprefixer-loader!sass-loader'
+                loader: ['style-loader','css-loader','autoprefixer-loader','sass-loader']
             }
         ]
     },
