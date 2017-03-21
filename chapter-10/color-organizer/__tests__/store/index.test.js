@@ -21,8 +21,8 @@ describe("Store Factory", () => {
                 colors: [_testColors[0]]
             })
             store.dispatch({
-              type: C.REMOVE_COLOR,
-              id: '8658c1d0-9eda-4a90-95e1-8001e8eb6036'
+                type: C.REMOVE_COLOR,
+                id: '8658c1d0-9eda-4a90-95e1-8001e8eb6036'
             })
         })
 

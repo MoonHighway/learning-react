@@ -1,25 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`<Color /> UI Component Renders Correctly 1`] = `
 <nav
-  className="menu">
+  className="menu"
+>
   <h1>
     Sort Colors
   </h1>
   <a
     className={null}
     href="#"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     date
   </a>
   <a
     className="selected"
     href="#"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     title
   </a>
   <a
     className={null}
     href="#"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     rating
   </a>
 </nav>
