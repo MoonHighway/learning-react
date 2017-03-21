@@ -1,7 +1,7 @@
 Chapter 7 : Enhancing Components
 ==================
-Before we can enhance our applications with 3rd party JavaScript works libraries or backend data requests we must 
-first understand how to work with the component lifecycle: a series of methods that can be invoked every time we 
+Before we can enhance our applications with 3rd party JavaScript works libraries or backend data requests we must
+first understand how to work with the component lifecycle: a series of methods that can be invoked every time we
 mount or update a component.
 
 Samples
@@ -9,8 +9,8 @@ Samples
 
 #### Mounting Lifecycle
 
-* Loading Data when a component mounts ([1](http://jsbin.com/jegimi/1/edit?js,console),
-[2](http://jsbin.com/jegimi/2/edit?js,output))
+* Loading Data when a component mounts ([1](http://jsbin.com/bameba/1/edit?js,console),
+[2](http://jsbin.com/bameba/2/edit?js,output))
 * Clock ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/mounting-lifecycle-clock/dist/index.html),
 [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/mounting-lifecycle-clock))
 
