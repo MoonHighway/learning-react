@@ -24,11 +24,11 @@ Samples
 
 #### Children
 
-* Display Component ([1](http://jsbin.com/goraje/1/edit?js),
-[2](http://jsbin.com/goraje/2/edit?js))
-* WhenTruthy, WhenFalsy ([3](http://jsbin.com/goraje/3/edit?js),
-[4](http://jsbin.com/goraje/4/edit?js),
-[5](http://jsbin.com/goraje/5/edit?js))
+* Display Component ([1](http://jsbin.com/goraje/1/edit?js,output),
+[2](http://jsbin.com/goraje/2/edit?js,console))
+* WhenTruthy, WhenFalsy ([3](http://jsbin.com/goraje/3/edit?js,output),
+[4](http://jsbin.com/goraje/4/edit?js,output),
+[5](http://jsbin.com/goraje/5/edit?js,console))
 
 ### JavaScript Library Integration
 
@@ -48,4 +48,4 @@ Samples
 #### Managing State Outside of React
 
 * Clock without React State ([1](http://jsbin.com/zepusi/1/edit?js,output))
-* Flux ([1](http://jsbin.com/fizocij/1/edit?js,output))
+* Flux ([1](http://jsbin.com/fizocij/1/edit?js,console,output))
