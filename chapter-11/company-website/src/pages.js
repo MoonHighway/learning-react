@@ -1,9 +1,12 @@
-import { hashHistory, withRouter, Link } from 'react-router'
-import { AboutMenu, Breadcrumbs } from './menus'
-import routes from '../../routes'
-import { Children } from 'react'
+import { Link, Route } from 'react-router-dom'
+import { MainMenu, AboutMenu } from './menus'
+import './stylesheets/pages.scss'
 
-import '../../stylesheets/pages.scss'
+const PageTemplate = ({children}) =>
+    <div className="page">
+        <MainMenu />
+        {children}
+    </div>
 
 export const Home = () =>
     <div className="home">
@@ -16,20 +19,43 @@ export const Home = () =>
         </div>
     </div>
 
-
-export const Whoops404 = ({ location }) =>
+export const Whoops404 = ({ history, location }) =>
     <div className="whoops-404">
         <h1>Resource not found at '{location.pathname}'</h1>
+        <a onClick={history.goBack}>Back</a>
     </div>
 
+export const Events = () =>
+    <PageTemplate>
+      <section className="events">
+          <h1>[Event Calendar]</h1>
+      </section>
+    </PageTemplate>
 
-export const About = ({routes, children, location}) =>
-    <section className="about">
-        <AboutMenu pathname={location.pathname} />
-        <Breadcrumbs routes={routes} />
-        {children}
-    </section>
+export const Products = () =>
+    <PageTemplate>
+        <section className="products">
+            <h1>[Product Catalog]</h1>
+        </section>
+    </PageTemplate>
 
+export const Contact = () =>
+    <PageTemplate>
+        <section className="contact">
+            <h1>[Contact Us]</h1>
+        </section>
+    </PageTemplate>
+
+export const About = ({ match }) =>
+    <PageTemplate>
+        <section className="about">
+            <AboutMenu isHome={match.isExact} />
+            <Route exact path="/about" component={Company}/>
+            <Route path="/about/history" component={History}/>
+            <Route path="/about/services" component={Services}/>
+            <Route path="/about/location" component={Location}/>
+        </section>
+    </PageTemplate>
 
 export const Services = () =>
     <section className="services">
@@ -50,7 +76,6 @@ export const Services = () =>
             nostra, per inceptos himenaeos.
         </p>
     </section>
-
 
 export const Location = () =>
     <section className="location">
@@ -75,9 +100,8 @@ export const Location = () =>
         </p>
     </section>
 
-
 export const Company = () =>
-    <div className="company">
+    <section className="company">
         <h2>About the Company</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
@@ -94,7 +118,7 @@ export const Company = () =>
             nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia
             nostra, per inceptos himenaeos.
         </p>
-    </div>
+    </section>
 
 export const History = () =>
     <section className="history">
@@ -116,21 +140,4 @@ export const History = () =>
             nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia
             nostra, per inceptos himenaeos.
         </p>
-    </section>
-
-
-export const Events = ({children}) =>
-    <section className="events">
-        <h1>[Event Calendar]</h1>
-        {children}
-    </section>
-
-export const Products = () =>
-    <section className="products">
-        <h1>[Product Catalog]</h1>
-    </section>
-
-export const Contact = () =>
-    <section className="contact">
-        <h1>[Contact Us]</h1>
     </section>
