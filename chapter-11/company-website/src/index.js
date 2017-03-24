@@ -21,7 +21,7 @@ window.React = React
 
 render(
   <Router>
-    <div>
+    <div className="main">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
