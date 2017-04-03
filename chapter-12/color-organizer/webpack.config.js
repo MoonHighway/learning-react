@@ -1,60 +1,50 @@
 var webpack = require("webpack")
-var ExtractTextPlugin = require("extract-text-webpack-plugin")
 var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+var path = require('path')
+
+process.noDeprecation = true
 
 module.exports = {
     entry: "./src/index.js",
     output: {
-        path: "dist/assets",
+        path: path.join(__dirname, "dist/assets"),
         filename: "bundle.js",
         publicPath: "assets",
         sourceMapFilename: 'bundle.map'
     },
     devtool: '#source-map',
-    devServer: {
-        inline: true,
-        contentBase: './dist',
-        port: 3000
-    },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
-                loader: ['babel'],
+                loader: 'babel-loader',
                 query: {
-                    presets: ['es2015', 'stage-0', 'react']
+                    presets: ['latest', 'stage-0', 'react']
                 }
             },
             {
-                test: /\.json$/,
-                exclude: /(node_modules)/,
-                loader: 'json-loader'
-            },
-            {
                 test: /\.css$/,
-                loader: ExtractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader")
+                loader: ['style-loader','css-loader','autoprefixer-loader']
+
             },
             {
                 test: /\.scss/,
-                loader: ExtractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader!sass-loader")
+                loader: ['style-loader','css-loader','autoprefixer-loader','sass-loader']
             }
         ]
     },
     plugins: [
-        new ExtractTextPlugin("bundle.css"),
         new webpack.DefinePlugin({
             "process.env": {
                 NODE_ENV: JSON.stringify("production")
             }
         }),
-        /*
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,
             warnings: false,
             mangle: false
         }),
-        */
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.optimize\.css$/g,
             cssProcessor: require('cssnano'),
