@@ -18,24 +18,27 @@ export const NewColor = connect(
 )(AddColorForm)
 
 export const Colors = connect(
-    ({colors}, {params}) =>
+    ({colors}, {match}) =>
         ({
-            colors: sortColors(colors, params.sort)
+            colors: sortColors(colors, match.params.sort)
         }),
-    dispatch =>
+    (dispatch, {history}) =>
         ({
             onRemove(id) {
                 dispatch(removeColor(id))
             },
             onRate(id, rating) {
                 dispatch(rateColor(id, rating))
+            },
+            onSelect(id) {
+                history.push(`/${id}`)
             }
         })
 )(ColorList)
 
 export const Color = connect(
-    ({ colors }, { params }) =>
+    ({ colors }, { match }) =>
         ({
-            ...findById(colors, params.id)
+            ...findById(colors, match.params.id)
         })
 )(ColorDetails)

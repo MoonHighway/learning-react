@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import C from '../constants'
-import { v4 } from 'node-uuid'
+import { v4 } from 'uuid'
 
 const router = Router()
 

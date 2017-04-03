@@ -34,7 +34,9 @@
     "webpack": "2.2.1"
   },
   "dependencies": {
-    "express": "4.15.2",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "ignore-styles": "5.0.1",
     "isomorphic-fetch": "2.2.1",
     "react": "15.4.2",
     "react-dom": "15.4.2",
@@ -42,7 +44,7 @@
     "react-redux": "5.0.3",
     "react-router-dom": "4.0.0",
     "redux": "3.6.0",
-    "redux-thunk": "2.2.0",
+    "redux-thunk": "^2.2.0",
     "uuid": "3.0.1"
   }
 }

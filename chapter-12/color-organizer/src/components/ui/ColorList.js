@@ -3,7 +3,7 @@ import Color from './Color'
 import '../../stylesheets/ColorList.scss'
 
 
-const ColorList = ({ colors=[], onRate=f=>f, onRemove=f=>f }) =>
+const ColorList = ({ colors=[], onRate=f=>f, onRemove=f=>f, onSelect=f=>f }) =>
     <div className="color-list">
         {(colors.length === 0) ?
             <p>No Colors Listed. (Add a Color)</p> :
@@ -11,7 +11,8 @@ const ColorList = ({ colors=[], onRate=f=>f, onRemove=f=>f }) =>
                 <Color key={color.id}
                     {...color}
                        onRate={(rating) => onRate(color.id, rating)}
-                       onRemove={() => onRemove(color.id)}/>
+                       onRemove={() => onRemove(color.id)}
+                       onSelect={() => onSelect(color.id)} />
             )
         }
     </div>
@@ -19,7 +20,8 @@ const ColorList = ({ colors=[], onRate=f=>f, onRemove=f=>f }) =>
 ColorList.propTypes = {
     colors: PropTypes.array,
     onRate: PropTypes.func,
-    onRemove: PropTypes.func
+    onRemove: PropTypes.func,
+    onSelect: PropTypes.func
 }
 
 export default ColorList
