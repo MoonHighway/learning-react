@@ -5,24 +5,22 @@ import fs from 'fs'
 import { Provider } from 'react-redux'
 import { compose } from 'redux'
 import { renderToString } from 'react-dom/server'
-import { match, RouterContext } from 'react-router'
 import api from './color-api'
 import App from '../components/App'
 import storeFactory from '../store'
 import initialState from '../../data/initialState.json'
-import routes from '../routes'
 
-const defaultStyles = fs.readFileSync(path.join(__dirname, '../../dist/assets/bundle.css'))
+// const defaultStyles = fs.readFileSync(path.join(__dirname, '../../dist/assets/bundle.css'))
 const fileAssets = express.static(path.join(__dirname, '../../dist/assets'))
 
 const serverStore = storeFactory(true, initialState)
 
-serverStore.subscribe(() => fs.writeFile(
-    path.join(__dirname, '../../data/initialState.json'),
-    JSON.stringify(serverStore.getState()),
-    error => (error) ? console.log("Error saving state!", error) : null
-    )
-)
+// serverStore.subscribe(() => fs.writeFile(
+//     path.join(__dirname, '../../data/initialState.json'),
+//     JSON.stringify(serverStore.getState()),
+//     error => (error) ? console.log("Error saving state!", error) : null
+//     )
+// )
 
 const logger = (req, res, next) => {
     console.log(`${req.method} request for '${req.url}'`)
@@ -105,4 +103,6 @@ export default express()
     .use(fileAssets)
     .use(addStoreToRequestPipeline)
     .use('/api', api)
-    .use(matchRoutes)
+    .use((req, res) => {
+      res.status(200).send("Phase 1 - Test API")
+    })
