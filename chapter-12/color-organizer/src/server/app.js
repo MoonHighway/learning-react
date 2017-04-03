@@ -4,50 +4,25 @@ import bodyParser from 'body-parser'
 import fs from 'fs'
 import { Provider } from 'react-redux'
 import { compose } from 'redux'
+import { StaticRouter } from 'react-router-dom'
 import { renderToString } from 'react-dom/server'
 import api from './color-api'
 import App from '../components/App'
 import storeFactory from '../store'
 import initialState from '../../data/initialState.json'
 
-// const defaultStyles = fs.readFileSync(path.join(__dirname, '../../dist/assets/bundle.css'))
+const defaultStyles = fs.readFileSync(path.join(__dirname, '../../dist/assets/bundle.css'))
 const fileAssets = express.static(path.join(__dirname, '../../dist/assets'))
 
 const serverStore = storeFactory(true, initialState)
 
-// serverStore.subscribe(() => fs.writeFile(
-//     path.join(__dirname, '../../data/initialState.json'),
-//     JSON.stringify(serverStore.getState()),
-//     error => (error) ? console.log("Error saving state!", error) : null
-//     )
-// )
-
-const logger = (req, res, next) => {
-    console.log(`${req.method} request for '${req.url}'`)
-    next()
-}
-
-const addStoreToRequestPipeline = (req, res, next) => {
-    req.store = serverStore
-    next()
-}
-
-const makeClientStoreFrom = store => renderProps =>
-    ({
-        store: storeFactory(false, store.getState()),
-        renderProps
-    })
-
-const renderComponentsToHTML = ({renderProps, store}) =>
-    ({
-        state: store.getState(),
-        css: defaultStyles,
-        html: renderToString(
-            <Provider store={store}>
-                <RouterContext {...renderProps} />
-            </Provider>
-        )
-    })
+serverStore.subscribe(() =>
+    fs.writeFile(
+        path.join(__dirname, '../../data/initialState.json'),
+        JSON.stringify(serverStore.getState()),
+        error => (error) ? console.log("Error saving state!", error) : null
+    )
+)
 
 const buildHTMLPage = ({html, state, css}) => `
 <!DOCTYPE html>
@@ -68,34 +43,45 @@ const buildHTMLPage = ({html, state, css}) => `
 </html>
 `
 
+const renderComponentsToHTML = ({url, store}) =>
+    ({
+        state: store.getState(),
+        css: defaultStyles,
+        html: renderToString(
+            <Provider store={store}>
+                <StaticRouter location={url} context={{}}>
+                    <App />
+                </StaticRouter>
+            </Provider>
+        )
+    })
+
+const makeClientStoreFrom = store => url =>
+    ({
+        url,
+        store: storeFactory(false, store.getState())
+    })
+
 const htmlResponse = compose(
     buildHTMLPage,
     renderComponentsToHTML,
     makeClientStoreFrom(serverStore)
 )
 
-const successfulResponse = (res, renderProps) =>
-    res.status(200).send(htmlResponse(renderProps))
-
-const errorResponse = (res, error) =>
-    res.status(500).send(error.message)
-
-const redirectResponse = (res, location) =>
-    res.redirect(302, location)
-
-const notFoundResponse = res =>
-    res.status(404).send('Not found')
-
-const matchRoutes = (req, res) =>
-    match({routes, location: req.url}, (error, redirectLocation, renderProps) =>
-        (error) ?
-            errorResponse(res, error) :
-            (redirectLocation) ?
-                redirectResponse(res, redirectLocation.search) :
-                (renderProps) ?
-                    successfulResponse(res, renderProps) :
-                    notFoundResponse()
+const respond = ({url}, res) =>
+    res.status(200).send(
+      htmlResponse(url)
     )
+
+const logger = (req, res, next) => {
+    console.log(`${req.method} request for '${req.url}'`)
+    next()
+}
+
+const addStoreToRequestPipeline = (req, res, next) => {
+    req.store = serverStore
+    next()
+}
 
 export default express()
     .use(bodyParser.json())
@@ -103,6 +89,4 @@ export default express()
     .use(fileAssets)
     .use(addStoreToRequestPipeline)
     .use('/api', api)
-    .use((req, res) => {
-      res.status(200).send("Phase 1 - Test API")
-    })
+    .use(respond)

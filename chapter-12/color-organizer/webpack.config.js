@@ -1,4 +1,5 @@
 var webpack = require("webpack")
+var ExtractTextPlugin = require("extract-text-webpack-plugin")
 var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 var path = require('path')
 
@@ -25,16 +26,22 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                loader: ['style-loader','css-loader','autoprefixer-loader']
-
+                loader: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: ["css-loader", "autoprefixer-loader"]
+                })
             },
             {
                 test: /\.scss/,
-                loader: ['style-loader','css-loader','autoprefixer-loader','sass-loader']
+                loader: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: ["css-loader","autoprefixer-loader","sass-loader"]
+                })
             }
         ]
     },
     plugins: [
+        new ExtractTextPlugin("bundle.css"),
         new webpack.DefinePlugin({
             "process.env": {
                 NODE_ENV: JSON.stringify("production")
