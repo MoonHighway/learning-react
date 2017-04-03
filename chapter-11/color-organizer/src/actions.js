@@ -1,5 +1,5 @@
 import C from './constants'
-import { v4 } from 'node-uuid'
+import { v4 } from 'uuid'
 
 export const addColor = (title, color) =>
     ({

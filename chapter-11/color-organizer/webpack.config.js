@@ -1,10 +1,13 @@
 var webpack = require("webpack")
 var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+var path = require('path')
+
+process.noDeprecation = true
 
 module.exports = {
     entry: "./src/index.js",
     output: {
-        path: "dist/assets",
+        path: path.join(__dirname, "dist/assets"),
         filename: "bundle.js",
         publicPath: "assets",
         sourceMapFilename: 'bundle.map'
@@ -16,28 +19,23 @@ module.exports = {
         port: 3000
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
-                loader: ['babel'],
+                loader: 'babel-loader',
                 query: {
-                    presets: ['es2015', 'stage-0', 'react']
+                    presets: ['latest', 'stage-0', 'react']
                 }
             },
             {
-                test: /\.json$/,
-                exclude: /(node_modules)/,
-                loader: 'json-loader'
-            },
-            {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader!autoprefixer-loader'
+                loader: ['style-loader','css-loader','autoprefixer-loader']
 
             },
             {
                 test: /\.scss/,
-                loader: 'style-loader!css-loader!autoprefixer-loader!sass-loader'
+                loader: ['style-loader','css-loader','autoprefixer-loader','sass-loader']
             }
         ]
     },

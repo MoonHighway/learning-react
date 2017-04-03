@@ -8,16 +8,16 @@ import '../../stylesheets/Color.scss'
 class Color extends Component {
 
     render() {
-        const { id, title, color, rating, timestamp, onRemove, onRate} = this.props
+        const { id, title, color, rating, timestamp, onRemove, onRate, onSelect} = this.props
         return (
             <section className="color" style={this.style}>
                 <h1 ref="title"
-                    onClick={() => hashHistory.push(`/${id}`)}>{title}</h1>
+                    onClick={onSelect}>{title}</h1>
                 <button onClick={onRemove}>
                     <FaTrash />
                 </button>
                 <div className="color"
-                     onClick={() => hashHistory.push(`/${id}`)}
+                     onClick={onSelect}
                      style={{ backgroundColor: color }}>
                 </div>
                 <TimeAgo timestamp={timestamp} />
@@ -35,15 +35,15 @@ Color.propTypes = {
     color: PropTypes.string.isRequired,
     rating: PropTypes.number,
     onRemove: PropTypes.func,
-    onRate: PropTypes.func
+    onRate: PropTypes.func,
+    onSelect: PropTypes.func
 }
 
 Color.defaultProps = {
     rating: 0,
     onRemove: f=>f,
-    onRate: f=>f
+    onRate: f=>f,
+    onSelect: f=>f
 }
 
 export default Color
-
-
