@@ -17,16 +17,10 @@ This code works in browser and in with node js
 ### Isomorphic Script
 This code works in a browser and with node js. You can see the
 [demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-12/isomorphic-universal-samples/load-and-print.html)
-of this script working in teh browser. You can run the script with node js in the command line:
-`node isomorphic-load-and-pring.js`.
+of this script working in the browser. You can run the script with node js in the command line:
+`node isomorphic-load-and-print.js`.
 
 ```javascript
-
-    var printNames = response => {
-        var people = JSON.parse(response).results,
-            names = people.map(({name}) => `${name.last}, ${name.first}`)
-        console.log(names.join('\n'))
-    }
 
     if (typeof window !== 'undefined') {
         const request = new XMLHttpRequest()
