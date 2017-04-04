@@ -6,13 +6,13 @@ var printNames = response => {
 
 if (typeof window !== 'undefined') {
     const request = new XMLHttpRequest()
-    request.open('GET', 'http://api.randomuser.me/?nat=US&results=10')
+    request.open('GET', 'https://api.randomuser.me/?nat=US&results=10')
     request.onload = () => printNames(request.response)
     request.send()
 } else {
     const http = require('http')
     http.get(
-        'http://api.randomuser.me/?nat=US&results=10',
+        'https://api.randomuser.me/?nat=US&results=10',
         res => {
 
             let results = ''
