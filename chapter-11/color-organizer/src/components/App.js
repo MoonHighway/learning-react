@@ -10,6 +10,7 @@ const App = () =>
         <Route path="/"
             component={({match, location}) => (
                 <div className="app">
+                  <h1>Update</h1>
                     <Menu sort={location.pathname.replace('/sort/', '')} />
                     <NewColor />
                     <Switch>
