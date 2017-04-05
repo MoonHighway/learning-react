@@ -1,8 +1,8 @@
-React Redux integration
+React Redux Integration
 =====================
-React Redux is a library that contains some tools to help ease the complexity involved with implicitly passing 
-the store via context.  This library is also brought to you by Dan Abramov, the creator of Redux. Redux does not 
-require that you use this library.  However, using React Redux reduces your code complexity and may help you build 
+React Redux is a library that contains some tools to help ease the complexity involved with implicitly passing
+the store via context. Redux does not
+require that you use this library.  However, using React Redux reduces your code complexity and may help you build
 apps a bit faster.
 
 Demo
@@ -20,19 +20,19 @@ Clone and Install
 -------------
 
 #### Installation
-Run this npm command to install dependencies.
+Run this npm command to install dependencies:
 ```
 $ npm install
 ```
 
 #### Build
-Run this npm command to build the JavaScript Bundle
+Run this npm command to build the JavaScript bundle:
 ```
 $ npm run build
 ```
 
 #### Run
-Run this npm command to build the JavaScript Bundle and open the browser to the app using the file api.
+Run this npm command to build the JavaScript bundle and open the browser to the app using the file api:
 ```
 $ npm start
 ```

@@ -2,28 +2,28 @@ Chapter 1 : Introduction
 ==================
 The widespread use of React on large websites shows that it is stable enough to use at scale. React is ready.
 
-Installing Node js and NPM
+Installing Node.js and NPM
 --------------------
-When working with Node and React, you will need to use the command line. In the mac this is called the terminal on a PC
-it is called the command prompt. Run the following commands to check your current version on node and npm. If needed
-instruction on how to install or upgrade are below.
+When working with Node and React, you will need to use the command line. On the Mac, this is called the terminal. On a PC,
+it is called the command prompt. Run the following commands to check your current version on node and npm. If needed,
+instructions on how to install or upgrade are below.
 
 First, Check to see if you have Node JS installed
 ```
 $ node -v
 ```
 
-Then, if needed, [install or update Node JS](https://nodejs.org/en/) from the node js website. Download the installer,
+Then, if needed, [install or update Node.js](https://nodejs.org/en/) from the Node.js website. Download the installer,
 run it, and follow the instructions.
 
 --------------------------------
 
-Next, Check your version of npm
+Next, check your version of npm:
 ```
 $ npm -v
 ```
 
-Then, if you are running anything less than version three you will need to update npm.
+Then, if you are running anything less than version 3, you will need to update npm:
 
 ##### Update NPM on Mac
 ```
@@ -31,7 +31,7 @@ $ sudo npm update -g npm
 ```
 
 ##### Update NPM on PC
-Make sure to run the command prompt with administrator privileges
+Make sure to run the command prompt with administrator privileges:
 ```
 $ npm update -g npm
 ```
@@ -43,7 +43,7 @@ but you can optionally install it if you like:
 $ sudo npm install -g yarn
 ```
 
-Finally, there are some nice options for switching node versions. This is not required, but you can
+Finally, there are some nice options for switching Node versions. This is not required, but you can
 optionally install one of these version mangers:
 
 * [Install Node Version Manager - mac only (optional)](https://github.com/creationix/nvm)
@@ -53,7 +53,7 @@ optionally install one of these version mangers:
 
 Installing the React Tools
 --------------------------------
-Next, there are some developer chrome extensions or Firefox addons that you will need to install in order to debug React.
+Next, there are some Chrome developer extensions or Firefox add-ons that you will need to install in order to debug React:
 
 * Detector ([Chrome](https://chrome.google.com/webstore/detail/react-detector/jaaklebbenondhkanegppccanebkdjlh?hl=en-US))
 * Development Tools ([Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) |
@@ -84,13 +84,13 @@ sample in JSBin under the same identifier.
 ##### Version 3 of the sample in the editor with html and javascript tabs open:
 [http://output.jsbin.com/gosabo/3/edit](http://output.jsbin.com/gosabo/3/edit?html,js)
 
-CDN's for javascript libraries
+CDN's for JavaScript libraries
 --------------------------------
-Ultimately, we will be working with webpack and npms, but to get running quickly here are some CDN links that
+Ultimately, we will be working with webpack and npms, but to get running quickly, here are some CDN links that
 can be included in JSBin with this syntax: `<script src="https://[CDN LINK]"></script>`
 
-* [React Source](https://fb.me/react-with-addons-15.4.2.js)
-* [React DOM Source](https://fb.me/react-dom-15.4.2.js)
+* [React Source](https://unpkg.com/react@15.4.2/dist/react.js)
+* [React DOM Source](https://unpkg.com/react-dom@15.4.2/dist/react-dom.js)
 * [Babel Inline Transpiller](https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js)
 * [fetch](https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js)
 * [Redux Source](https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js)
@@ -98,7 +98,7 @@ can be included in JSBin with this syntax: `<script src="https://[CDN LINK]"></s
 
 React Resources
 --------------------------------
-Finally, we have some links to resources and official documentation for the libraries that we will be using.
+Finally, we have some links to resources and official documentation for the libraries that we will be using:
 
 * [React Documentation](https://facebook.github.io/react/index.html)
 * [React Source](https://github.com/facebook/react)
