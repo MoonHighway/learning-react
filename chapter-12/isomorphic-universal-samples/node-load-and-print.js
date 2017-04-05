@@ -4,8 +4,8 @@ var printNames = response => {
     console.log(names.join('\n'))
 }
 
-const http = require('https')
-http.get(
+const https = require('https')
+https.get(
     'https://api.randomuser.me/?nat=US&results=10',
     res => {
 

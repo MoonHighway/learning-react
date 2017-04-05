@@ -11,7 +11,7 @@ import App from '../components/App'
 import storeFactory from '../store'
 import initialState from '../../data/initialState.json'
 
-const defaultStyles = fs.readFileSync(path.join(__dirname, '../../dist/assets/bundle.css'))
+const staticCSS = fs.readFileSync(path.join(__dirname, '../../dist/assets/bundle.css'))
 const fileAssets = express.static(path.join(__dirname, '../../dist/assets'))
 
 const serverStore = storeFactory(true, initialState)
@@ -31,7 +31,7 @@ const buildHTMLPage = ({html, state, css}) => `
         <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
         <meta charset="utf-8">
         <title>Universal Color Organizer</title>
-        <style>${css}</style>
+        <style>${staticCSS}</style>
     </head>
     <body>
         <div id="react-container">${html}</div>
@@ -46,7 +46,6 @@ const buildHTMLPage = ({html, state, css}) => `
 const renderComponentsToHTML = ({url, store}) =>
     ({
         state: store.getState(),
-        css: defaultStyles,
         html: renderToString(
             <Provider store={store}>
                 <StaticRouter location={url} context={{}}>

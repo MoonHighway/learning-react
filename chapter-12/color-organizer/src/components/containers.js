@@ -22,16 +22,13 @@ export const Colors = connect(
         ({
             colors: sortColors(colors, match.params.sort)
         }),
-    (dispatch, {history}) =>
+    dispatch =>
         ({
             onRemove(id) {
                 dispatch(removeColor(id))
             },
             onRate(id, rating) {
                 dispatch(rateColor(id, rating))
-            },
-            onSelect(id) {
-                history.push(`/${id}`)
             }
         })
 )(ColorList)
