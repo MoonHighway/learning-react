@@ -11,12 +11,12 @@ const PageTemplate = ({children}) =>
 export const Home = () =>
     <div className="home">
         <h1>[Company Website]</h1>
-        <div>
+        <nav>
             <Link to="about">[About]</Link>
             <Link to="events">[Events]</Link>
             <Link to="products">[Products]</Link>
             <Link to="contact">[Contact Us]</Link>
-        </div>
+        </nav>
     </div>
 
 export const Whoops404 = ({ location }) =>
@@ -48,7 +48,7 @@ export const Contact = () =>
 export const About = ({ match }) =>
     <PageTemplate>
         <section className="about">
-            <AboutMenu isHome={match.isExact} />
+            <Route component={AboutMenu} />
             <Route exact path="/about" component={Company}/>
             <Route path="/about/history" component={History}/>
             <Route path="/about/services" component={Services}/>

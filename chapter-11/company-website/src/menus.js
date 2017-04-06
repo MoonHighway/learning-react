@@ -16,11 +16,11 @@ export const MainMenu = () =>
         <NavLink to="/contact" activeStyle={selectedStyle}>[Contact Us]</NavLink>
     </nav>
 
-export const AboutMenu = ({isHome=false}) =>
+export const AboutMenu = ({ match }) =>
     <div className="about-menu">
         <li>
             <NavLink to="/about"
-                  activeStyle={isHome && selectedStyle}>
+                  style={match.isExact && selectedStyle}>
                 [Company]
             </NavLink>
         </li>

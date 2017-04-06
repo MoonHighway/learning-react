@@ -1,5 +1,5 @@
 import { PropTypes, Component } from 'react'
-import { withRouter } from 'react-router'
+import { withRouter } from 'react-router-dom'
 import StarRating from './StarRating'
 import TimeAgo from './TimeAgo'
 import FaTrash from 'react-icons/lib/fa/trash-o'
