@@ -89,11 +89,11 @@ CDN's for JavaScript libraries
 Ultimately, we will be working with webpack and npms, but to get running quickly, here are some CDN links that
 can be included in JSBin with this syntax: `<script src="https://[CDN LINK]"></script>`
 
-* [React Source](https://unpkg.com/react@15.4.2/dist/react.js)
-* [React DOM Source](https://unpkg.com/react-dom@15.4.2/dist/react-dom.js)
+* [React](https://unpkg.com/react@15.4.2/dist/react.js)
+* [React DOM](https://unpkg.com/react-dom@15.4.2/dist/react-dom.js)
 * [Babel Inline Transpiller](https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js)
 * [fetch](https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js)
-* [Redux Source](https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js)
+* [Redux](https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js)
 * [React Router Source](https://cdnjs.cloudflare.com/ajax/libs/react-router/4.0.0/react-router.min.js)
 
 React Resources
