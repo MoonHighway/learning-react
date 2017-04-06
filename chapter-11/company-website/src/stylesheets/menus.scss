@@ -41,25 +41,3 @@ div.about-menu {
 
   }
 }
-
-ul.breadcrumbs {
-  list-style-type: none;
-  display: flex;
-
-  > li {
-
-    a {
-      color: cornflowerblue;
-    }
-
-    &:not(:last-of-type) {
-      &:after {
-        content: ">";
-        padding: 0 .5em;
-      }
-    }
-
-  }
-
-
-}
