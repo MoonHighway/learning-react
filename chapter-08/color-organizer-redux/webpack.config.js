@@ -19,15 +19,6 @@ module.exports = {
                 query: {
                     presets: ['env', 'stage-0', 'react']
                 }
-            },
-            {
-                test: /\.css$/,
-                loader: ['style-loader','css-loader','autoprefixer-loader']
-
-            },
-            {
-                test: /\.scss/,
-                loader: ['style-loader','css-loader','autoprefixer-loader','sass-loader']
             }
         ]
     },

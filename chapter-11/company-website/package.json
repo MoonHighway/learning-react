@@ -9,7 +9,6 @@
   "author": "Eve Porcello <eve@moonhighway.com> (http://www.moonhighway.com)",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer-loader": "3.2.0",
     "babel-core": "6.24.0",
     "babel-jest": "19.0.0",
     "babel-loader": "6.4.1",
@@ -27,7 +26,7 @@
     "jest-enzyme": "2.1.2",
     "node-sass": "4.5.1",
     "optimize-css-assets-webpack-plugin": "1.3.0",
-    "postcss-loader": "1.3.3",
+    "postcss-loader": "^1.3.3",
     "react-addons-test-utils": "15.4.2",
     "sass-loader": "6.0.3",
     "style-loader": "0.14.1",

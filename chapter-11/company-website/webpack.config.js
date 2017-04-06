@@ -30,12 +30,19 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                loader: ['style-loader','css-loader','autoprefixer-loader']
-
+                use: ['style-loader','css-loader', {
+                    loader: 'postcss-loader',
+                    options: {
+                      plugins: () => [require('autoprefixer')]
+                    }}]
             },
             {
                 test: /\.scss/,
-                loader: ['style-loader','css-loader','autoprefixer-loader','sass-loader']
+                use: ['style-loader','css-loader', {
+                    loader: 'postcss-loader',
+                    options: {
+                      plugins: () => [require('autoprefixer')]
+                    }}, 'sass-loader']
             }
         ]
     },
