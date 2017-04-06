@@ -14,9 +14,9 @@ const data = [
         "steps": [
             "Preheat the oven to 350 degrees.",
             "Spread the olive oil around a glass baking dish.",
-            "Add the salmon, Garlic, and pine nuts to the dish",
+            "Add the salmon, garlic, and pine nuts to the dish.",
             "Bake for 15 minutes.",
-            "Add the Butternut Squash and put back in the oven for 30 mins.",
+            "Add the yellow squash and put back in the oven for 30 mins.",
             "Remove from oven and let cool for 15 minutes. Add the lettuce and serve."
         ]
     },
@@ -24,14 +24,14 @@ const data = [
         "name": "Fish Tacos",
         "ingredients": [
             { "name": "Whitefish", "amount": 1, "measurement": "l lb" },
-            { "name": "cheese", "amount": 1, "measurement": "cup" },
+            { "name": "Cheese", "amount": 1, "measurement": "cup" },
             { "name": "Iceberg Lettuce", "amount": 2, "measurement": "cups" },
             { "name": "Tomatoes", "amount": 2, "measurement": "large"},
             { "name": "Tortillas", "amount": 3, "measurement": "med" }
         ],
         "steps": [
-            "Cook the Fish on the Grill until Hot",
-            "Place the fish on the 3 tortillas",
+            "Cook the fish on the grill until hot.",
+            "Place the fish on the 3 tortillas.",
             "Top them with lettuce, tomatoes, and cheese"
         ]
     }

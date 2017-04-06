@@ -1,6 +1,6 @@
 Chapter 7 : Enhancing Components
 ==================
-Before we can enhance our applications with 3rd party JavaScript works libraries or backend data requests we must
+Before we can enhance our applications with 3rd party JavaScript libraries or backend data requests, we must
 first understand how to work with the component lifecycle: a series of methods that can be invoked every time we
 mount or update a component.
 
@@ -9,7 +9,7 @@ Samples
 
 #### Mounting Lifecycle
 
-* Loading Data when a component mounts ([1](http://jsbin.com/bameba/1/edit?js,console),
+* Loading data when a component mounts ([1](http://jsbin.com/bameba/1/edit?js,console),
 [2](http://jsbin.com/bameba/2/edit?js,output))
 * Clock ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/mounting-lifecycle-clock/dist/index.html),
 [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/mounting-lifecycle-clock))
@@ -39,9 +39,9 @@ Samples
 
 #### Higher Order Components
 
-* people list ([1](http://jsbin.com/vexidu/1/edit?js,output))
+* People list ([1](http://jsbin.com/vexidu/1/edit?js,output))
 * DataComponent HOC ([2](http://jsbin.com/vexidu/2/edit?js,output))
-* country dropdown with DataComponent ([3](http://jsbin.com/vexidu/3/edit?js,output))
+* Country dropdown with DataComponent ([3](http://jsbin.com/vexidu/3/edit?js,output))
 * Expandable HOC ([1](http://jsbin.com/medari/1/edit?js,output))
 * PopUp with Expandable ([2](http://jsbin.com/medari/2/edit?js,output))
 

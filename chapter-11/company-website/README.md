@@ -10,7 +10,7 @@ Clone and Install
 -------------
 
 #### Installation
-Run this npm command to install dependencies.
+Run this npm command to install dependencies:
 ```
 $ npm install
 ```

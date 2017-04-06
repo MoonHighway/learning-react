@@ -1,6 +1,6 @@
 Chapter 6 : Props state and the component tree
 ==================
-Data handling within component trees is one of the key advantages of working with React. There are techniques that you 
+Data handling within component trees is one of the key advantages of working with React. There are techniques that you
 can use when working with data in React components that will make your life much easier in the long run.
 
 Samples
@@ -25,13 +25,13 @@ Samples
 
 * Color Component with Refs ([1](http://jsbin.com/kohigem/1/edit?js,output),
 [2](http://jsbin.com/kohigem/2/edit?js,output))
-* Two-way data binding ([3](http://jsbin.com/kohigem/3/edit?js,console,output),
+* Two-way Data Binding ([3](http://jsbin.com/kohigem/3/edit?js,console,output),
 [4](http://jsbin.com/kohigem/4/edit?js,console,output))
 * Default Function Properties ([5](http://jsbin.com/kohigem/5/edit?js,console,output),
 [6](http://jsbin.com/kohigem/6/edit?js,console,output),
 [7](http://jsbin.com/kohigem/7/edit?js,console,output))
 * Refs In Stateless Functional Components ([8](http://jsbin.com/kohigem/8/edit?js,console,output),
-[9](http://jsbin.com/kohigem/9/edit?js,console,output)) 
+[9](http://jsbin.com/kohigem/9/edit?js,console,output))
 
 #### Component State
 
