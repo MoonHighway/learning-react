@@ -52,7 +52,7 @@ Samples
 [13](http://jsbin.com/jukokaf/13/edit?js,console),
 [14](http://jsbin.com/jukokaf/14/edit?js,console),
 [15](http://jsbin.com/jukokaf/15/edit?js,console))
-* getFakeMembers ([1](http://jsbin.com/ceteja/1/edit?js,console))
+* getFakeMembers ([1](http://jsbin.com/pupojik/1/edit?js,console))
 * fetch members ([1](http://jsbin.com/haguhe/1/edit?js,console))
 
 #### ES6 Class Syntax
