@@ -11,8 +11,8 @@
     "watch:test": "./node_modules/.bin/jest --watch",
     "test": "./node_modules/.bin/jest",
     "posttest": "npm run lint",
-    "coverage": "open ./coverage/lcov-report/index.html",
-    "dev": "open http://localhost:3000 & ./node_modules/.bin/webpack-dev-server"
+    "coverage": "opener ./coverage/lcov-report/index.html",
+    "dev": "opener http://localhost:3000 & ./node_modules/.bin/webpack-dev-server"
   },
   "keywords": [
     "React",
@@ -41,6 +41,7 @@
     "jest-css-modules": "1.1.0",
     "jest-enzyme": "2.1.2",
     "node-sass": "4.5.1",
+    "opener": "1.4.3",
     "optimize-css-assets-webpack-plugin": "1.3.0",
     "postcss-loader": "1.3.3",
     "react-addons-test-utils": "15.4.2",

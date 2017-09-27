@@ -22,3 +22,8 @@ Run this npm command to build the JavaScript Bundle and open the browser to the 
 ```
 $ npm start
 ```
+
+Updates
+----
+
+We've updated the project's dependencies to include the [opener package](https://www.npmjs.com/package/opener). This will allow users to open/start files on both PCs and Macs via build scripts that use the '''opener''' command.
