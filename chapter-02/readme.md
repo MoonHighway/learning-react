@@ -11,12 +11,12 @@ Samples
 
   1. Without const
   2. With const
-   ([demo](http://rawgit.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-02/01-declaring-variables/02-const.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-02/01-declaring-variables/02-const.html), [bin](http://jsbin.com/gapoxa/2/edit?js,output))
+   ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-02/01-declaring-variables/02-const.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-02/01-declaring-variables/02-const.html), [bin](http://jsbin.com/gapoxa/2/edit?js,output))
 
 ##### let
 
   3. Without let (demo, code, bin)
-  4. With let (demo, code, bin) 
+  4. With let (demo, code, bin)
 
 
 * template strings ([5](http://jsbin.com/gapoxa/5/edit?js,output),
