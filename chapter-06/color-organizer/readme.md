@@ -78,9 +78,9 @@ import PropTypes from 'prop-types'
 ### Set State updater functions
 In React 16, Fiber prioritizes updates and intermittently relinquishes control back
 to the main JavaScript thread. This change has made using the previous state, `this.state`,
-when calling `setState` problematic. To address this, `setState` now accepts a function called
-an updater as the first argument. This function passes the previous state that you may
-need to use when creating the next state.
+when calling `setState` problematic. To address this, `setState` [now accepts a function called
+an updater](https://facebook.github.io/react/docs/react-component.html) as the first argument.
+This function passes the previous state that you may need to use when creating the next state.
 
 #### In [App.js](https://github.com/MoonHighway/learning-react/blob/master/chapter-06/color-organizer/src/components/App.js) Change
 ```javascript
