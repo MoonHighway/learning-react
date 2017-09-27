@@ -6,8 +6,8 @@ Samples
 --------
 
 #### Declaring Variables in ES6
-* const ([1](http://rawgit.com/MoonHighway/learning-react/master/chapter-02/01-declaring-variables/01-const.html),[2](http://rawgit.com/MoonHighway/learning-react/master/chapter-02/01-declaring-variables/02-const.html))
-* let ([3](http://rawgit.com/MoonHighway/learning-react/master/chapter-02/01-declaring-variables/03-let.html),[4](http://rawgit.com/MoonHighway/learning-react/master/chapter-02/01-declaring-variables/04-let.html))
+* const ([1](https://raw.githubusercontent.com/MoonHighway/learning-react/update-localize-samples/chapter-02/01-declaring-variables/01-const.html),[2](https://raw.githubusercontent.com/MoonHighway/learning-react/update-localize-samples/chapter-02/01-declaring-variables/02-const.html))
+* let ([3](https://raw.githubusercontent.com/MoonHighway/learning-react/update-localize-samples/chapter-02/01-declaring-variables/03-let.html),[4](https://raw.githubusercontent.com/MoonHighway/learning-react/update-localize-samples/chapter-02/01-declaring-variables/04-let.html))
 * template strings ([5](http://jsbin.com/gapoxa/5/edit?js,output),
 [6](http://jsbin.com/gapoxa/6/edit?js,output),
 [7](http://jsbin.com/gapoxa/7/edit?js,console),
