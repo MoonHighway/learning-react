@@ -6,16 +6,16 @@ some updating lifecycle methods.
 ```javascript
 
     class Color extends Component {
-    
+
         componentWillMount() {
             this.style = { backgroundColor: "#CCC" }
         }
-    
+
         shouldComponentUpdate(nextProps) {
             const { rating } = this.props
             return rating !== nextProps.rating
         }
-    
+
         componentWillUpdate(nextProps) {
             const { title, rating } = this.props
             this.style = null
@@ -23,7 +23,7 @@ some updating lifecycle methods.
             this.refs.title.style.color = "white"
             alert(`${title}: rating ${rating} -> ${nextProps.rating}`)
         }
-    
+
         componentDidUpdate(prevProps) {
             const { title, rating } = this.props
             const status = (rating > prevProps.rating) ? 'better' : 'worse'
@@ -31,7 +31,7 @@ some updating lifecycle methods.
             this.refs.title.style.backgroundColor = ""
             this.refs.title.style.color = "black"
         }
-    
+
         render() {
             const { title, color, rating, onRemove, onRate} = this.props
             return (
@@ -47,7 +47,7 @@ some updating lifecycle methods.
                 </section>
             )
         }
-    
+
     }
 
 ```
@@ -74,3 +74,9 @@ Run this npm command to build the JavaScript Bundle and open the browser to the 
 ```
 $ npm start
 ```
+
+Updates
+-------------
+We've updated this repo to use React 16. These updates include using the `prop-types` library
+and using an updater function when setting state. Refer to the [Chapter 6 Color Organizer Readme](https://github.com/MoonHighway/learning-react/tree/master/chapter-06/color-organizer)
+for details about these changes.
