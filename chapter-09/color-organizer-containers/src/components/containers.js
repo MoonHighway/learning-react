@@ -1,4 +1,4 @@
-import { PropTypes } from 'react'
+import PropTypes from 'prop-types'
 import AddColorForm from './ui/AddColorForm'
 import SortMenu from './ui/SortMenu'
 import ColorList from './ui/ColorList'
