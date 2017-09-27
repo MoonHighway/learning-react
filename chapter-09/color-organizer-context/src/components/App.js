@@ -1,5 +1,6 @@
 import '../../stylesheets/APP.scss'
-import { PropTypes, Component } from 'react'
+import { Component } from 'react'
+import PropTypes from 'prop-types'
 import SortMenu from './SortMenu'
 import ColorList from './ColorList'
 import AddColorForm from './AddColorForm'
