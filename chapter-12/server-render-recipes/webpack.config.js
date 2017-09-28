@@ -1,11 +1,12 @@
 var webpack = require("webpack")
+var path = require("path")
 
 process.noDeprecation = true
 
 module.exports = {
     entry: "./index-client.js",
     output: {
-        path: "assets",
+        path: path.join(__dirname, 'assets'),
         filename: "bundle.js"
     },
     module: {
