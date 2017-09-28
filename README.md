@@ -2,6 +2,7 @@ Learning React
 =================
 The code samples for *Learning React* by Alex Banks and Eve Porcello, published by O'Reilly Media
 
+|-------------------|
 | React 16 Updates! |
 
 |          |          |
