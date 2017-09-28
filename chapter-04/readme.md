@@ -10,7 +10,7 @@ Samples
 
   1. HTML Document Setup ([code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/01-page-setup/01-page-setup.html))
   2. HTML for a Recipe ([demo](http://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/01-page-setup/02-baked-salmon.html),
-[code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/update-localize-samples/chapter-04/01-page-setup/02-baked-salmon))
+[code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/update-localize-samples/chapter-04/01-page-setup/02-baked-salmon.html))
 
 ### React Elements
 
@@ -39,6 +39,8 @@ Samples
   2. DOM Factories - ul ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/02-factories.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/05-factories/02-factories.html), [bin](http://jsbin.com/mebahe/2/edit?js,output))
   3. DOM Factories - props ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/03-factories.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/05-factories/03-factories.html), [bin](http://jsbin.com/mebahe/3/edit?js,output))
   4. Component Factories ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/04-factories.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/05-factories/04-factories.html), [bin](http://jsbin.com/mebahe/4/edit?js,output))
+
+-----
 
   Note: All JSBin links throughout this repository use React 15. To update, change the script tag CDN links to version 16.
 
