@@ -26,18 +26,19 @@ Samples
 
 #### Populate the US
 
-  1. Populate the US ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/03-populate-the-us/populate-united-states.html),
-  [code](https://github.com/MoonHighway/learning-react/blob/master/chapter-03/03-populate-the-us/populate-united-states.js), [bin](http://jsbin.com/gesimonadi/1/edit?html,js,output))
+  1. Populate the US ([demo](http://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/03-populate-the-us/populate-united-states.html),
+  [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/03-populate-the-us/populate-united-states.js), [bin](http://jsbin.com/gesimonadi/1/edit?html,js,output))
 
 
 ### Immutability
 
-  1. Mutations ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/01-immmutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/01-immmutability.html), [bin](http://jsbin.com/kemimi/1/edit?js,output))
-  2. Object.assign() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/02-immmutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/02-immmutability.html), [bin](http://jsbin.com/kemimi/2/edit?js,output))
-  3. Spread Operator with Objects ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/03-immmutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/03-immmutability.html), [bin](http://jsbin.com/kemimi/4/edit?js,output))
-  4. Array.push() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/04-immmutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/04-immmutability.html), [bin](http://jsbin.com/kemimi/4/edit?js,output))
-  5. Array.concat() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/05-immmutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/05-immmutability.html), [bin](http://jsbin.com/kemimi/5/edit?js,output))
-  6. Spread Operator with Arrays ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/06-immmutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/06-immmutability.html), [bin](http://jsbin.com/kemimi/6/edit?js,output))
+  1. Mutations ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/01-immutability.html),
+  [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/01-immutability.html), [bin](http://jsbin.com/kemimi/1/edit?js,output))
+  2. Object.assign() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/02-immutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/02-immutability.html), [bin](http://jsbin.com/kemimi/2/edit?js,output))
+  3. Spread Operator with Objects ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/03-immutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/03-immutability.html), [bin](http://jsbin.com/kemimi/3/edit?js,output))
+  4. Array.push() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/04-immutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/04-immutability.html), [bin](http://jsbin.com/kemimi/4/edit?js,output))
+  5. Array.concat() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/05-immutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/05-immutability.html), [bin](http://jsbin.com/kemimi/5/edit?js,output))
+  6. Spread Operator with Arrays ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/04-immutability/06-immutability.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/04-immutability/06-immutability.html), [bin](http://jsbin.com/kemimi/6/edit?js,output))
 
 ### Pure Functions
 
@@ -53,7 +54,7 @@ Samples
   2. Filtering Arrays ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/06-transforming-data/02-data.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/06-transforming-data/02-data.html), [bin](http://jsbin.com/qehige/2/edit?js,output))
   3. Filtering Array Function ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/06-transforming-data/03-data.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/06-transforming-data/03-data.html), [bin](http://jsbin.com/qehige/3/edit?js,output))
   4. Mapping Arrays ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/06-transforming-data/04-data.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/06-transforming-data/04-data.html), [bin](http://jsbin.com/qehige/4/edit?js,output))
-  5. Creating Objects from Arrays ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/06-transforming-data/05-data.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/06-transforming-data/05-data.html), [bin](http://jsbin.com/qehige/5/edit?js,output))
+  5. Creating Objects with .map() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/06-transforming-data/05-data.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/06-transforming-data/05-data.html), [bin](http://jsbin.com/qehige/5/edit?js,output))
   6. Updating Array of Objects ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/06-transforming-data/06-data.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/06-transforming-data/06-data.html), [bin](http://jsbin.com/qehige/6/edit?js,output))
   7. Editing Arrays of Objects ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/06-transforming-data/07-data.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/06-transforming-data/07-data.html), [bin](http://jsbin.com/qehige/7/edit?js,output))
   8. Object.keys() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/06-transforming-data/08-data.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/06-transforming-data/08-data.html), [bin](http://jsbin.com/qehige/8/edit?js,output))
@@ -81,9 +82,3 @@ Samples
   3. Click with Compose Function ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/09-composition/03-composition.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/09-composition/03-composition.html), [bin](http://jsbin.com/zivevu/3/edit?js,output))
   4. Imperative Clock ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/09-composition/04-imperative-clock.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/09-composition/04-imperative-clock.js))
   5. Declarative Clock ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/09-composition/05-declarative-clock.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/09-composition/05-declarative-clock.js))
-
-
-* imperative clock ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/imperative-clock.html),
-[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-03/imperative-clock.js))
-* declarative clock ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-03/declarative-clock.html),
-[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-03/declarative-clock.js))
