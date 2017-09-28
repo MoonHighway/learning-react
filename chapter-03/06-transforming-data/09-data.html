@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Transforming Data</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+<h1>Transforming Data</h1>
+<p>Open the Console</p>
+<script type="text/babel">
+
+    const ages = [21,18,42,40,64,63,34]
+
+    const maxAge = ages.reduce((max, age) => {
+      console.log(`${age} > ${max} = ${age > max}`)
+      if (age > max) {
+          return age
+      } else {
+          return max
+      }
+    }, 0)
+
+    console.log('maxAge', maxAge)
+
+</script>
+</body>
+</html>

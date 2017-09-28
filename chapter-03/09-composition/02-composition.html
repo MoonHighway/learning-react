@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Composition</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+  <h1>Composition</h1>
+  <p>Open the Console</p>
+<script type="text/babel">
+
+    const createClockTime = date => ({date})
+
+    const appendAMPM = ({date}) =>
+        ({
+            date,
+            ampm: (date.getHours() >= 12) ? "PM" : "AM"
+        })
+
+    const civilianHours = clockTime => {
+      const hours = clockTime.date.getHours()
+      return {
+        ...clockTime,
+        hours: (hours > 12) ?
+          hours - 12 :
+          hours
+      }
+    }
+
+    const removeDate = clockTime => {
+      let newTime = {...clockTime}
+      delete newTime.date
+      return newTime
+    }
+
+    // Not the best way to compose all of these into one function
+
+    const oneFunction = date =>
+        removeDate(
+            civilianHours(
+                appendAMPM(
+                    createClockTime(date)
+                )
+            )
+        )
+
+    console.log(oneFunction(new Date()))
+
+</script>
+</body>
+</html>

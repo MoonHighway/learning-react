@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Composition</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+  <h1>Composition</h1>
+  <p>Open the Console</p>
+<script type="text/babel">
+
+    const template = "hh:mm:ss tt"
+    const clockTime = template.replace("hh", "03")
+          .replace("mm", "33")
+          .replace("ss", "33")
+          .replace("tt", "PM")
+
+    console.log(clockTime)
+
+</script>
+</body>
+</html>

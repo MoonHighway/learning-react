@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Recursion</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+  <h1>Recursion</h1>
+  <p>Open the Console</p>
+<script type="text/babel">
+
+    const dan = {
+        type: "person",
+        data: {
+          gender: "male",
+          info: {
+            id: 22,
+            fullname: {
+              first: "Dan",
+              last: "Deacon"
+            }
+          }
+        }
+      }
+
+    const deepPick = (fields, object={}) => {
+       const [first, ...remaining] = fields.split(".")
+       return (remaining.length) ?
+           deepPick(remaining.join("."), object[first]) :
+           object[first]
+    }
+
+    console.log( deepPick("type", dan) )
+    console.log( deepPick("data.info.fullname.first", dan) )
+
+</script>
+</body>
+</html>

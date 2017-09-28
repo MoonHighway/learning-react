@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Transforming Data</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+  <h1>Transforming Data</h1>
+  <p>Open the Console</p>
+<script type="text/babel">
+
+    const colors = ["red", "red", "green", "blue", "green"];
+
+    const distinctColors = colors.reduce(
+        (distinct, color) =>
+            (distinct.indexOf(color) !== -1) ?
+                distinct :
+                [...distinct, color],
+        []
+    )
+
+    console.log(distinctColors)
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Recursion</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+  <h1>Recursion</h1>
+  <p>Open the Console</p>
+<script type="text/babel">
+
+    const countdown = (value, fn, delay=1000) => {
+        fn(value)
+        return (value > 0) ?
+            setTimeout(() => countdown(value-1, fn), delay) :
+            value
+    }
+
+    const log = value => console.log(value)
+    countdown(10, log)
+
+</script>
+</body>
+</html>
