@@ -6,36 +6,36 @@ it comes time to debug.
 Samples
 --------
 
-#### Page Setup
+### Page Setup
 
-* HTML Document Setup ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/page-setup.html))
+  1. HTML Document Setup ([code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/01-page-setup/01-page-setup.html))
+  2. HTML for a Recipe ([demo](http://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/01-page-setup/02-baked-salmon.html),
+[code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/update-localize-samples/chapter-04/01-page-setup/02-baked-salmon))
 
-#### React Elements
+### React Elements --
 
-* HTML for a Recipe ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-04/baked-salmon.html),
-[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/baked-salmon.html))
-* React Elements ([1](http://jsbin.com/fumiyu/1/edit?js,output),
-[2](http://jsbin.com/fumiyu/2/edit?js,output),
-[3](http://jsbin.com/fumiyu/3/edit?js,output))
-* Constructing Elements with Data ([4](http://jsbin.com/fumiyu/4/edit?js,output),
-[5](http://jsbin.com/fumiyu/5/edit?js,output))
+  1. Rendering an Element ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/01-elements.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/01-elements.html), [bin](http://jsbin.com/fumiyu/1/edit?js,output))
+  2. Rendering an Element with Properties ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/02-elements.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/02-elements.html), [bin](http://jsbin.com/fumiyu/2/edit?js,output))
+  3. Rendering Lists ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/03-elements.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/03-elements.html), [bin](http://jsbin.com/fumiyu/3/edit?js,output))
+  4. Mapping over Elements ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/04-elements.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/04-elements.html), [bin](http://jsbin.com/fumiyu/4/edit?js,output))
+  5. Adding Keys ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/05-elements.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/02-react-elements/05-elements.html), [bin](http://jsbin.com/fumiyu/1/edit?js,output))
 
-#### React Components
+### React Components
 
-* React.createClass ([1](http://jsbin.com/cezotew/1/edit?js,output),
-[2](http://jsbin.com/cezotew/2/edit?js,output),
-[3](http://jsbin.com/cezotew/3/edit?js,output))
-* React.Component ([4](http://jsbin.com/cezotew/4/edit?js,output))
-* Stateless Functional Component ([5](http://jsbin.com/cezotew/5/edit?js,output))
+  1. createReactClass() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/01-components.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/01-components.html), [bin](http://jsbin.com/cezotew/1/edit?js,output))
+  2. createReactClass() with props ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/02-components.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/02-components.html), [bin](http://jsbin.com/cezotew/2/edit?js,output))
+  3. createReactClass() with lists ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/03-components.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/03-components.html), [bin](http://jsbin.com/cezotew/3/edit?js,output))
+  4. ES6 Classes ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/04-components.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/04-components.html), [bin](http://jsbin.com/cezotew/4/edit?js,output))
+  5. Stateless Functional Components ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/05-components.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/05-components.html), [bin](http://jsbin.com/cezotew/5/edit?js,output))
 
-#### DOM Rendering
+### DOM Rendering
 
-* team moods ([demo (firefox only)](http://rawgit.com/MoonHighway/learning-react/master/chapter-04/DOM-rendering-moods.html),
-[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/DOM-rendering-moods.js))
+  1. team moods ([demo (firefox only)](http://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/04-dom-rendering-moods/01-DOM-rendering-moods.html),
+[code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/04-dom-rendering-moods/01-DOM-rendering-moods.js))
 
-#### Factories
+### Factories -- mebahe
 
-* DOM Factories ([1](http://jsbin.com/mebahe/1/edit?js,output),
-[2](http://jsbin.com/mebahe/2/edit?js,output),
-[3](http://jsbin.com/mebahe/3/edit?js,output))
-* Component Factories ([4](http://jsbin.com/mebahe/4/edit?js,output))
+  1. DOM Factories - h1 ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/01-factories.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/01-factories.html), [bin](http://jsbin.com/mebahe/1/edit?js,output))
+  2. DOM Factories - ul ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/02-factories.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/02-factories.html), [bin](http://jsbin.com/mebahe/2/edit?js,output))
+  3. DOM Factories - props ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/03-factories.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/03-factories.html), [bin](http://jsbin.com/mebahe/3/edit?js,output))
+  4. Component Factories ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/04-factories.html), [code](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/04-factories.html), [bin](http://jsbin.com/mebahe/4/edit?js,output))
