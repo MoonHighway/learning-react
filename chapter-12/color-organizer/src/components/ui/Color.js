@@ -1,4 +1,5 @@
-import { PropTypes, Component } from 'react'
+import { Component } from 'react'
+import PropTypes from 'prop-types'
 import { withRouter } from 'react-router'
 import StarRating from './StarRating'
 import TimeAgo from './TimeAgo'
