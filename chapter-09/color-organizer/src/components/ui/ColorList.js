@@ -1,4 +1,4 @@
-import { PropTypes } from 'react'
+import PropTypes from 'prop-types'
 import Color from './Color'
 import '../../../stylesheets/ColorList.scss'
 

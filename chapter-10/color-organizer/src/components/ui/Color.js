@@ -1,4 +1,5 @@
-import { PropTypes, Component } from 'react'
+import { Component } from 'react'
+import PropTypes from 'prop-types'
 import StarRating from './StarRating'
 import TimeAgo from './TimeAgo'
 import FaTrash from 'react-icons/lib/fa/trash-o'
@@ -15,7 +16,7 @@ class Color extends Component {
                     <FaTrash />
                 </button>
                 <div className="color"
-                     style={{ backgroundColor: color }}>
+                    style={{ backgroundColor: color }}>
                 </div>
                 <TimeAgo timestamp={timestamp} />
                 <div>

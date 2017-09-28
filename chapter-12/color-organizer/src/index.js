@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from 'react-dom'
+import { hydrate } from 'react-dom'
 import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
 import App from './components/App'
@@ -12,7 +12,7 @@ window.store = store
 
 console.log('rendered from here...')
 
-render(
+hydrate(
     <Provider store={store}>
         <BrowserRouter>
           <App />

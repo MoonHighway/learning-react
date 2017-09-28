@@ -1,4 +1,4 @@
-import { PropTypes } from 'react'
+import PropTypes from 'prop-types'
 import StarRating from './StarRating'
 import '../../stylesheets/Color.scss'
 
@@ -23,5 +23,3 @@ Color.propTypes = {
 }
 
 export default Color
-
-

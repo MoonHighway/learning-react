@@ -1,5 +1,6 @@
-import { mount } from 'enzyme'
 import Expandable from '../../../src/components/HOC/Expandable'
+
+const { mount } = Enzyme
 
 describe("Expandable Higher Order Component", () => {
 

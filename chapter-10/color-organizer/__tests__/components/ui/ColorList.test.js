@@ -1,14 +1,15 @@
-import { shallow, mount } from 'enzyme'
 import toJSON from 'enzyme-to-json'
 import { compose } from 'redux'
 import ColorList from '../../../src/components/ui/ColorList'
 
+const { shallow, mount } = Enzyme
+
 jest.mock('../../../src/components/ui/Color', () =>
-  ({rating, onRate=f=>f, onRemove=f=>f}) =>
-    <div className="mockColor">
-      <button className="rate" onClick={() => onRate(rating)} />
-      <button className="remove" onClick={onRemove} />
-    </div>
+    ({rating, onRate=f=>f, onRemove=f=>f}) =>
+        <div className="mockColor">
+            <button className="rate" onClick={() => onRate(rating)} />
+            <button className="remove" onClick={onRemove} />
+        </div>
 )
 
 describe("<ColorList /> UI Component", () => {

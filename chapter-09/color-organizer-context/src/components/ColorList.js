@@ -1,5 +1,5 @@
 import '../../stylesheets/ColorList.scss'
-import { PropTypes } from 'react'
+import PropTypes from 'prop-types'
 import Color from './Color'
 
 const ColorList = ({ colors=[] }) =>

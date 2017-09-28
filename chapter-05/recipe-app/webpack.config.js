@@ -1,11 +1,12 @@
 var webpack = require("webpack")
+var path = require("path")
 
 process.noDeprecation = true
 
 module.exports = {
   entry: "./src/index.js",
   output: {
-      path: "dist/assets",
+      path: path.join(__dirname, 'dist', 'assets'),
       filename: "bundle.js",
       sourceMapFilename: 'bundle.map'
   },
