@@ -25,3 +25,4 @@ globals:
     process: true
     __dirname: true
     _testColors: true
+    Enzyme: true

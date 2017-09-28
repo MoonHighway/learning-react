@@ -10,6 +10,7 @@ exports[`<Color /> UI Component Renders Correctly 1`] = `
   <a
     className={null}
     href="#"
+    key="0"
     onClick={[Function]}
   >
     date
@@ -17,6 +18,7 @@ exports[`<Color /> UI Component Renders Correctly 1`] = `
   <a
     className="selected"
     href="#"
+    key="1"
     onClick={[Function]}
   >
     title
@@ -24,6 +26,7 @@ exports[`<Color /> UI Component Renders Correctly 1`] = `
   <a
     className={null}
     href="#"
+    key="2"
     onClick={[Function]}
   >
     rating

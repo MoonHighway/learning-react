@@ -1,5 +1,6 @@
 import '../../stylesheets/APP.scss'
-import { PropTypes, Component } from 'react'
+import { Component } from 'react'
+import PropTypes from 'prop-types'
 import { Menu, NewColor, Colors } from './containers'
 import { sortFunction } from '../lib/array-helpers'
 

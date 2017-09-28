@@ -4,7 +4,7 @@
   "description": "Learning React Chapter 4 sample for modular recipes with webpack",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --progress",
+    "build": "webpack --progress",
     "prestart": "npm run build",
     "start": "opener dist/index.html"
   },
@@ -26,19 +26,19 @@
   },
   "homepage": "https://github.com/MoonHighway/learning-react#readme",
   "dependencies": {
-    "react": "15.4.2",
-    "react-dom": "15.4.2"
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
   },
   "devDependencies": {
-    "babel-core": "6.24.0",
-    "babel-loader": "6.4.1",
-    "babel-preset-env": "1.3.2",
-    "babel-preset-react": "6.23.0",
-    "babel-preset-stage-0": "6.22.0",
-    "css-loader": "0.27.3",
     "opener": "1.4.3",
-    "postcss-loader": "1.3.3",
-    "style-loader": "0.14.1",
-    "webpack": "2.2.1"
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "css-loader": "0.28.7",
+    "postcss-loader": "2.0.6",
+    "style-loader": "0.18.2",
+    "webpack": "3.6.0"
   }
 }

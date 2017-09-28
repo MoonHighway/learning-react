@@ -1,4 +1,5 @@
-import { PropTypes, Component } from 'react'
+import { Component } from 'react'
+import PropTypes from 'prop-types'
 import '../../stylesheets/AddColorForm.scss'
 
 class AddColorForm extends Component {
@@ -22,10 +23,10 @@ class AddColorForm extends Component {
         return (
             <form className="add-color" onSubmit={this.submit}>
                 <input ref="_title"
-                       type="text"
-                       placeholder="color title..." required/>
+                    type="text"
+                    placeholder="color title..." required/>
                 <input ref="_color"
-                       type="color" required/>
+                    type="color" required/>
                 <button>ADD</button>
             </form>
         )

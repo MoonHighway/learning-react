@@ -1,5 +1,6 @@
 import '../../stylesheets/Color.scss'
-import { PropTypes, Component } from 'react'
+import { Component } from 'react'
+import PropTypes from 'prop-types'
 import StarRating from './StarRating'
 import TimeAgo from './TimeAgo'
 import FaTrash from 'react-icons/lib/fa/trash-o'
@@ -42,5 +43,3 @@ Color.defaultProps = {
 }
 
 export default Color
-
-

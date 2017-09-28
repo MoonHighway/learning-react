@@ -17,33 +17,36 @@ export default class App extends Component {
     }
 
     addColor(title, color) {
-        const colors = [
-            ...this.state.colors,
-            {
-                id: v4(),
-                title,
-                color,
-                rating: 0
-            }
-        ]
-        this.setState({colors})
+        this.setState(prevState => ({
+            colors: [
+                ...prevState.colors,
+                {
+                    id: v4(),
+                    title,
+                    color,
+                    rating: 0
+                }
+            ]
+        }))
     }
 
     rateColor(id, rating) {
-        const colors = this.state.colors.map(color =>
-            (color.id !== id) ?
-                color :
-                {
-                    ...color,
-                    rating
-                }
-        )
-        this.setState({colors})
+        this.setState(prevState => ({
+            colors: prevState.colors.map(color =>
+                (color.id !== id) ?
+                    color :
+                    {
+                        ...color,
+                        rating
+                    }
+            )
+        }))
     }
 
     removeColor(id) {
-        const colors = this.state.colors.filter(color => color.id !== id)
-        this.setState({colors})
+        this.setState(prevState => ({
+          colors: prevState.colors.filter(color => color.id !== id)
+        }))
     }
 
     render() {
