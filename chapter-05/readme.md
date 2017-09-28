@@ -8,16 +8,16 @@ Samples
 
 #### Babel Setup
 
-* Transpile JSX with Babel ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/page-setup.html))
+* Transpile JSX with Babel ([code](https://github.com/MoonHighway/learning-react/blob/upgrade-localize-samples/chapter-05/page-setup.html))
 
 #### Recipes App with JSX
 
-* Single HTML Page ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-05/recipes.html),
-[code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipes.js))
+* Single HTML Page ([demo](http://rawgit.com/MoonHighway/learning-react/upgrade-localize-samples/chapter-05/recipes.html),
+[code](https://github.com/MoonHighway/learning-react/blob/upgrade-localize-samples/chapter-05/recipes.js))
 
 #### Recipes App with JSX and Webpack
 
-* Full App ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-05/recipe-app/dist/) 
+* Full App ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-05/recipe-app/dist/)
 [code](https://github.com/MoonHighway/learning-react/tree/master/chapter-05/recipe-app))
 * Instructions Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/src/components/Instructions.js))
 * Ingredient Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/src/components/Ingredient.js))
