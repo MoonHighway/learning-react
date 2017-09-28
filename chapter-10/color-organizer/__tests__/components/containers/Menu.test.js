@@ -1,7 +1,8 @@
-import { mount, shallow } from 'enzyme'
 import { Provider } from 'react-redux'
 import { compose } from 'redux'
 import { Menu } from '../../../src/components/containers'
+
+const { shallow, mount } = Enzyme
 
 jest.mock('../../../src/components/ui/SortMenu')
 
@@ -19,9 +20,9 @@ describe("<Menu /> Container ", () => {
     }
 
     beforeAll(() => wrapper = mount(
-      <Provider store={_store}>
-          <Menu />
-      </Provider>
+        <Provider store={_store}>
+            <Menu />
+        </Provider>
     ))
 
     it("maps sort from state to props", () => {

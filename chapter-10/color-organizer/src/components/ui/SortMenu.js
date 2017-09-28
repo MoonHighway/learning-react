@@ -1,4 +1,4 @@
-import { PropTypes } from 'react'
+import PropTypes from 'prop-types'
 import '../../stylesheets/Menu.scss'
 
 const options = {
@@ -12,12 +12,12 @@ const SortMenu = ({ sort="SORTED_BY_DATE", onSelect=f=>f}) =>
         <h1>Sort Colors</h1>
         {Object.keys(options).map((item, i) =>
             <a key={i}
-               href="#"
-               className={(sort === options[item]) ? "selected" : null}
-               onClick={e => {
-                   e.preventDefault()
-                   onSelect(options[item])
-               }}>{item}</a>
+                href="#"
+                className={(sort === options[item]) ? "selected" : null}
+                onClick={e => {
+                    e.preventDefault()
+                    onSelect(options[item])
+                }}>{item}</a>
         )}
     </nav>
 

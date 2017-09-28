@@ -1,5 +1,6 @@
-import { shallow } from 'enzyme'
 import Star from '../../../src/components/ui/Star'
+
+const { shallow } = Enzyme
 
 describe("<Star /> UI Component", () => {
 

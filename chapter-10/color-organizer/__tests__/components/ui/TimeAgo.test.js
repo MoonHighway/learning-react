@@ -1,5 +1,6 @@
-import { shallow } from 'enzyme'
 import TimeAgo from '../../../src/components/ui/TimeAgo'
+
+const { shallow } = Enzyme
 
 jest.mock('../../../src/lib/time-helpers', () => ({
     ago() {

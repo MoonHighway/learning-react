@@ -1,5 +1,6 @@
-import { mount } from 'enzyme'
 import StarRating from '../../../src/components/ui/StarRating'
+
+const { mount } = Enzyme
 
 describe("<StarRating /> UI Component", () => {
 
@@ -30,7 +31,7 @@ describe("<StarRating /> UI Component", () => {
                 .toEqual("4 of 7 stars"))
 
         it("rating does cause error", () => {
-            wrapper.childAt(3).simulate("click")
+            wrapper.children().childAt(3).simulate('click')
         })
 
     })
@@ -43,12 +44,12 @@ describe("<StarRating /> UI Component", () => {
         beforeAll(() => wrapper = mount(<StarRating onRate={_rate}/>))
 
         it("Invokes onRate Function", () => {
-            wrapper.childAt(3).simulate("click")
+            wrapper.children().childAt(3).simulate("click")
             expect(_rate.mock.calls.length).toEqual(1)
         })
 
         it("passes the correct rating", () => {
-            wrapper.childAt(1).simulate("click")
+            wrapper.children().childAt(1).simulate("click")
             expect(_rate.mock.calls[0][0]).toEqual(2)
         })
 

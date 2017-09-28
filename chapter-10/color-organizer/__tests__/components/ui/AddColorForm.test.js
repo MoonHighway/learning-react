@@ -1,7 +1,8 @@
-import { shallow, mount } from 'enzyme'
 import toJSON from 'enzyme-to-json'
 import { compose } from 'redux'
 import AddColorForm from '../../../src/components/ui/AddColorForm'
+
+const { shallow, mount } = Enzyme
 
 describe("<AddColorForm /> UI Componnet", () => {
 
@@ -16,8 +17,8 @@ describe("<AddColorForm /> UI Componnet", () => {
 
         it("Submitting default onNewColor does not cause error", () => {
             wrapper = mount(<AddColorForm />)
-            wrapper.ref('_title').get(0).value = 'test-color'
-            wrapper.ref('_color').get(0).value = '#0000FF'
+            wrapper.ref('_title').value = 'test-color'
+            wrapper.ref('_color').value = '#0000FF'
             wrapper.find('form').simulate('submit')
         })
 
@@ -29,21 +30,21 @@ describe("<AddColorForm /> UI Componnet", () => {
 
         beforeAll(() => {
             wrapper = mount(<AddColorForm onNewColor={_addColor}/>)
-            wrapper.ref('_title').get(0).value = 'test-color'
-            wrapper.ref('_color').get(0).value = '#000099'
+            wrapper.ref('_title').value = 'test-color'
+            wrapper.ref('_color').value = '#000099'
             wrapper.find('form').simulate('submit')
         })
 
-        it("adds colors correctly", () =>
+        it("adds colors correctly", () => 
             expect(_addColor).toBeCalledWith('test-color', '#000099')
         )
 
         it("resets the title value", () =>
-            expect(wrapper.ref('_title').get(0).value).toBe("")
+            expect(wrapper.ref('_title').value).toBe("")
         )
 
         it("resets the color value", () =>
-            expect(wrapper.ref('_color').get(0).value).toBe("#000000")
+            expect(wrapper.ref('_color').value).toBe("#000000")
         )
 
     })
