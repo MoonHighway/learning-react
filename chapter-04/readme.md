@@ -10,7 +10,7 @@ Samples
 
   1. HTML Document Setup ([code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/01-page-setup/01-page-setup.html))
   2. HTML for a Recipe ([demo](http://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/01-page-setup/02-baked-salmon.html),
-[code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/update-localize-samples/chapter-04/01-page-setup/02-baked-salmon.html))
+[code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/01-page-setup/02-baked-salmon.html))
 
 ### React Elements
 
@@ -33,7 +33,7 @@ Samples
   1. team moods ([demo (firefox only)](http://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/04-dom-rendering-moods/DOM-rendering-moods.html),
 [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/04-dom-rendering-moods/DOM-rendering-moods.js))
 
-### Factories -- mebahe
+### Factories
 
   1. DOM Factories - h1 ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/01-factories.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/05-factories/01-factories.html), [bin](http://jsbin.com/mebahe/1/edit?js,output))
   2. DOM Factories - ul ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/05-factories/02-factories.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/05-factories/02-factories.html), [bin](http://jsbin.com/mebahe/2/edit?js,output))
@@ -42,7 +42,7 @@ Samples
 
 -----
 
-  Note: All JSBin links throughout this repository use React 15. To update, change the script tag CDN links to version 16.
+  Note: All JSBin links throughout this repository use React 15. To update, change the script tag CDN links to React version 16.
 
   Change
 
