@@ -77,7 +77,7 @@ Samples
 
 ### Composition  
 
-  1. Clock Template with replace() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/09-composition/01-composition.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/09-composition/01-composition.html), [bin](http://jsbin.com/zivevu/1/edit?js,output))
+  1. Clock Template with .replace() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/09-composition/01-composition.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/09-composition/01-composition.html), [bin](http://jsbin.com/zivevu/1/edit?js,output))
   2. Clock with Composition ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/09-composition/02-composition.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/09-composition/02-composition.html), [bin](http://jsbin.com/zivevu/2/edit?js,output))
   3. Click with Compose Function ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/09-composition/03-composition.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/09-composition/03-composition.html), [bin](http://jsbin.com/zivevu/3/edit?js,output))
   4. Imperative Clock ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-03/09-composition/04-imperative-clock.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-03/09-composition/04-imperative-clock.js))
