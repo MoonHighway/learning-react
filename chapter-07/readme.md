@@ -30,7 +30,6 @@ Samples
   2. Truthy/Falsy ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/03-children/02-children.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/03-children/02-children.html), [bin](http://jsbin.com/goraje/2/edit?js,output))
   3. Filtering Components ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/03-children/03-children.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/03-children/03-children.html), [bin](http://jsbin.com/goraje/3/edit?js,output))
   4. Filtering Components - Different Ages ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/03-children/04-children.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/03-children/04-children.html), [bin](http://jsbin.com/goraje/4/edit?js,output))
-  5. findChild Function ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/03-children/05-children.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/03-children/05-children.html), [bin](http://jsbin.com/goraje/5/edit?js,output))
 
 ### JavaScript Library Integration
 
