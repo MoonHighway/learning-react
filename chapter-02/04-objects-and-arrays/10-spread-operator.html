@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Spread Operator</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+<h1>Spread Operator</h1>
+<p>Open the console</p>
+<script type="text/babel">
+
+    // Spread Operator
+
+    var peaks = ["Tallac", "Ralston", "Rose"]
+    var canyons = ["Ward", "Blackwood"]
+    var tahoe = [...peaks, ...canyons]
+
+    console.log(tahoe.join(', '))
+
+</script>
+</body>
+</html>

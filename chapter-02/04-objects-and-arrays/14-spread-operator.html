@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Spread Operator</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+<h1>Spread Operator</h1>
+<p>Open the console</p>
+<script type="text/babel">
+
+    // Convert arguments to an array with the spread operator
+    //    pick an array apart with spreads
+
+    function directions(...args) {
+      var [start, ...remaining] = args
+      var [finish, ...stops] = remaining.reverse()
+
+      console.log(`drive through ${args.length} towns`)
+      console.log(`start in ${start}`)
+      console.log(`the destination is ${finish}`)
+      console.log(`stopping ${stops.length} times in between`)
+    }
+
+    directions("Truckee", "Tahoe City", "Sunnyside", "Homewood", "Tahoma")
+
+</script>
+</body>
+</html>

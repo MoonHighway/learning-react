@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Destructuring</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+<h1>Destructuring</h1>
+<p>Open the console</p>
+<script type="text/babel">
+
+    // Destructuring Assignment
+
+    var sandwich =  {
+      bread: "dutch crunch",
+      meat: "tuna",
+      cheese: "swiss",
+      toppings: ["lettuce", "tomato", "mustard"]
+    }
+
+    var {bread, meat} = sandwich
+
+    console.log(bread, meat)
+
+    bread = "garlic"
+    meat = "turkey"
+
+    console.log(bread,meat)
+    console.log(sandwich.bread, sandwich.meat)
+
+</script>
+</body>
+</html>
