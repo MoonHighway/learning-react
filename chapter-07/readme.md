@@ -7,45 +7,47 @@ mount or update a component.
 Samples
 --------
 
-#### Mounting Lifecycle
+### Mounting Lifecycle
 
-* Loading data when a component mounts ([1](http://jsbin.com/bameba/1/edit?js,console),
-[2](http://jsbin.com/bameba/2/edit?js,output))
-* Clock ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/mounting-lifecycle-clock/dist/index.html),
-[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/mounting-lifecycle-clock))
+  1. getFakeMembers ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/01-mounting-lifecycle/01-mounting.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/01-mounting-lifecycle/01-mounting.html), [bin](http://jsbin.com/bameba/1/edit?js,output))
+  2. getFakeMembers Lifecycle ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/01-mounting-lifecycle/02-mounting.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/01-mounting-lifecycle/02-mounting.html), [bin](http://jsbin.com/bameba/2/edit?js,output))
+  3. Clock ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/mounting-lifecycle-clock/dist/index.html),
+  [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/mounting-lifecycle-clock))
 
-#### Updating Lifecycle
+### Color Organizer
 
-* Updating Lifecycle (color-organizer) ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/color-organizer/dist/index.html),
-[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/color-organizer))
-* Component will Receive Props ([1](http://jsbin.com/nuwaje/1/edit?js,output),
-[2](http://jsbin.com/nuwaje/2/edit?js,output),
-[note](http://jsbin.com/gacuba/1/edit?js,output))
+  1. Color Organizer - Updating Lifecycle ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/color-organizer/dist/index.html),
+  [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-07/color-organizer))
 
-#### Children
+### Updating Lifecycle
 
-* Display Component ([1](http://jsbin.com/goraje/1/edit?js,output),
-[2](http://jsbin.com/goraje/2/edit?js,console))
-* WhenTruthy, WhenFalsy ([3](http://jsbin.com/goraje/3/edit?js,output),
-[4](http://jsbin.com/goraje/4/edit?js,output),
-[5](http://jsbin.com/goraje/5/edit?js,console))
+  1. Hidden Messages - Mounting Methods ❌ ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/02-updating-lifecycle/01-updating.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/02-updating-lifecycle/01-updating.html), [bin](http://jsbin.com/badobum/1/edit?js,output))
+  2. componentWillReceiveProps ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/02-updating-lifecycle/02-updating.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/02-updating-lifecycle/02-updating.html), [bin](http://jsbin.com/badobum/2/edit?js,output))
+
+### Children
+
+  1. Display Component ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/03-children /01-children.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/03-children /01-children.html), [bin](http://jsbin.com/goraje/1/edit?js,output))
+  2. Truthy/Falsy ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/03-children /02-children.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/03-children /02-children.html), [bin](http://jsbin.com/goraje/2/edit?js,output))
+  3. Filtering Components ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/03-children /03-children.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/03-children /03-children.html), [bin](http://jsbin.com/goraje/3/edit?js,output))
+  4. Filtering Components - Different Ages ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/03-children /04-children.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/03-children /04-children.html), [bin](http://jsbin.com/goraje/4/edit?js,output))
+  5. findChild Function ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/03-children /05-children.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/03-children /05-children.html), [bin](http://jsbin.com/goraje/5/edit?js,output))
 
 ### JavaScript Library Integration
 
-* Fetching Data ([1](http://jsbin.com/yefuya/1/edit?js,output),
-[2](http://jsbin.com/yefuya/2/edit?js,output))
-* D3 Timeline v1 ([1](http://jsbin.com/hakono/1/edit?js,output),
-[2](http://jsbin.com/hakono/2/edit?js,output))
+  1. Fetching Data ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/04-library-integration /01-libraries.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/04-library-integration /01-libraries.html), [bin](http://jsbin.com/yefuya/1/edit?js,output))
+  2. Fetch with componentWillMount ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/04-library-integration /02-libraries.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/04-library-integration /02-libraries.html), [bin](http://jsbin.com/yefuya/2/edit?js,output))
+  3. D3 Timeline v1 ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/04-library-integration /03-libraries.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/04-library-integration /03-libraries.html), [bin](http://jsbin.com/hakono/1/edit?js,output))
+  4. D3 Ski Milestones ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/04-library-integration /04-libraries.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/04-library-integration /04-libraries.html), [bin](http://jsbin.com/hakono/2/edit?js,output))
 
-#### Higher Order Components
+### Higher Order Components
 
-* People list ([1](http://jsbin.com/vexidu/1/edit?js,output))
-* DataComponent HOC ([2](http://jsbin.com/vexidu/2/edit?js,output))
-* Country dropdown with DataComponent ([3](http://jsbin.com/vexidu/3/edit?js,output))
-* Expandable HOC ([1](http://jsbin.com/medari/1/edit?js,output))
-* PopUp with Expandable ([2](http://jsbin.com/medari/2/edit?js,output))
+  1. People List ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/05-higher-order-components/01-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/05-higher-order-components/01-hocs.html), [bin](http://jsbin.com/vexidu/1/edit?js,output))
+  2. Data Component HOC ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/05-higher-order-components/02-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/05-higher-order-components/02-hocs.html), [bin](http://jsbin.com/vexidu/2/edit?js,output))
+  3. Country Dropdown ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/05-higher-order-components/03-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/05-higher-order-components/03-hocs.html), [bin](http://jsbin.com/vexidu/3/edit?js,output))
+  4. Expandable HOC ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/05-higher-order-components/04-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/05-higher-order-components/04-hocs.html), [bin](http://jsbin.com/xipipaf/1/edit?js,output))
+  5. Pop-up With Expandable ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/05-higher-order-components/04-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/05-higher-order-components/04-hocs.html), [bin](http://jsbin.com/dojexik/1/edit?js,output))
 
-#### Managing State Outside of React
+### Managing State Outside of React
 
-* Clock without React State ([1](http://jsbin.com/zepusi/1/edit?js,output))
-* Flux ([1](http://jsbin.com/fizocij/1/edit?js,console,output))
+  1. Clock without React State ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-07/06-managing-state-outside-react/01-state.html), [code](http://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-07/06-managing-state-outside-react/01-state.html), [bin](http://jsbin.com/zepusi/1/edit?js,output))
+  2. Flux ([bin only](http://jsbin.com/fizocij/1/edit?js,console,output))
