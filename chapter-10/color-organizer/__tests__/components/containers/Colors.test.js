@@ -1,7 +1,8 @@
-import { mount, shallow } from 'enzyme'
 import { Provider } from 'react-redux'
 import { compose } from 'redux'
 import { Colors } from '../../../src/components/containers'
+
+const { shallow, mount } = Enzyme
 
 jest.mock('../../../src/components/ui/ColorList')
 
@@ -20,9 +21,9 @@ describe("<Colors /> Container ", () => {
     }
 
     beforeAll(() => wrapper = mount(
-      <Provider store={_store}>
-          <Colors />
-      </Provider>
+        <Provider store={_store}>
+            <Colors />
+        </Provider>
     ))
 
     afterEach(() => jest.resetAllMocks())

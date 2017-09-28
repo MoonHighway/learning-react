@@ -1,7 +1,8 @@
-import { shallow, mount } from 'enzyme'
 import toJSON from 'enzyme-to-json'
 import { compose } from 'redux'
 import Color from '../../../src/components/ui/Color'
+
+const { shallow, mount } = Enzyme
 
 describe("<Color /> UI Component", () => {
 

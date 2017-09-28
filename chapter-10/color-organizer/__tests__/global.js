@@ -1,7 +1,12 @@
 import React from 'react'
 import deepFreeze from 'deep-freeze'
+import Enzyme from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
+
+Enzyme.configure({ adapter: new Adapter() })
 
 global.React = React
+global.Enzyme = Enzyme
 
 window.localStorage = {}
 console.groupCollapsed = jest.fn()
