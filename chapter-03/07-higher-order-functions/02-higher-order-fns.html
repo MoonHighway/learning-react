@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Higher Order Functions</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+  <h1>Higher Order Functions</h1>
+  <p>Open the Console</p>
+<script type="text/babel">
+
+    const getFakeMembers = count => new Promise((resolves, rejects) => {
+      const api = `https://api.randomuser.me/?nat=US&results=${count}`
+      const request = new XMLHttpRequest()
+      request.open('GET', api)
+      request.onload = () =>
+           (request.status === 200) ?
+            resolves(JSON.parse(request.response).results) :
+            reject(Error(request.statusText))
+      request.onerror = (err) => rejects(err)
+      request.send()
+    })
+
+    const userLogs = userName => message =>
+        console.log(`${userName} -> ${message}`)
+
+    const log = userLogs("grandpa23")
+
+    log("attempted to load 20 fake members")
+    getFakeMembers(20).then(
+        members => log(`successfully loaded ${members.length} members`),
+        error => log("encountered an error loading members")
+    )
+
+
+</script>
+</body>
+</html>

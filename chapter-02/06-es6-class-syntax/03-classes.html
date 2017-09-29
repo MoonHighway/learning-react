@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Classes</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+<h1>Classes</h1>
+<p>Open the console</p>
+<script type="text/babel">
+
+    // Inheritance
+
+    class Vacation {
+      constructor(destination, length) {
+        this.destination = destination
+        this.length = length
+      }
+
+      print() {
+        console.log(`${this.destination} will take ${this.length} days.`)
+      }
+
+    }
+
+    class Expedition extends Vacation {
+      constructor(destination, length, gear) {
+        super(destination, length)
+        this.gear = gear
+      }
+
+      print() {
+        super.print()
+        console.log(`bring your ${this.gear.join(" and your ")}`)
+      }
+    }
+
+    const trip = new Expedition(
+      "Mt. Whitney",
+      3,
+      ["sunglasses", "prayer flags", "camera"]
+    )
+
+    trip.print()
+
+</script>
+</body>
+</html>

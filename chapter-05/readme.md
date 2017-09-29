@@ -17,7 +17,7 @@ Samples
 
 #### Recipes App with JSX and Webpack
 
-* Full App ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-05/recipe-app/dist/) 
+* Full App ([demo](http://rawgit.com/MoonHighway/learning-react/master/chapter-05/recipe-app/dist/)
 [code](https://github.com/MoonHighway/learning-react/tree/master/chapter-05/recipe-app))
 * Instructions Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/src/components/Instructions.js))
 * Ingredient Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/src/components/Ingredient.js))

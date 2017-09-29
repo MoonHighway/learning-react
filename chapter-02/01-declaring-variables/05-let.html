@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <style media="screen">
+      #container {
+          display: flex;
+          justify-content: space-around;
+      }
+
+      #container>div {
+          height: 5em;
+          width: 5em;
+          background-color: purple;
+      }
+    </style>
+    <title>Let</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+  <h1>Click on a Box</h1>
+  <div id="container"></div>
+<script type="text/babel">
+
+    // Problem, counters are not scoped to for loop blocks
+
+    var div,
+        container = document.getElementById('container')
+
+    for (var i=0; i<5; i++) {
+      div = document.createElement('div')
+      div.onclick = function() {
+        alert('This is box #' + i)
+      }
+      container.appendChild(div)
+    }
+
+</script>
+</body>
+</html>

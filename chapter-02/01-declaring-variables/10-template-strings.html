@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Template Strings</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+<h1>Template Strings</h1>
+<p>Open the console</p>
+<script type="text/babel">
+
+    var article = {
+      title: "Template Strings",
+      body: `
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <p> laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      `
+    }
+
+    document.body.innerHTML = `
+    <section>
+      <header>
+          <h1>The HTML5 Blog</h1>
+      </header>
+      <article>
+          <h2>${article.title}</h2>
+          ${article.body}
+      </article>
+      <footer>
+          <p>copyright ${new Date().getYear()} | The HTML5 Blog</p>
+      </footer>
+    </section>
+    `
+
+</script>
+</body>
+</html>

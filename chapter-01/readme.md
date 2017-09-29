@@ -53,9 +53,8 @@ optionally install one of these version mangers:
 
 Installing the React Tools
 --------------------------------
-Next, there are some Chrome developer extensions or Firefox add-ons that you will need to install in order to debug React:
+Next, install the React developer tools:
 
-* Detector ([Chrome](https://chrome.google.com/webstore/detail/react-detector/jaaklebbenondhkanegppccanebkdjlh?hl=en-US))
 * Development Tools ([Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) |
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/))
 
@@ -64,8 +63,23 @@ Working with JSBin
 This repository links to samples hosted on JSBin so that you can immediately begin changing each sample and checking
 output to see how each sample has changed.
 
-Here is a Hello World sample that JSBin has assigned the identifier __gosabo__. There are 3 available versions of this
-sample in JSBin under the same identifier.
+Here is a Hello World sample that JSBin has assigned the identifier __gosabo__. There are 3 available versions of this sample in JSBin under the same identifier.
+
+Note: All JSBin links throughout this repository use React 15. To update, change the script tag CDN links to version 16.
+
+Change
+
+```html
+  <script src="https://fb.me/react-with-addons-15.1.0.js"></script>
+  <script src="https://fb.me/react-dom-15.1.0.js"></script>
+```
+
+To
+
+```html
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+```
 
 ##### A preview of the latest version in a sample:
 [http://output.jsbin.com/gosabo](http://output.jsbin.com/gosabo)
@@ -89,9 +103,9 @@ CDN's for JavaScript libraries
 Ultimately, we will be working with webpack and npms, but to get running quickly, here are some CDN links that
 can be included in JSBin with this syntax: `<script src="https://[CDN LINK]"></script>`
 
-* [React](https://unpkg.com/react@15.4.2/dist/react.js)
-* [React DOM](https://unpkg.com/react-dom@15.4.2/dist/react-dom.js)
-* [Babel Inline Transpiller](https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js)
+* [React](https://unpkg.com/react@16/umd/react.development.js)
+* [React DOM](https://unpkg.com/react-dom@16/umd/react-dom.development.js)
+* [Babel Inline Transpiler](https://unpkg.com/babel-standalone@6.15.0/babel.min.js)
 * [fetch](https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js)
 * [Redux](https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js)
 * [React Router Source](https://cdnjs.cloudflare.com/ajax/libs/react-router/4.0.0/react-router.min.js)
