@@ -12,7 +12,7 @@
 <div id="react-container"></div>
   <script type="text/babel">
 
-      const { Children } = React
+      const { Children, PropTypes } = React
       const { render } = ReactDOM
 
       const findChild = (children, child) =>
@@ -30,7 +30,7 @@
               findChild(children, WhenTruthy) :
               findChild(children, WhenFalsy)
 
-      const age = 19
+      const age = 22
 
       render(
           <Display ifTruthy={age >= 21}>
@@ -44,6 +44,6 @@
           document.getElementById('react-container')
       )
 
-  </script>
+      </script>
 </body>
 </html>
