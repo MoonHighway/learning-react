@@ -7,8 +7,8 @@
 <body>
 <div id="react-container"></div>
 
+<script src="https://unpkg.com/prop-types/prop-types.js"></script>
 <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-<script src="https://unpkg.com/prop-types/prop-types.min.js"></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
@@ -19,7 +19,7 @@
 
     class Summary extends Component {
 
-        static propTypes: {
+        static propTypes = {
             ingredients: PropTypes.array.isRequired,
             steps: PropTypes.array.isRequired,
             title: PropTypes.string
@@ -37,7 +37,7 @@
               </div>
             )
         }
-        
+
     }
 
     render(
