@@ -4,7 +4,7 @@
   "description": "A React Router tutorial.",
   "main": "index.js",
   "scripts": {
-    "start": "opener http://localhost:3000 & ./node_modules/.bin/webpack-dev-server"
+    "start": "opener http://localhost:3000 & webpack-dev-server"
   },
   "author": "Eve Porcello <eve@moonhighway.com> (http://www.moonhighway.com)",
   "license": "MIT",

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --progress",
     "prestart": "npm run build",
-    "start": "opener http://localhost:3000 & ./node_modules/.bin/httpster -p 3000 -d ./dist"
+    "start": "opener http://localhost:3000 & httpster -p 3000 -d ./dist"
   },
   "keywords": [
     "redux",

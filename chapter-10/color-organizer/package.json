@@ -12,7 +12,7 @@
     "test": "jest",
     "posttest": "npm run lint",
     "coverage": "opener ./coverage/lcov-report/index.html",
-    "dev": "opener http://localhost:3000 & ./node_modules/.bin/webpack-dev-server"
+    "dev": "opener http://localhost:3000 & webpack-dev-server"
   },
   "keywords": [
     "React",

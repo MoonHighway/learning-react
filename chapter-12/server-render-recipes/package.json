@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --progress",
     "prestart": "npm run build",
-    "start": "./node_modules/.bin/babel-node index-server.js"
+    "start": "babel-node index-server.js"
   },
   "keywords": [
     "React",
