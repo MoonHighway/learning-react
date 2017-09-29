@@ -8,22 +8,23 @@
 <div id="react-container"></div>
 
 <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-<script src="https://unpkg.com/create-react-class@15.6.2/create-react-class.min.js"></script>
 <script src="https://unpkg.com/prop-types/prop-types.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
 <script type="text/babel">
 
+    const { Component } = React
     const { render } = ReactDOM
 
-    const Summary = createReactClass({
-        propTypes: {
+    class Summary extends Component {
+
+        static propTypes: {
             ingredients: PropTypes.array.isRequired,
             steps: PropTypes.array.isRequired,
             title: PropTypes.string
-        },
+        }
+
         render() {
             const {ingredients, steps, title} = this.props
             return (
@@ -36,7 +37,8 @@
               </div>
             )
         }
-    })
+        
+    }
 
     render(
         <Summary />,

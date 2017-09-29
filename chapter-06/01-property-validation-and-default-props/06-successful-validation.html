@@ -16,14 +16,17 @@
 
 <script type="text/babel">
 
+    const { Component } = React
     const { render } = ReactDOM
 
-    const Summary = createReactClass({
-        propTypes: {
+    class Summary extends Component {
+
+        static propTypes: {
             ingredients: PropTypes.array.isRequired,
             steps: PropTypes.array.isRequired,
             title: PropTypes.string
-        },
+        }
+
         render() {
             const {ingredients, steps, title} = this.props
             return (
@@ -36,7 +39,8 @@
               </div>
             )
         }
-    })
+
+    }
 
     render(
         <Summary title="Peanut Butter and Jelly"

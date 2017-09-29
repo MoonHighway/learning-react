@@ -15,8 +15,8 @@ Samples
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/01-summary-without-validation.html)
     [bin](http://jsbin.com/nusiyu/1/edit?js,output))
   2. Create Class PropTypes validation errors ❌ (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-)
-    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-)
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-create-class-prop-types-validation-errors.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-create-class-prop-types-validation-errors.html)
     [bin](http://jsbin.com/nusiyu/2/edit?js,console,output))
   3. Create Class PropTypes success (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/03-create-class-prop-types-success.html)
@@ -31,8 +31,8 @@ Samples
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/05-better-errors-with-is-required.html)
     [bin](http://jsbin.com/nusiyu/5/edit?js,console,output))
   6. successful validation (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/06-successful-validation)
-    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/06-successful-validation)
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/06-successful-validation.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/06-successful-validation.html)
     [bin](http://jsbin.com/nusiyu/6/edit?js,output))
 
 #### default properties with React.createClass
