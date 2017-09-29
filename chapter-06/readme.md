@@ -10,13 +10,13 @@ Samples
 
 #### Validation with React.createClass
 
-  1. Summary without validation (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/01-summary-without-validation.html)
-    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/01-summary-without-validation.html)
+  1. Incorrect properties do not always show errors (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/01-incorrect-props-no-error.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/01-incorrect-props-no-error.html)
     [bin](http://jsbin.com/nusiyu/1/edit?js,output))
-  2. Create Class PropTypes validation errors ❌ (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-create-class-prop-types-validation-errors.html)
-    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-create-class-prop-types-validation-errors.html)
+  2. Introducing `prop-types` npm ❌ (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-introducing-prop-types-npm.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-introducing-prop-types-npm.html)
     [bin](http://jsbin.com/nusiyu/2/edit?js,console,output))
   3. Create Class PropTypes success (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/03-create-class-prop-types-success.html)
