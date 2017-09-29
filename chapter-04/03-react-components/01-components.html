@@ -12,23 +12,20 @@
 <!-- React Library & React DOM-->
 <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/create-react-class@15.6.2/create-react-class.min.js"></script>
 
 <script>
-
-    const IngredientsList = createReactClass({
-        displayName: "IngredientsList",
-        render() {
-          return React.createElement("ul", {"className": "ingredients"},
-              React.createElement("li", null, "1 lb Salmon"),
-              React.createElement("li", null, "1 cup Pine Nuts"),
-              React.createElement("li", null, "2 cups Butter Lettuce"),
-              React.createElement("li", null, "1 Yellow Squash"),
-              React.createElement("li", null, "1/2 cup Olive Oil"),
-              React.createElement("li", null, "3 cloves of Garlic")
-          )
-        }
-    })
+    class IngredientsList extends React.Component {
+      render() {
+        return React.createElement("ul", {"className": "ingredients"},
+            React.createElement("li", null, "1 lb Salmon"),
+            React.createElement("li", null, "1 cup Pine Nuts"),
+            React.createElement("li", null, "2 cups Butter Lettuce"),
+            React.createElement("li", null, "1 Yellow Squash"),
+            React.createElement("li", null, "1/2 cup Olive Oil"),
+            React.createElement("li", null, "3 cloves of Garlic")
+        )
+      }
+    }
 
     const list = React.createElement(IngredientsList, null, null)
 

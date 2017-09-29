@@ -22,11 +22,10 @@ Samples
 
 ### React Components
 
-  1. createReactClass() ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/01-components.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/03-react-components/01-components.html), [bin](http://jsbin.com/cezotew/1/edit?js,output))
-  2. createReactClass() with props ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/02-components.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/03-react-components/02-components.html), [bin](http://jsbin.com/cezotew/2/edit?js,output))
-  3. createReactClass() with lists ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/03-components.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/03-react-components/03-components.html), [bin](http://jsbin.com/cezotew/3/edit?js,output))
-  4. ES6 Classes ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/04-components.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/03-react-components/04-components.html), [bin](http://jsbin.com/cezotew/4/edit?js,output))
-  5. Stateless Functional Components ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/05-components.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/03-react-components/05-components.html), [bin](http://jsbin.com/cezotew/5/edit?js,output))
+  1. Rendering createElement  ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/01-components.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/03-react-components/01-components.html), [bin](http://jsbin.com/cezotew/1/edit?js,output))
+  2. Rendering List Items ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/02-components.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/03-react-components/02-components.html), [bin](http://jsbin.com/cezotew/2/edit?js,output))
+  3. Adding Class Methods ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/03-components.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/03-react-components/03-components.html), [bin](http://jsbin.com/cezotew/4/edit?js,output))
+  4. Stateless Functional Components ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-04/03-react-components/04-components.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-04/03-react-components/04-components.html), [bin](http://jsbin.com/cezotew/5/edit?js,output))
 
 ### DOM Rendering
 

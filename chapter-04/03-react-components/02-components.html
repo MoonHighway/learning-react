@@ -12,12 +12,10 @@
 <!-- React Library & React DOM-->
 <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/create-react-class@15.6.2/create-react-class.min.js"></script>
 
 <script>
 
-    const IngredientsList = createReactClass({
-        displayName: "IngredientsList",
+    class IngredientsList extends React.Component {
         render() {
           return React.createElement("ul", {className: "ingredients"},
               this.props.items.map((ingredient, i) =>
@@ -25,7 +23,7 @@
               )
           )
         }
-    })
+    }
 
     const items = [
       "1 lb Salmon",

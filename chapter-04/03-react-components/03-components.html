@@ -12,21 +12,22 @@
 <!-- React Library & React DOM-->
 <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/create-react-class@15.6.2/create-react-class.min.js"></script>
 
 <script>
 
-const IngredientsList = createReactClass({
-    displayName: "IngredientsList",
-        renderListItem(ingredient, i) {
-        return React.createElement("li", { key: i }, ingredient)
-    },
-    render() {
-        return React.createElement("ul", {className: "ingredients"},
-            this.props.items.map(this.renderListItem)
-        )
-    }
-})
+class IngredientsList extends React.Component {
+
+  renderListItem(ingredient, i) {
+    return React.createElement("li", { key: i }, ingredient)
+  }
+
+  render() {
+    return React.createElement("ul", {className: "ingredients"},
+        this.props.items.map(this.renderListItem)
+    )
+  }
+
+}
 
 const items = [
     "1 lb Salmon",
@@ -38,8 +39,8 @@ const items = [
 ]
 
 ReactDOM.render(
-    React.createElement(IngredientsList, {items}, null),
-    document.getElementById('react-container')
+  React.createElement(IngredientsList, {items}, null),
+  document.getElementById('react-container')
 )
 
 </script>
