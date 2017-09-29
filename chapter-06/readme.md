@@ -45,7 +45,7 @@ Samples
 
 ### Component State
 
-  1. The star Component (
+  1. The Star Component (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/03-component-state/01-the-star-component.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/03-component-state/01-the-star-component.html), [bin](http://jsbin.com/budanem/1/edit?js,output))
   2. The Star Rating Component Class (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/03-component-state/02-the-star-rating-component.html), [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/03-component-state/02-the-star-rating-component.html), [bin](http://jsbin.com/budanem/2/edit?js,output))
