@@ -14,27 +14,22 @@ Samples
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/01-summary-without-validation.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/01-summary-without-validation.html)
     [bin](http://jsbin.com/nusiyu/1/edit?js,output))
-
   2. Create Class PropTypes validation errors ❌ (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/02-)
     [bin](http://jsbin.com/nusiyu/2/edit?js,console,output))
-
   3. Create Class PropTypes success (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/03-create-class-prop-types-success.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/03-create-class-prop-types-success.html)
     [bin](http://jsbin.com/nusiyu/3/edit?js,output))
-
   4. cryptic problems when prop missing ❌ (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/04-cryptic-problems-when-prop-missing.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/04-cryptic-problems-when-prop-missing.html)
     [bin](http://jsbin.com/nusiyu/4/edit?js,console,output))
-
   5. better errors with .isRequired ❌ (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/05-better-errors-with-is-required.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/05-better-errors-with-is-required.html)
     [bin](http://jsbin.com/nusiyu/5/edit?js,console,output))
-
   6. successful validation (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/06-successful-validation)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/06-successful-validation)

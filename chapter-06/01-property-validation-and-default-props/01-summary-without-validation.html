@@ -10,15 +10,15 @@
 <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<script src="https://unpkg.com/create-react-class@15.6.2/create-react-class.min.js"></script>
+<script src="https://unpkg.com/prop-types/prop-types.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
 <script type="text/babel">
 
-    // JSX code here. Or link to separate JavaScript file that contains JSX.
-
-    const { createClass, PropTypes } = React
     const { render } = ReactDOM
 
-    const Summary = createClass({
+    const Summary = createReactClass({
       render() {
         const {ingredients, steps, title} = this.props
         return (
