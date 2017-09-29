@@ -14,22 +14,22 @@
 
 <script type="text/babel">
 
-  const { render } = ReactDOM
+    const { render } = ReactDOM
 
-  const Star = ({ selected=false, onClick=f=>f }) =>
+    const Star = ({ selected=false, onClick=f=>f }) =>
       <div className={(selected) ? "star selected" : "star"}
            onClick={onClick}>
       </div>
 
-  Star.propTypes = {
+    Star.propTypes = {
       selected: PropTypes.bool,
       onClick: PropTypes.func
-  }
+    }
 
-  render(
+    render(
       <Star selected={true} onClick={() => console.log('Star Click')} />,
       document.getElementById('react-container')
-  )
+    )
 
 
 </script>
