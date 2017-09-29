@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>06-successful-validation</title>
+    <title>08 - custom validation</title>
 </head>
 <body>
 <div id="react-container"></div>
@@ -20,8 +20,8 @@
     class Summary extends Component {
 
         static propTypes = {
-            ingredients: PropTypes.array.isRequired,
-            steps: PropTypes.array.isRequired,
+            ingredients: PropTypes.number,
+            steps: PropTypes.number,
             title: (props, propName) =>
                 (typeof props[propName] !== 'string') ?
                     new Error("A title must be a string") :
@@ -31,8 +31,8 @@
         }
 
         static defaultProps = {
-          ingredients: [],
-          steps: [],
+          ingredients: 0,
+          steps: 0,
           title: '[Untitled Recipe]'
         }
 
@@ -42,8 +42,8 @@
               <div className="summary">
                 <h1>{title}</h1>
                 <p>
-                  <span>{ingredients.length} Ingredients | </span>
-                  <span>{steps.length} Steps</span>
+                  <span>{ingredients} Ingredients | </span>
+                  <span>{steps} Steps</span>
                 </p>
               </div>
             )

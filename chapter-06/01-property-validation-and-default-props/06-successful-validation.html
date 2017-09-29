@@ -20,8 +20,8 @@
     class Summary extends Component {
 
         static propTypes = {
-            ingredients: PropTypes.array.isRequired,
-            steps: PropTypes.array.isRequired,
+            ingredients: PropTypes.number,
+            steps: PropTypes.number,
             title: PropTypes.string
         }
 
@@ -31,8 +31,8 @@
               <div className="summary">
                 <h1>{title}</h1>
                 <p>
-                  <span>{ingredients.length} Ingredients | </span>
-                  <span>{steps.length} Steps</span>
+                  <span>{ingredients} Ingredients | </span>
+                  <span>{steps} Steps</span>
                 </p>
               </div>
             )

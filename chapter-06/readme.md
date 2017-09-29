@@ -38,16 +38,18 @@ Samples
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/07-default-properties.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/07-default-properties.html)
     [bin](http://jsbin.com/curalu/1/edit?js,output))
-  8. custom validation (
+  8. custom validation ❌ (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/08-custom-validation.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/08-custom-validation.html)
     [bin](http://jsbin.com/fefaqe/1/edit?js,console,output))
-
-#### Properties with Stateless Functional Components
-
-  2. ([2](http://jsbin.com/zenohu/2/edit?js,output),
-  3. [3](http://jsbin.com/zenohu/3/edit?js,output))
-  4. * ES7 static properties ([4](http://jsbin.com/zenohu/4/edit?js,output))
+  9. stateless prop validation ❌ (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/09-stateless-prop-validation.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/09-stateless-prop-validation.html)
+    [bin](http://jsbin.com/zenohu/2/edit?js,output))  
+  10. stateless default props (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/10-stateless-default-props.html)
+    [code](10-stateless-default-props.html)
+    [bin](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/http://jsbin.com/zenohu/3/edit?js,output))  
 
 ### Refs
 
