@@ -4,7 +4,7 @@
   "description": "A sample Redux store with reducers and action creators",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --progress",
+    "build": "webpack --progress",
     "prestart": "npm run build",
     "start": "opener http://localhost:3000 & ./node_modules/.bin/httpster -p 3000 -d ./dist"
   },

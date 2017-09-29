@@ -4,7 +4,7 @@
   "description": "A sample React application",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --progress",
+    "build": "webpack --progress",
     "prestart": "npm run build",
     "start": "opener dist/index.html"
   },
