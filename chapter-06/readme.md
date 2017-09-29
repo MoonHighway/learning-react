@@ -53,63 +53,49 @@ Samples
 
 ### Refs
 
-  1. Color component (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/01-color-component-before-refs.html)
+  1. Color component ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/01-color-component-before-refs.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/01-color-component-before-refs.html)
     [bin](http://jsbin.com/kohigem/1/edit?js,output))
-  2. Color component with refs (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/02-color-component-with-refs.html)
+  2. Color component with refs ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/02-color-component-with-refs.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/02-color-component-with-refs.html)
     [bin](http://jsbin.com/kohigem/2/edit?js,output))
-  3. Two way data binding (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/03-Color-Component-binding.html)
+  3. Two way data binding ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/03-Color-Component-binding.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/03-Color-Component-binding.html)
     [bin](http://jsbin.com/kohigem/3/edit?js,console,output))
-  4. Two way data todo note (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/04-two-way-data-todo.html)
+  4. Two way data todo note ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/04-two-way-data-todo.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/04-two-way-data-todo.html)
     [bin](http://jsbin.com/kohigem/4/edit?js,console,output))
-  5. without a default function prop ❌ (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/05-without-default-function.html)
+  5. without a default function prop ❌ ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/05-without-default-function.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/05-without-default-function.html)
     [bin](http://jsbin.com/kohigem/5/edit?js,console,output))
-  6. checking for the function property (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/06-check-for-property.html)
+  6. checking for the function property ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/06-check-for-property.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/06-check-for-property.html)
     [bin](http://jsbin.com/kohigem/6/edit?js,console,output))
-  7. using a default function property (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/07-default-property.html)
+  7. using a default function property ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/07-default-property.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/07-default-property.html)
     [bin](http://jsbin.com/kohigem/7/edit?js,console,output))
-  8. stateless default function property (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/08-stateless-default-prop.html)
+  8. stateless default function property ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/08-stateless-default-prop.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/08-stateless-default-prop.html)
     [bin](http://jsbin.com/kohigem/8/edit?js,console,output))
-  9. stateless default argument function property (
-    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/09-stateless-default-arg.html)
+  9. stateless default argument function property ([demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/09-stateless-default-arg.html)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/09-stateless-default-arg.html)
     [bin](http://jsbin.com/kohigem/9/edit?js,console,output))
 
 ### Component State
 
-#### The Star Component
-
-([1](http://jsbin.com/puduho/1/edit?js,output))
-
-#### Using State with createClass
-
-([1](http://jsbin.com/zebilo/1/edit?js,output))
-
-#### Using State in ES6 Components
-
-([2](http://jsbin.com/zebilo/2/edit?js,output))
-
-#### Setting State from Properties
-
-([3](http://jsbin.com/zebilo/3/edit?js,output),
-[4](http://jsbin.com/zebilo/4/edit?js,output))
+  1. The star Component (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/03-component-state/01-the-star-component.html) [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/03-component-state/01-the-star-component.html)
+    [bin](http://jsbin.com/puduho/1/edit?js,output))
+  2. The Star Rating Component Class ((
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/03-component-state/02-the-star-rating-component.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/03-component-state/02-the-star-rating-component.html)
+    [bin](http://jsbin.com/zebilo/2/edit?js,output))
+  3. Setting State From Props ((
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/03-component-state/03-setting-state-from-props.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/03-component-state/03-setting-state-from-props.html)
+    [bin](http://jsbin.com/zebilo/3/edit?js,output))
 
 ### State within the Component Tree
 
-#### The color organizer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-06/color-organizer/dist/index.html),
+1. Color Organizer App ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-06/color-organizer/dist/index.html),
 [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-06/color-organizer))
