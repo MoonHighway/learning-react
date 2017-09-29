@@ -48,31 +48,47 @@ Samples
     [bin](http://jsbin.com/zenohu/2/edit?js,output))  
   10. stateless default props (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/10-stateless-default-props.html)
-    [code](10-stateless-default-props.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/10-stateless-default-props.html)
     [bin](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/http://jsbin.com/zenohu/3/edit?js,output))  
 
 ### Refs
 
-#### Color Component with Refs
-
-([1](http://jsbin.com/kohigem/1/edit?js,output),
-[2](http://jsbin.com/kohigem/2/edit?js,output))
-
-#### Two-way Data Binding
-
-([3](http://jsbin.com/kohigem/3/edit?js,console,output),
-[4](http://jsbin.com/kohigem/4/edit?js,console,output))
-
-#### Default Function Properties
-
-([5](http://jsbin.com/kohigem/5/edit?js,console,output),
-[6](http://jsbin.com/kohigem/6/edit?js,console,output),
-[7](http://jsbin.com/kohigem/7/edit?js,console,output))
-
-#### Refs In Stateless Functional Components
-
-([8](http://jsbin.com/kohigem/8/edit?js,console,output),
-[9](http://jsbin.com/kohigem/9/edit?js,console,output))
+  1. Color component (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/01-color-component-before-refs.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/01-color-component-before-refs.html)
+    [bin](http://jsbin.com/kohigem/1/edit?js,output))
+  2. Color component with refs (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/02-color-component-with-refs.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/02-color-component-with-refs.html)
+    [bin](http://jsbin.com/kohigem/2/edit?js,output))
+  3. Two way data binding (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/03-Color-Component-binding.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/03-Color-Component-binding.html)
+    [bin](http://jsbin.com/kohigem/3/edit?js,console,output))
+  4. Two way data todo note (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/04-two-way-data-todo.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/04-two-way-data-todo.html)
+    [bin](http://jsbin.com/kohigem/4/edit?js,console,output))
+  5. without a default function prop ❌ (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/05-without-default-function.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/05-without-default-function.html)
+    [bin](http://jsbin.com/kohigem/5/edit?js,console,output))
+  6. checking for the function property (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/06-check-for-property.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/06-check-for-property.html)
+    [bin](http://jsbin.com/kohigem/6/edit?js,console,output))
+  7. using a default function property (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/07-default-property.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/07-default-property.html)
+    [bin](http://jsbin.com/kohigem/7/edit?js,console,output))
+  8. stateless default function property (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/08-stateless-default-prop.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/08-stateless-default-prop.html)
+    [bin](http://jsbin.com/kohigem/8/edit?js,console,output))
+  9. stateless default argument function property (
+    [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/02-refs/09-stateless-default-arg.html)
+    [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/02-refs/09-stateless-default-arg.html)
+    [bin](http://jsbin.com/kohigem/9/edit?js,console,output))
 
 ### Component State
 
