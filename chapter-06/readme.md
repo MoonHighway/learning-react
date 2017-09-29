@@ -33,7 +33,7 @@ Samples
   6. successful validation (
     [demo](https://rawgit.com/MoonHighway/learning-react/update-localize-samples/chapter-06/01-property-validation-and-default-props/06-successful-validation)
     [code](https://github.com/MoonHighway/learning-react/blob/update-localize-samples/chapter-06/01-property-validation-and-default-props/06-successful-validation)
-    [bin](http://jsbin.com/nusiyu/6/edit?js,output)))
+    [bin](http://jsbin.com/nusiyu/6/edit?js,output))
 
 #### default properties with React.createClass
 
