@@ -19,7 +19,7 @@ export const civilianHours = clockTime =>
 export const appendAMPM = clockTime =>
     ({
         ...clockTime,
-        ampm: (clockTime.hours >= 12) ? "PM" : "AM"
+        ampm: (clockTime.hours >= 12) ? "pm" : "am"
     })
 
 export const prependZero = key => clockTime =>
@@ -54,5 +54,6 @@ export const getClockTime = compose(
     getCurrentTime,
     abstractClockTime,
     convertToCivilianTime,
+    appendAMPM,
     doubleDigits
 )

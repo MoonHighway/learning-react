@@ -21236,7 +21236,7 @@ var Clock = function (_Component) {
                 hours = _state.hours,
                 minutes = _state.minutes,
                 seconds = _state.seconds,
-                timeOfDay = _state.timeOfDay;
+                ampm = _state.ampm;
 
             return React.createElement(
                 'div',
@@ -21269,7 +21269,7 @@ var Clock = function (_Component) {
                 React.createElement(
                     'span',
                     null,
-                    timeOfDay
+                    ampm
                 ),
                 React.createElement(
                     'button',
@@ -21323,7 +21323,7 @@ var civilianHours = exports.civilianHours = function civilianHours(clockTime) {
 
 var appendAMPM = exports.appendAMPM = function appendAMPM(clockTime) {
     return _extends({}, clockTime, {
-        ampm: clockTime.hours >= 12 ? "PM" : "AM"
+        ampm: clockTime.hours >= 12 ? "pm" : "am"
     });
 };
 
@@ -21353,7 +21353,7 @@ var doubleDigits = exports.doubleDigits = function doubleDigits(civilianTime) {
     return compose(prependZero("hours"), prependZero("minutes"), prependZero("seconds"))(civilianTime);
 };
 
-var getClockTime = exports.getClockTime = compose(getCurrentTime, abstractClockTime, convertToCivilianTime, doubleDigits);
+var getClockTime = exports.getClockTime = compose(getCurrentTime, abstractClockTime, convertToCivilianTime, appendAMPM, doubleDigits);
 
 /***/ })
 /******/ ]);
