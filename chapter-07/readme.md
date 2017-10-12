@@ -48,4 +48,4 @@ Samples
 ### Managing State Outside of React
 
   1. Clock without React State ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/06-managing-state-outside-react/01-state.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-07/06-managing-state-outside-react/01-state.html), [bin](http://jsbin.com/juxewiw/1/edit?js,output))
-  2. Flux ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/06-managing-state-outside-react/02-flux.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-07/06-managing-state-outside-react/02-flux.html),([bin](http://jsbin.com/juxewiw/2/edit?js,console,output))
+  2. Flux ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/06-managing-state-outside-react/02-flux.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-07/06-managing-state-outside-react/02-flux.html), [bin](http://jsbin.com/juxewiw/2/edit?js,console,output))
