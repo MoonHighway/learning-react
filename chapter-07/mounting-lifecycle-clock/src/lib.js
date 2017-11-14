@@ -54,6 +54,5 @@ export const getClockTime = compose(
     getCurrentTime,
     abstractClockTime,
     convertToCivilianTime,
-    appendAMPM,
     doubleDigits
 )
