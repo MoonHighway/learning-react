@@ -44,11 +44,13 @@ export const convertToCivilianTime = clockTime =>
     )(clockTime)
 
 export const doubleDigits = civilianTime =>
-    compose(
-        prependZero("hours"),
-        prependZero("minutes"),
-        prependZero("seconds")
-    )(civilianTime)
+    civilianTime.ampm
+      ? compose(prependZero('minutes'), prependZero('seconds'))(civilianTime)
+      : compose(
+          prependZero('hours'),
+          prependZero('minutes'),
+          prependZero('seconds'),
+        )(civilianTime)
 
 export const getClockTime = compose(
     getCurrentTime,
