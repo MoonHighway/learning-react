@@ -15,7 +15,6 @@ function getClockTime() {
 
     // Get the Current Time
     var date = new Date();
-    var time = "";
 
     // Serialize clock time
     var time = {
