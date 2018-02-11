@@ -74,7 +74,7 @@
                           ) :
                           <span>0 members loaded...</span>
                   }
-                  {(error) ? <p>Error Loading Members: error</p> : ""}
+                  {(error) ? <p>Error Loading Members: {error.message}</p> : ""}
         </div>
       )
     }
