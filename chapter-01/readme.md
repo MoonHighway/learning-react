@@ -91,7 +91,7 @@ To
 [http://output.jsbin.com/gosabo/quite](http://output.jsbin.com/gosabo/quiet)
 ##### Version 1 of the sample as output:
 [http://output.jsbin.com/gosabo/1](http://output.jsbin.com/gosabo/1)
-##### Version 1 of te sample in the editor:
+##### Version 1 of the sample in the editor:
 [http://output.jsbin.com/gosabo/1/edit](http://output.jsbin.com/gosabo/1/edit)
 ##### Version 2 of the sample as output:
 [http://output.jsbin.com/gosabo/2](http://output.jsbin.com/gosabo/2)
