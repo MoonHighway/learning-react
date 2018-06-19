@@ -12,7 +12,21 @@
 <script type="text/babel">
 
     const string = "This is the mid day show with Cheryl Waters"
-    const urlFriendly = string.replace(/ /g, "-").toLowerCase()
+    const makeUrlFriendly = (string) => {
+      let urlFriendlyString = ''
+
+      for (var i=0; i<string.length; i++) {
+        if (string[i] === " ") {
+          urlFriendlyString += "-"
+        } else {
+          urlFriendlyString += string[i]
+        }
+      }
+
+      return urlFriendlyString.toLowerCase()
+    }
+
+    const urlFriendly = makeUrlFriendly(string)
 
     console.log(urlFriendly)
 
