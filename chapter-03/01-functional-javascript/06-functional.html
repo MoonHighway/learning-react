@@ -12,9 +12,9 @@
 <script type="text/babel">
 
     var createScream = function(logger) {
-        return function(message) {
-            logger(message.toUpperCase() + "!!!")
-        }
+      return function(message) {
+        logger(message.toUpperCase() + "!!!")
+      }
     }
 
     const scream = createScream(message => console.log(message))

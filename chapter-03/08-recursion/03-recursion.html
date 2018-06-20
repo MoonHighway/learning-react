@@ -26,10 +26,10 @@
       }
 
     const deepPick = (fields, object={}) => {
-       const [first, ...remaining] = fields.split(".")
-       return (remaining.length) ?
-           deepPick(remaining.join("."), object[first]) :
-           object[first]
+      const [first, ...remaining] = fields.split(".")
+      return (remaining.length) ?
+          deepPick(remaining.join("."), object[first]) :
+          object[first]
     }
 
     console.log( deepPick("type", dan) )

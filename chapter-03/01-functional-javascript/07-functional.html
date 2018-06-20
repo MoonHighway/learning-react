@@ -11,8 +11,8 @@
 <p>Open the console</p>
 <script type="text/babel">
 
-    const createScream = logger => message => 
-        logger(message.toUpperCase() + "!!!")
+    const createScream = logger => message =>
+      logger(message.toUpperCase() + "!!!")
 
     const scream = createScream(message => console.log(message))
 

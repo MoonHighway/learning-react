@@ -16,7 +16,7 @@
       const request = new XMLHttpRequest()
       request.open('GET', api)
       request.onload = () =>
-           (request.status === 200) ?
+         (request.status === 200) ?
             resolves(JSON.parse(request.response).results) :
             reject(Error(request.statusText))
       request.onerror = (err) => rejects(err)
@@ -24,14 +24,14 @@
     })
 
     const userLogs = userName => message =>
-        console.log(`${userName} -> ${message}`)
+      console.log(`${userName} -> ${message}`)
 
     const log = userLogs("grandpa23")
 
     log("attempted to load 20 fake members")
     getFakeMembers(20).then(
-        members => log(`successfully loaded ${members.length} members`),
-        error => log("encountered an error loading members")
+      members => log(`successfully loaded ${members.length} members`),
+      error => log("encountered an error loading members")
     )
 
 

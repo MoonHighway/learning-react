@@ -12,10 +12,10 @@
 <script type="text/babel">
 
     const countdown = (value, fn, delay=1000) => {
-        fn(value)
-        return (value > 0) ?
-            setTimeout(() => countdown(value-1, fn), delay) :
-            value
+      fn(value)
+      return (value > 0) ?
+        setTimeout(() => countdown(value-1, fn), delay) :
+        value
     }
 
     const log = value => console.log(value)
