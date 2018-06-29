@@ -12,23 +12,23 @@
 <script type="text/babel">
 
     let schools = [
-        { name: "Yorktown"},
-        { name: "Stratford" },
-        { name: "Washington & Lee"},
-        { name: "Wakefield"}
+      { name: "Yorktown"},
+      { name: "Stratford" },
+      { name: "Washington & Lee"},
+      { name: "Wakefield"}
     ]
 
     const editName = (oldName, name, arr) =>
-        arr.map(item => {
-            if (item.name === oldName) {
-                return {
-                    ...item,
-                    name
-                }
-            } else {
-                return item
-            }
-        })
+      arr.map(item => {
+        if (item.name === oldName) {
+          return {
+            ...item,
+            name
+          }
+        } else {
+          return item
+        }
+      })
 
     let updatedSchools = editName("Stratford", "HB Woodlawn", schools)
 

@@ -15,7 +15,20 @@
 
 <script>
 
+    var goDown = true;
     // Pure React and JavaScript Code
+    function scrollSlowly(){
+      if(goDown && window.scrollY < 1525) {
+        window.scrollTo(0, window.scrollY + 1);
+        setTimeout(function () { scrollSlowly(); }, 1)
+      } else {
+        goDown = false
+        if (window.scrollY > 1) {
+          window.scrollTo(0, window.scrollY - 1);
+          setTimeout(function () { scrollSlowly(); }, 1)
+        }
+      }
+    }
 
 </script>
 
