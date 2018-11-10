@@ -80,8 +80,6 @@
     console.log('current color count', store.getState().colors.length)
     console.log('current state', store.getState())
 
-    let uniqueId = 0
-
     store.dispatch({
       type: "ADD_COLOR",
       id: v4(),
