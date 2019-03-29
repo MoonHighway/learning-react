@@ -43,7 +43,7 @@ Samples
   2. Data Component HOC ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/05-higher-order-components/02-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-07/05-higher-order-components/02-hocs.html), [bin](http://jsbin.com/nitagof/2/edit?js,output))
   3. Country Dropdown ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/05-higher-order-components/03-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-07/05-higher-order-components/03-hocs.html), [bin](http://jsbin.com/nitagof/3/edit?js,output))
   4. Expandable HOC ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/05-higher-order-components/04-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-07/05-higher-order-components/04-hocs.html), [bin](http://jsbin.com/nitagof/4/edit?js,output))
-  5. Pop-up With Expandable ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/05-higher-order-components/04-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-07/05-higher-order-components/04-hocs.html), [bin](http://jsbin.com/nitagof/5/edit?js,output))
+  5. Pop-up With Expandable ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-07/05-higher-order-components/05-hocs.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-07/05-higher-order-components/05-hocs.html), [bin](http://jsbin.com/nitagof/5/edit?js,output))
 
 ### Managing State Outside of React
 
