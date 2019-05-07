@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
     <meta charset="utf-8">
+    <script src="https://unpkg.com/node-uuid@1.4.7/uuid.js"></script>
     <script src="https://unpkg.com/redux@3.7.2/dist/redux.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
     <title>Redux</title>
@@ -12,6 +13,7 @@
   <script type="text/babel">
 
     const { createStore, combineReducers } = Redux
+    const { v4 } = uuid
 
     const color = (state = {}, action) => {
       switch (action.type) {
@@ -78,11 +80,9 @@
     console.log('current color count', store.getState().colors.length)
     console.log('current state', store.getState())
 
-    let uniqueId = 0
-
     store.dispatch({
       type: "ADD_COLOR",
-      id: uniqueId++,
+      id: v4(),
       title: "Party Pink",
       color: "#F142FF",
       timestamp: new Date().toString()
