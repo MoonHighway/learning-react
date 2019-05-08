@@ -40,7 +40,7 @@ describe("Time Helpers", () => {
         it("over a month", () => {
             const now = 'Thu Mar 17 2016 18:45:08 GMT-0700 (PDT)'
             const timestamp = 'Thu Feb 11 2016 15:40:08 GMT-0700 (PDT)'
-            certify(timestamp, now).toEqual("2/11/2016")
+            certify(timestamp, now).toEqual("2/12/2016")
         })
 
         it("years ago", () => {
