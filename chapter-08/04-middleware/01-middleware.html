@@ -125,7 +125,7 @@
 
 
       const populate = compose(
-        () => console.log('color coung', store.getState().colors.length),
+        () => console.log('color count', store.getState().colors.length),
         () => store.dispatch(addColor("Big Blue", "#0000FF")),
         () => store.dispatch(addColor("Tomato", "#990000")),
         () => store.dispatch(addColor("lawn", "#009900")),
