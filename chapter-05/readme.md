@@ -26,3 +26,8 @@ Samples
 * Menu Component ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/src/components/Menu.js))
 * Entry index.js ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/src/index.js))
 * Webpack Configuration ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-05/recipe-app/webpack.config.js))
+
+##### Updates for Using above code with Webpack 4.x
+* Module **babel-core** has been changed to **@babel/core**
+* Module **babel-preset-env** has been changed to **@preset/preset-env**
+* Module **babel-preset-react** had been changed to **@babel/preset-react**
