@@ -4,7 +4,8 @@ This repository contains the files for the book _Learning React_ by Alex Banks a
 
 Looking for the first edition files? Check out the [first-edition branch](https://github.com/MoonHighway/learning-react/tree/first-edition).
 
-| ![Learning React Book Cover](https://raw.githubusercontent.com/MoonHighway/learning-react/master/learning-react.jpg) | If you’re interested in React but find yourself confused about how to get started,<br> this is the book is for you. In this book, Alex Banks and Eve Porcello introduce<br> how to build React applications with the React ecosystem including Flux and Redux.<br><br> **Buy the book**: [Amazon](https://www.amazon.com/Learning-React-Modern-Patterns-Developing/dp/1492051721) - [O'Reilly](http://shop.oreilly.com/product/0636920252894.do)<br>**Get React Training**: [Moon Highway](http://www.moonhighway.com/react)<br><br> |
+|----------|----------|
+| ![Learning React Book Cover](https://raw.githubusercontent.com/MoonHighway/learning-react/second-edition/learning-react.jpg) | If you’re interested in React but find yourself confused about how to get started,<br> this is the book is for you. In this book, Alex Banks and Eve Porcello introduce<br> how to build React applications with the React ecosystem including Hooks, Suspense, React Router, testing, and more.<br><br> **Buy the book**: [Amazon](https://www.amazon.com/Learning-React-Modern-Patterns-Developing/dp/1492051721) - [O'Reilly](http://shop.oreilly.com/product/0636920252894.do)<br>**Get React Training**: [Moon Highway](http://www.moonhighway.com/react)<br><br> |
 
 ### Table of Contents
 
