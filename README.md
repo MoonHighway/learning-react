@@ -1,11 +1,23 @@
 # Learning React: Second Edition
 
-This repository contains the files for the book _Learning React_ by Alex Banks and Eve Porcello.
+<p align="center">
+<img src="https://github.com/MoonHighway/learning-react/blob/second-edition/learning-react.jpg" width="100" alt="learning react book"/>
+<img src="https://i.imgur.com/migo24P.png" width="100" alt="moon highway logo"/>
+</p>
+
+This repository contains the files for the book _Learning React_ by Alex Banks and Eve Porcello of [Moon Highway](https://moonhighway.com).
+
+**Read the Book**
+
+- [Amazon](https://www.amazon.com/Learning-React-Modern-Patterns-Developing/dp/1492051721)
+- [O'Reilly - Safari Books Online](http://shop.oreilly.com/product/0636920252894.do)
+
+**Description**
+If you’re interested in React but find yourself confused about how to get started, this is the book is for you. In this book, Alex Banks and Eve Porcello introduce how to build React applications with the React ecosystem including Hooks, Suspense, React Router, testing, and more.
+
+_"This is the React book that’s been missing from the frontend community. Alex and Eve not only discuss React in-depth but cover foundational JavaScript concepts, testing, state management, and more. Plus, they do so with approachable language and humor. I cannot recommend Learning React highly enough.” - Emma Bostian, Software Engineer at Spotify_
 
 Looking for the first edition files? Check out the [first-edition branch](https://github.com/MoonHighway/learning-react/tree/first-edition).
-
-|----------|----------|
-| ![Learning React Book Cover](https://raw.githubusercontent.com/MoonHighway/learning-react/second-edition/learning-react.jpg) | If you’re interested in React but find yourself confused about how to get started,<br> this is the book is for you. In this book, Alex Banks and Eve Porcello introduce<br> how to build React applications with the React ecosystem including Hooks, Suspense, React Router, testing, and more.<br><br> **Buy the book**: [Amazon](https://www.amazon.com/Learning-React-Modern-Patterns-Developing/dp/1492051721) - [O'Reilly](http://shop.oreilly.com/product/0636920252894.do)<br>**Get React Training**: [Moon Highway](http://www.moonhighway.com/react)<br><br> |
 
 ### Table of Contents
 
