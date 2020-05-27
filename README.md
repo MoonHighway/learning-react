@@ -1,4 +1,4 @@
-# Learning React: Second Edition 📚
+# Learning React: Second Edition ⚛️
 
 This repository contains the files for the book _Learning React_ by [Alex Banks](https://twitter.com/moontahoe) and [Eve Porcello](https://twitter.com/eveporcello) of [Moon Highway](https://moonhighway.com).
 
@@ -23,4 +23,4 @@ This repository contains the files for the book _Learning React_ by [Alex Banks]
 - **Chapter 11** : [React Router](https://github.com/MoonHighway/learning-react/tree/master/chapter-11)
 - **Chapter 12** : [React and the Server](https://github.com/MoonHighway/learning-react/tree/master/chapter-12)
 
-_Looking for the first edition files? Check out the [first-edition branch](https://github.com/MoonHighway/learning-react/tree/first-edition)._ ⚛️
+_Looking for the first edition files? Check out the [first-edition branch](https://github.com/MoonHighway/learning-react/tree/first-edition)._
