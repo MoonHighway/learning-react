@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="utf-8" />
+    <title>Immutability</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <h1>Immutability</h1>
+    <p>Open the console</p>
+    <script type="text/babel">
+      let list = [
+        { title: "Rad Red" },
+        { title: "Lawn" },
+        { title: "Party Pink" }
+      ];
+
+      const addColor = (title, list) => [
+        ...list,
+        { title }
+      ];
+
+      //
+      // Even Better, ...spread operator
+      //
+
+      console.log(addColor("Glam Green", list).length);
+      console.log(list.length);
+    </script>
+  </body>
+</html>

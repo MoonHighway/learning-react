@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
-    <meta charset="utf-8">
+  <head>
+    <meta
+      name="viewport"
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="utf-8" />
     <title>What It Means to Be Functional</title>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-</head>
-<body>
-<h1>Functional JavaScript</h1>
-<p>Open the console</p>
-<script type="text/babel">
+  </head>
+  <body>
+    <h1>Functional JavaScript</h1>
+    <p>Open the console</p>
+    <script type="text/babel">
+      const messages = [
+        "They can be inserted into arrays",
+        message => console.log(message),
+        "like variables",
+        message => console.log(message)
+      ];
 
-    const messages = [
-      "They can be inserted into arrays",
-      message => console.log(message),
-      "like variables",
-      message => console.log(message)
-    ]
-
-    messages[1](messages[0])
-    messages[3](messages[2])
-
-</script>
-</body>
+      messages[1](messages[0]);
+      messages[3](messages[2]);
+    </script>
+  </body>
 </html>

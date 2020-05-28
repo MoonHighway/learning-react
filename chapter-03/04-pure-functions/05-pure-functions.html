@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="utf-8" />
+    <title>Pure Functions</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <h1>Pure Functions</h1>
+    <div id="react-container"></div>
+    <script type="text/babel">
+      const Header = props => <h1>{props.title}</h1>;
+
+      ReactDOM.render(
+        <Header title="React uses pure functions" />,
+        document.getElementById("react-container")
+      );
+    </script>
+  </body>
+</html>

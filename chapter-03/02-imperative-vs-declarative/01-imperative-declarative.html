@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
-    <meta charset="utf-8">
+  <head>
+    <meta
+      name="viewport"
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="utf-8" />
     <title>Imperative vs. Declarative</title>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-</head>
-<body>
-<h1>Imperative vs. Declarative</h1>
-<p>Open the console</p>
-<script type="text/babel">
+  </head>
+  <body>
+    <h1>Imperative vs. Declarative</h1>
+    <p>Open the console</p>
+    <script type="text/babel">
+      var string =
+        "This is the mid day show with Cheryl Waters";
+      var urlFriendly = "";
 
-    var string = "This is the mid day show with Cheryl Waters"
-    var urlFriendly = ""
-
-    for (var i=0; i<string.length; i++) {
-      if (string[i] === " ") {
-        urlFriendly += "-"
-      } else {
-        urlFriendly += string[i]
+      for (var i = 0; i < string.length; i++) {
+        if (string[i] === " ") {
+          urlFriendly += "-";
+        } else {
+          urlFriendly += string[i];
+        }
       }
-    }
 
-    urlFriendly = urlFriendly.toLowerCase()
+      urlFriendly = urlFriendly.toLowerCase();
 
-    console.log(urlFriendly)
-
-</script>
-</body>
+      console.log(urlFriendly);
+    </script>
+  </body>
 </html>
