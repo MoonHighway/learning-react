@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>React Components</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Target Container -->
+    <div id="react-container"></div>
 
-<!-- Target Container -->
-<div id="react-container"></div>
+    <!-- React Library & React DOM-->
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 
-<!-- React Library & React DOM-->
-<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-
-<script>
-
-    class IngredientsList extends React.Component {
-      render() {
-        return React.createElement("ul", {"className": "ingredients"},
-            React.createElement("li", null, "1 lb Salmon"),
-            React.createElement("li", null, "1 cup Pine Nuts"),
-            React.createElement("li", null, "2 cups Butter Lettuce"),
-            React.createElement("li", null, "1 Yellow Squash"),
-            React.createElement("li", null, "1/2 cup Olive Oil"),
-            React.createElement("li", null, "3 cloves of Garlic")
-        )
+    <script>
+      function IngredientsList() {
+        return React.createElement(
+          "ul",
+          { className: "ingredients" },
+          React.createElement("li", null, "1 cup unsalted butter"),
+          React.createElement("li", null, "1 cup crunchy peanut butter"),
+          React.createElement("li", null, "1 cup brown sugar"),
+          React.createElement("li", null, "1 cup white sugar"),
+          React.createElement("li", null, "2 eggs"),
+          React.createElement("li", null, "2.5 cups all purpose flour"),
+          React.createElement("li", null, "1 teaspoon baking powder"),
+          React.createElement("li", null, "0.5 teaspoon salt")
+        );
       }
-    }
 
-    const list = React.createElement(IngredientsList, null, null)
-
-    ReactDOM.render(
-        list,
-        document.getElementById('react-container')
-    )
-
-</script>
-
-</body>
+      ReactDOM.render(
+        React.createElement(IngredientsList, null, null),
+        document.getElementById("root")
+      );
+    </script>
+  </body>
 </html>
