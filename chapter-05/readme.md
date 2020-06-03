@@ -11,4 +11,4 @@ us to define React elements using syntax that looks similar to HTML.
 
 ### Code Sandbox Recipe App
 
-- Recipe App ([run it](https://3c95d.csb.app/) [code](https://codesandbox.io/s/learning-react-recipe-app-3c95d?file=/src/components/Menu.css:0-536))
+- Recipe App ([run it](https://3c95d.csb.app/)) ([code](https://codesandbox.io/s/learning-react-recipe-app-3c95d?file=/src/components/Menu.css:0-536))
