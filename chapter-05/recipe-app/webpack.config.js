@@ -1,48 +1,27 @@
-var webpack = require("webpack")
-var path = require("path")
-
-process.noDeprecation = true
+var path = require("path");
 
 module.exports = {
   entry: "./src/index.js",
   output: {
-      path: path.join(__dirname, 'dist', 'assets'),
-      filename: "bundle.js",
-      sourceMapFilename: 'bundle.map'
+    path: path.join(__dirname, "dist", "assets"),
+    filename: "bundle.js",
   },
-  devtool: '#source-map',
   module: {
-      rules: [
-          {
-              test: /\.js$/,
-              exclude: /(node_modules)/,
-              loader: 'babel-loader',
-              query: {
-                  presets: ['env', 'stage-0', 'react']
-              }
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env", "@babel/preset-react"],
           },
-          {
-              test: /\.css$/,
-              use: ['style-loader','css-loader', {
-                  loader: 'postcss-loader',
-                  options: {
-                    plugins: () => [require('autoprefixer')]
-                  }}]
-          }
-      ]
+        },
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
-  plugins: [
-
-      new webpack.DefinePlugin({
-          "process.env": {
-              NODE_ENV: JSON.stringify("production")
-          }
-      }),
-
-      new webpack.optimize.UglifyJsPlugin({
-          sourceMap: true,
-          warnings: false,
-          mangle: false
-      })
-  ]
-}
+};

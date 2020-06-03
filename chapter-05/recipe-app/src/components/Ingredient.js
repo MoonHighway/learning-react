@@ -1,10 +1,9 @@
-const Ingredient = ({ amount, measurement, name }) =>
+import React from "react";
+
+export default function Ingredient({ amount, measurement, name }) {
+  return (
     <li>
-        <span className="amount">{amount} </span>
-        <span className="measurement">{measurement} </span>
-        <span className="name">{name}</span>
+      {amount} {measurement} {name}
     </li>
-
-Ingredient.displayName = 'Ingredient'
-
-export default Ingredient
+  );
+}

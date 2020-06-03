@@ -1,12 +1,12 @@
-import Ingredient from './Ingredient'
+import React from "react";
+import Ingredient from "./Ingredient";
 
-export const IngredientsList = ({ list }) =>
+export default function IngredientsList({ list = [] }) {
+  return (
     <ul className="ingredients">
-        {list.map((ingredient, i) =>
-            <Ingredient key={i} {...ingredient} />
-        )}
+      {list.map((ingredient, i) => (
+        <Ingredient key={i} {...ingredient} />
+      ))}
     </ul>
-
-IngredientsList.displayName = 'IngredientsList'
-
-export default IngredientsList
+  );
+}
