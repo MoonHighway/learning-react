@@ -1,39 +1,38 @@
-Chapter 8 : Redux
-==================
-Redux is based on Flux, and it was designed to tackle the challenge of understanding how data changes
-flow through your application.
+# Chapter 8: Incorporating Data
 
-Samples
---------
+Data is the lifeblood of our applications. It flows like water, and it nourishes our components with value. The user interface components we've composed are vessels for data. We fill our applications with data from the internet. We collect, create, and send new data to the internet. The value of our applications is not the components themselves—it's the data that flows through those components.
 
-### Reducers
+## Samples
 
-  1. Color Reducer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/01-reducers/01-reducers.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/01-reducers/01-reducers.html), [bin](http://jsbin.com/cavuxas/1/edit?js,output))
-  2. Colors Reducer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/01-reducers/02-reducers.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/01-reducers/02-reducers.html), [bin](http://jsbin.com/cavuxas/2/edit?js,output))
-  3. Sort Reducer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/01-reducers/03-reducers.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/01-reducers/03-reducers.html), [bin](http://jsbin.com/cavuxas/3/edit?js,output))
+### Requesting Data
 
-### The Store
+1. [Fetch](https://codesandbox.io/s/dry-sea-wmw8w?file=/src/index.js)
+2. [requestGithubUser](https://codesandbox.io/s/happy-hypatia-hu6e6?file=/src/index.js)
 
-  1. createStore ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/02-the-store/01-store.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/02-the-store/01-store.html), [bin](http://jsbin.com/dusitad/1/edit?js,output))
-  2. combineReducers ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/02-the-store/02-store.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/02-the-store/02-store.html), [bin](http://jsbin.com/dusitad/2/edit?js,output))
-  3. initialState ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/02-the-store/03-store.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/02-the-store/03-store.html), [bin](http://jsbin.com/dusitad/3/edit?js,output))
-  4. Dispatching Actions ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/02-the-store/04-store.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/02-the-store/04-store.html), [bin](http://jsbin.com/dusitad/4/edit?js,output))
-  5. Subscribe ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/02-the-store/05-store.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/02-the-store/05-store.html), [bin](http://jsbin.com/dusitad/5/edit?js,output))
-  6. Unsubscribe ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/02-the-store/06-store.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/02-the-store/06-store.html), [bin](http://jsbin.com/dusitad/6/edit?js,output))
-  7. Persistent State Data ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/02-the-store/07-store.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/02-the-store/07-store.html), [bin](http://jsbin.com/dusitad/7/edit?js,output))
+### Authorized Requests
 
-### Action Creators
+1. [Fetching with the GitHubUser Component](https://codesandbox.io/s/crazy-borg-xyw0m?file=/src/App.js)
+2. [GitHubUser Component with localStorage](https://codesandbox.io/s/brave-water-w7knz?file=/src/App.js)
 
-  1. Action Creators ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/03-action-creators/01-action-creators.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/03-action-creators/01-action-creators.html), [bin](http://jsbin.com/bubuhuq/1/edit?js,output))
-  2. Compose ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/03-action-creators/02-action-creators.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/03-action-creators/02-action-creators.html), [bin](http://jsbin.com/bubuhuq/2/edit?js,output))
+### Handling Promise States
 
-### Middleware
+1. [Handling States](https://codesandbox.io/s/funny-architecture-9hwg4?file=/src/App.js)
 
-  1. logger ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/04-middleware/01-middleware.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/04-middleware/01-middleware.html), [bin](http://jsbin.com/tirese/1/edit?js,output))
-  2. saver ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/04-middleware/02-middleware.html), [code](http://github.com/MoonHighway/learning-react/blob/master/chapter-08/04-middleware/02-middleware.html), [bin](http://jsbin.com/tirese/2/edit?js,output))
+### Render Props
 
-#### Putting it all together
-Here is the complete sample store that we have reviewed
+1. [Displaying a List](https://codesandbox.io/s/great-knuth-iq8qu?file=/src/App.js)
+2. [Empty List](https://codesandbox.io/s/eager-http-zgou9?file=/src/App.js)
+3. [List with Data](https://codesandbox.io/s/affectionate-tdd-0mucp?file=/src/App.js)
+4. [Conditional Render Prop Function](https://codesandbox.io/s/suspicious-sara-3dtyy?file=/src/App.js)
 
-[Demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-08/color-organizer-redux/dist/index.html) |
-[Source](https://github.com/MoonHighway/learning-react/blob/master/chapter-08/color-organizer-redux)
+### Virtualized Lists
+
+1. [Rendering a List with faker](https://codesandbox.io/s/holy-shape-634jj?file=/src/App.js)
+2. [Rendering a Virtualized List with react-window](https://codesandbox.io/s/keen-star-dfb08?file=/src/App.js)
+
+### Fetch Hooks
+
+1. [Fetch Component](https://codesandbox.io/s/zen-cloud-7nin3?file=/src/App.js)
+2. [Customizing Loading](https://codesandbox.io/s/agitated-raman-46dzb?file=/src/App.js)
+3. [Scrolling through Repos with useIterator](https://codesandbox.io/s/mystifying-cookies-nn1xl?file=/src/App.js)
+4. [Incorporating React Markdown](https://codesandbox.io/s/cocky-fog-h6xde?file=/src/App.js)
