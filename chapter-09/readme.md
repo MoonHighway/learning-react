@@ -1,44 +1,11 @@
 # Chapter 9: Suspense
 
-In this chapter, we'll take a look at various ways to incorporate the Redux store. We will first look at how
-the store can be used without any additional frameworks. After that, we will explore react-redux, a framework that
-can be used to integrate a Redux store with React components.
+Suspense is an experimental feature of React that's used to handle loading states. In this chapter, we'll take a closer look at some of the stable features, some experimental features, and the React reconciliation algorithm.
 
-## Samples
+1. Suspense with Error Boundaries ([run it](https://codesandbox.io/s/cool-glade-xg1cm?file=/src/Main.js))
+2. Status Component Rendering with Suspense ([run it](https://codesandbox.io/s/stupefied-fast-ortev?file=/src/App.js))
 
-#### Explicitly passing the Store
+## Resources
 
-- index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/index.js))
-- App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/components/App.js))
-- SortMenu ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/components/SortMenu.js))
-- AddColorForm ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/components/AddColorForm.js))
-- ColorList ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit/src/components/ColorList.js))
-- Complete Sample ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer-explicit/dist/index.html),
-  [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-explicit))
-
-#### Passing the Store via context
-
-- index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/src/index.js))
-- App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/src/components/App.js))
-- SortMenu ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/src/components/SortMenu.js))
-- AddColorForm ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/src/components/AddColorForm.js))
-- Color ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context/src/components/Color.js))
-- Complete Sample ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer-context/dist/index.html),
-  [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-context))
-
-#### Presentation vs. Containers
-
-- SortMenu ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/src/components/ui/SortMenu.js))
-- AddColorForm ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/src/components/ui/AddColorForm.js))
-- ColorList ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/src/components/ui/ColorList.js))
-- containers ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers/src/components/containers.js))
-- Complete Sample ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer-containers/dist/index.html),
-  [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer-containers))
-
-#### React Redux
-
-- index ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/src/index.js))
-- App ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/src/components/App.js))
-- containers ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/src/components/containers.js))
-- complete sample ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-09/color-organizer/dist/index.html),
-  [source](https://github.com/MoonHighway/learning-react/blob/master/chapter-09/color-organizer/))
+- [React Suspense Docs](https://reactjs.org/docs/concurrent-mode-suspense.html): Read up on the latest with React Suspense
+- [Understanding Fiber](https://github.com/acdlite/react-fiber-architecture): This doc from Andrew Clark on the React team does a deep dive on Fiber's design
