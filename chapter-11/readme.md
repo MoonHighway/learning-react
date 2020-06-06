@@ -1,21 +1,13 @@
-Chapter 11 : React Router
-==================
-Recognizing the importance of a routing solution, engineers Michael Jackson and Ryan Florence created one named
-simply React Router. The router helps manage browser history in single page apps.
+# Chapter 11 : React Router
 
-Samples
---------
+In this chapter, we cover the most recent version of the React Router, v6.
 
-#### Starter Website with Router
+## Starter Website with Router
 
-* Company Website ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/company-website/dist/),
-[source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/company-website/))
-* Router Configuration ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/company-website/src/routes.js))
-* Rendering Routes ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/company-website/src/index.js))
+- Company Website ([view the code](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/company-website/))
+- Color Organizer with Routing ([view the code](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/color-organizer/))
 
-#### Color Organizer with Router
+## React Router Docs & Repo
 
-* Color Organizer ([demo](https://rawgit.com/MoonHighway/learning-react/master/chapter-11/color-organizer/dist/))
-* Including the `HashRouter` ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/color-organizer/src/index.js))
-* Setting up Routes ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/color-organizer/src/components/App.js))
-* Using Links ([source](https://github.com/MoonHighway/learning-react/blob/master/chapter-11/color-organizer/src/components/ui/Menu.js))
+- [Website](https://reacttraining.com/react-router/)
+- [Repo](https://github.com/ReactTraining/react-router)

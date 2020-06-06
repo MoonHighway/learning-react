@@ -1,0 +1,47 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body,
+#root,
+h1,
+h2,
+h3,
+h4,
+p,
+td,
+span,
+div {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.color {
+  flex-basis: calc(100% - 3em - 2px);
+  flex-grow: 1;
+  margin: 1em;
+  border: solid 1px #ddd;
+  padding: 0.5em;
+}
+
+.add-color {
+  margin: 1em;
+  display: flex;
+}
+
+.add-color input[type="text"] {
+  flex-grow: 1;
+}

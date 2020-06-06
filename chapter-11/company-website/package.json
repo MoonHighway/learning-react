@@ -1,37 +1,36 @@
 {
-  "name": "react-router-demo",
-  "version": "0.0.1",
-  "description": "A React Router tutorial.",
-  "main": "index.js",
-  "scripts": {
-    "start": "opener http://localhost:3000 & webpack-dev-server",
-    "build": "webpack --progress"
-  },
-  "author": "Eve Porcello <eve@moonhighway.com> (http://www.moonhighway.com)",
-  "license": "MIT",
-  "devDependencies": {
-    "opener": "1.4.3",
-    "babel-core": "6.26.0",
-    "babel-loader": "7.1.2",
-    "babel-preset-env": "1.6.0",
-    "babel-preset-react": "6.24.1",
-    "babel-preset-stage-0": "6.24.1",
-    "css-loader": "0.28.7",
-    "node-sass": "4.5.3",
-    "postcss-loader": "2.0.6",
-    "sass-loader": "6.0.6",
-    "style-loader": "0.18.2",
-    "webpack": "3.6.0",
-    "optimize-css-assets-webpack-plugin": "3.2.0",
-    "webpack-dev-server": "2.7.1"
-  },
+  "name": "company-website",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "httpster": "1.0.3",
-    "prop-types": "15.6.0",
-    "react": "16.0.0",
-    "react-dom": "16.0.0",
-    "react-icons": "2.2.5",
-    "uuid": "3.1.0",
-    "react-router-dom": "4.2.2"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-router": "^6.0.0-alpha.2",
+    "react-router-dom": "^6.0.0-alpha.2",
+    "react-scripts": "3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
