@@ -1,0 +1,1 @@
+{"ast":null,"code":"\"use strict\";\n\nrequire(\"@next/polyfill-nomodule\");","map":{"version":3,"sources":["/Users/eveporcello/Desktop/ /recipes-next/node_modules/next/dist/client/polyfills.js"],"names":["require"],"mappings":"AAAA;;AAAaA,OAAO,CAAC,yBAAD,CAAP","sourcesContent":["\"use strict\";require(\"@next/polyfill-nomodule\");"]},"metadata":{},"sourceType":"script"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar runtimeConfig;\n\nexports[\"default\"] = function () {\n  return runtimeConfig;\n};\n\nfunction setConfig(configValue) {\n  runtimeConfig = configValue;\n}\n\nexports.setConfig = setConfig;","map":null,"metadata":{},"sourceType":"script"}

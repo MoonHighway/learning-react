@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="utf-8" />
+    <title>load and print</title>
+  </head>
+  <body>
+    <h1>Open the console</h1>
+
+    <!-- Works Browser Only -->
+    <script type="text/javascript">
+      fetch("https://api.github.com/users/moonhighway")
+        .then(res => res.json())
+        .then(console.log);
+    </script>
+
+    <!-- Works in Browser and in Node -->
+    <script src="isomorphic-load-and-print.js"></script>
+  </body>
+</html>
