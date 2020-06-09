@@ -6,6 +6,11 @@ This repository contains the files for the book _Learning React_ by [Alex Banks]
 | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Learning React Book Cover](https://raw.githubusercontent.com/MoonHighway/learning-react/second-edition/learning-react.jpg) | If you want to learn how to build efficient React applications, this is your book. This updated edition provides best practices and patterns for writing modern React code including a deep dive on React Hooks.<br><br> **Get the book**: [Amazon](https://www.amazon.com/Learning-React-Modern-Patterns-Developing/dp/1492051721) - [O'Reilly](http://shop.oreilly.com/product/0636920252894.do)<br>**Get React Training**: [Moon Highway](http://www.moonhighway.com)<br><br> |
 
+<p align="left">
+<img src="https://raw.githubusercontent.com/MoonHighway/learning-react/second-edition/learning-react-v1.jpg" width="100" alt="learning react v1"/>
+Looking for the first edition files? Check out the [first-edition branch](https://github.com/MoonHighway/learning-react/tree/first-edition).
+</p>
+
 > "This is the React book that’s been missing from the frontend community. Alex and Eve not only discuss React in-depth but cover foundational JavaScript concepts, testing, state management, and more. Plus, they do so with approachable language and humor. I cannot recommend Learning React highly enough." - [Emma Bostian](https://twitter.com/emmabostian), Software Engineer at Spotify
 
 ### Table of Contents
@@ -22,5 +27,3 @@ This repository contains the files for the book _Learning React_ by [Alex Banks]
 - **Chapter 10** : [Testing](https://github.com/MoonHighway/learning-react/tree/master/chapter-10)
 - **Chapter 11** : [React Router](https://github.com/MoonHighway/learning-react/tree/master/chapter-11)
 - **Chapter 12** : [React and the Server](https://github.com/MoonHighway/learning-react/tree/master/chapter-12)
-
-_Looking for the first edition files? Check out the [first-edition branch](https://github.com/MoonHighway/learning-react/tree/first-edition)._
