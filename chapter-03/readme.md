@@ -68,4 +68,4 @@ Many techniques in React follow the functional JavaScript paradigm. Understandin
 
 1. Clock Template with .replace() ([run it](http://jsbin.com/zivevu/1/edit?js,console))
 2. Clock with Composition ([run it](http://jsbin.com/zivevu/2/edit?js,console))
-3. Click with Compose Function ([run it](http://jsbin.com/zivevu/3/edit?js,console))
+3. Clock with Compose Function ([run it](http://jsbin.com/zivevu/3/edit?js,console))
