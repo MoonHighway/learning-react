@@ -56,7 +56,7 @@ Many techniques in React follow the functional JavaScript paradigm. Understandin
 ### Higher Order Functions
 
 1. invokeIf ([run it](http://jsbin.com/raxuyew/1/edit?js,console))
-2. userLogs ([run it](http://jsbin.com/raxuyew/2/edit?js,console))
+2. userLogs ([run it](https://jsbin.com/bucetuwuco/edit?js,console))
 
 ### Recursion
 
