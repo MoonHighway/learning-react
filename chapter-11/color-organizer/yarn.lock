@@ -1092,6 +1092,11 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@remix-run/router@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.0.4.tgz#cbfbec6735711e7c2fc93b9b40adf70ef5a39990"
+  integrity sha512-gTL8H5USTAKOyVA4xczzDJnC3HMssdFa3tRlwBicXynx9XfiXwneHnYQogwSKpdCkjXISrEKSTtX62rLpNEVQg==
+
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.2.tgz#8013f2af54a2b7d735f71560ff360d3a8176a87b"
@@ -3278,9 +3283,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -8249,10 +8254,32 @@ react-error-overlay@^6.0.6:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.6.tgz#ac4d9dc4c1b5c536c2c312bf66aa2b09bfa384e2"
   integrity sha512-Yzpno3enVzSrSCnnljmr4b/2KUQSMZaPuqmS26t9k4nW7uwJk6STWmH9heNjPuvqUTO3jOSPkHoKgO4+Dw7uIw==
 
+react-icons@^3.9.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.11.0.tgz#2ca2903dfab8268ca18ebd8cc2e879921ec3b254"
+  integrity sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q==
+  dependencies:
+    camelcase "^5.0.0"
+
 react-is@^16.8.1, react-is@^16.8.4:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
+
+react-router-dom@^6.0.0-alpha.2:
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.4.4.tgz#4271ec66333c440d1754477e4e6a3a5acb5487f8"
+  integrity sha512-0Axverhw5d+4SBhLqLpzPhNkmv7gahUwlUVIOrRLGJ4/uwt30JVajVJXqv2Qr/LCwyvHhQc7YyK1Do8a9Jj7qA==
+  dependencies:
+    "@remix-run/router" "1.0.4"
+    react-router "6.4.4"
+
+react-router@6.4.4, react-router@^6.0.0-alpha.2:
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.4.4.tgz#8e7794f55ccc7050cb03937c87ff3720ce9f8b60"
+  integrity sha512-SA6tSrUCRfuLWeYsTJDuriRqfFIsrSvuH7SqAJHegx9ZgxadE119rU8oOX/rG5FYEthpdEaEljdjDlnBxvfr+Q==
+  dependencies:
+    "@remix-run/router" "1.0.4"
 
 react-scripts@3.4.0:
   version "3.4.0"
