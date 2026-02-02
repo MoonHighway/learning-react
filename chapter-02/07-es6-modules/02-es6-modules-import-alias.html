@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>ES5 Modules</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+<h1>ES5 Modules</h1>
+<p>Open the console</p>
+<script type="text/babel">
+
+    import { print as p, log as l} from "./text-helpers";
+
+    p("printing a message");
+    l("logging a message");
+
+</script>
+</body>
+</html>
